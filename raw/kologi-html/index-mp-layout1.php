@@ -134,7 +134,7 @@
               <div class="tm-sc-section-title section-title mb-50">
                 <div class="title-wrapper mb-0">
                   <div class="title-icon-img">
-                    <img src="images/icons/title-icon.png" alt="Image" />
+                    <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
                   </div>
                   <h2 class="title">About Us</h2>
                   <p class="paragraph mb-0">
@@ -167,7 +167,7 @@
           <div class="col-lg-6 m-auto">
             <div class="title-wrapper mb-0">
               <div class="title-icon-img line-height-1">
-                <img src="images/icons/title-icon.png" alt="Image" />
+                <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
               </div>
               <h2 class="title">What We Do</h2>
               <p class="paragraph mb-0">
@@ -267,7 +267,7 @@
             <div class="tm-sc-section-title section-title mb-0 pr-70 pr-lg--0 mb-md-40">
               <div class="title-wrapper mb-0">
                 <div class="title-icon-img">
-                  <img src="images/icons/title-icon.png" alt="Image" />
+                  <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
                 </div>
                 <h2 class="title">Our Blogs</h2>
                 <p class="paragraph mb-0">
@@ -391,7 +391,7 @@
           <div class="tm-sc-section-title section-title mb-50">
             <div class="title-wrapper mb-0">
               <div class="title-icon-img">
-                <img src="images/icons/title-icon.png" alt="Image" />
+                <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
               </div>
               <h2 class="title">
                 Join the Race to Make the World a Better Place
@@ -435,7 +435,7 @@
         <div class="col-lg-5 m-auto">
           <div class="title-wrapper mb-0">
             <div class="title-icon-img line-height-1">
-              <img src="images/icons/title-icon.png" alt="Image" />
+              <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
             </div>
             <h2 class="title">What They Say</h2>
             <p class="paragraph mb-0">
@@ -567,7 +567,7 @@
               <div class="row align-items-center">
                 <div class="col-lg-4 mt-10">
                   <div class="title-icon-img">
-                    <img src="images/icons/title-icon.png" alt="Image" />
+                    <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
                   </div>
                   <h2 class="title mt-0">
                     Helping Animals & Working On Environmental Issues
@@ -744,7 +744,7 @@
           <div class="col-lg-5 m-auto">
             <div class="title-wrapper mb-0">
               <div class="title-icon-img line-height-1">
-                <img src="images/icons/title-icon.png" alt="Image" />
+                <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
               </div>
               <h2 class="title">News & Articles</h2>
               <p class="paragraph mb-0">

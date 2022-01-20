@@ -172,18 +172,10 @@
                                     <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
                                         <ul id="main-nav" class="menuzord-menu">
                                             <li class="active">
-                                                <a href="#">Home</a>
-                                                <ul class="dropdown">
-                                                    <li>
-                                                        <a href="index-mp-layout1.php">index Multipage Layout1</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="index-mp-layout2.html">index Multipage Layout2</a>
-                                                    </li>
-                                                </ul>
+                                                <a href="index-mp-layout1.php">Home</a>
                                             </li>
                                             <li>
-                                                <a href="#">Pages</a>
+                                                <a href="#">About</a>
                                                 <ul class="dropdown">
                                                     <li><a href="page-about.php">About</a></li>
                                                     <li><a href="page-team-grid.php">Team Grid</a></li>
