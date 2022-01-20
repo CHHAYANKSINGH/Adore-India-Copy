@@ -224,44 +224,7 @@
                                 </div>
                                 <div class="col-sm-auto align-self-center nav-side-icon-parent">
                                     <ul class="list-inline nav-side-icon-list">
-                                        <li class="hidden-mobile-mode">
-                                            <a href="#" id="top-nav-search-btn"><i class="search-icon fa fa-search"></i></a>
-                                        </li>
-                                        <li class="hidden-mobile-mode">
-                                            <div class="top-nav-mini-cart-icon-container">
-                                                <div class="top-nav-mini-cart-icon-contents">
-                                                    <a class="mini-cart-icon" href="#" title="View your shopping cart"><i class="fa fa-shopping-cart"></i><span class="items-count">1</span>
-                                                        <span class="cart-quick-info">1 item -
-                                                            <span class="amount"><span class="currencySymbol">&pound;</span>18.00</span></span></a>
-                                                    <div class="dropdown-content">
-                                                        <ul class="cart_list product_list_widget">
-                                                            <li class="mini_cart_item">
-                                                                <a href="#" class="remove remove_from_cart_button" aria-label="Remove this item" data-product_id="18832" data-cart_item_key="#" data-product_sku="woo-beanie">&times;</a>
-                                                                <a href="#">
-                                                                    <img class="attachment-thumbnail" src="images/shop/product.jpg" width="300" height="300" alt="" />Beanie</a>
-                                                                <span class="quantity">1 &times;
-                                                                    <span class="amount">
-                                                                        <span class="currencySymbol">&pound;</span>18.00</span></span>
-                                                            </li>
-                                                        </ul>
-                                                        <p class="total">
-                                                            <strong>Subtotal:</strong>
-                                                            <span class="woocommerce-Price-amount amount"><span class="currencySymbol">&pound;</span>18.00</span>
-                                                        </p>
-                                                        <div class="buttons cart-action-buttons">
-                                                            <div class="row">
-                                                                <div class="col-6 pe-1">
-                                                                    <a href="#" class="btn btn-theme-colored2 btn-block btn-sm wc-forward">View Cart</a>
-                                                                </div>
-                                                                <div class="col-6 ps-1">
-                                                                    <a href="#" class="btn btn-theme-colored1 btn-block btn-sm checkout wc-forward">Checkout</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
+                                        
                                         <li class="hidden-mobile-mode">
                                             <div id="side-panel-trigger" class="side-panel-trigger">
                                                 <a href="#">
