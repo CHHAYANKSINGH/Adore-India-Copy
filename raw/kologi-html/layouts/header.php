@@ -142,6 +142,7 @@
                                                 <a href="#">About</a>
                                                 <ul class="dropdown">
                                                     <li><a href="page-about.php">About</a></li>
+                                                    <li><a href="page-contact.php">Contact</a></li>
                                                     <li><a href="page-team-grid.php">Team Grid</a></li>
                                                     <li>
                                                         <a href="page-team-details.php">Team Details</a>
@@ -172,18 +173,14 @@
                                                 <a href="#">Programs</a>
                                             </li>
                                             <li>
-                                                <a href="#">Newsletter</a>
+                                                <a href="#">Releases</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="news-grid.php">News Grid</a></li>
+                                                    <li><a href="news-grid.php">Blog</a></li>
                                                     <li>
-                                                        <a href="news-details.php">News Details</a>
+                                                        <a href="news-details.php">Newsletter</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li>
-                                                <a href="page-blog.php">Blog</a>
-                                            </li>
-                                            <li><a href="page-contact.php">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>

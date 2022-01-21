@@ -27,9 +27,9 @@
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-2-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
+                  <rs-layer id="slider-2-slide-2-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
+                  <rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-2-layer-0" data-type="shape" data-rsp_ch="on" data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;" data-basealign="slide" data-frame_999="o:0;st:w;sR:8700;" style="
                             z-index: 8;
@@ -47,9 +47,9 @@
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
+                  <rs-layer id="slider-2-slide-11-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
+                  <rs-layer id="slider-2-slide-11-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-11-layer-0" data-type="shape" data-rsp_ch="on" data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;" data-basealign="slide" data-frame_999="o:0;st:w;sR:8700;" style="
                             z-index: 8;
@@ -67,9 +67,9 @@
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-12-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
+                  <rs-layer id="slider-2-slide-12-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-12-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
+                  <rs-layer id="slider-2-slide-12-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-12-layer-0" data-type="shape" data-rsp_ch="on" data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;" data-basealign="slide" data-frame_999="o:0;st:w;sR:8700;" style="
                             z-index: 8;
@@ -139,7 +139,7 @@
                   </p>
                 </div>
               </div>
-              <a href="page-about.html" class="btn btn-lg btn-theme-colored1 btn-flat">know More</a>
+              <a href="page-about.html" style="border-radius:5px;" class="btn btn-lg btn-theme-colored1 btn-flat">know More</a>
             </div>
           </div>
         </div>
@@ -160,9 +160,6 @@
         <div class="row">
           <div class="col-lg-6 m-auto">
             <div class="title-wrapper mb-0">
-              <div class="title-icon-img line-height-1">
-                <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
-              </div>
               <h2 class="title">What We Do</h2>
               <p class="paragraph mb-0">
                 We conduct interactive sessions for children in schools,
@@ -179,7 +176,7 @@
       <div class="section-content">
         <div class="row">
           <div class="col-sm-6 col-xl-3">
-            <div class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right animate mb-lg-30">
+            <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
                 <img class="icon" src="images/icons/s01.png" alt="Icon" />
               </div>
@@ -196,7 +193,7 @@
             </div>
           </div>
           <div class="col-sm-6 col-xl-3">
-            <div class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right2 animate mb-lg-30">
+            <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right2 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
                 <img class="icon" src="images/icons/s02.png" alt="Icon" />
               </div>
@@ -214,16 +211,16 @@
             </div>
           </div>
           <div class="col-sm-6 col-xl-3">
-            <div class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right3 animate mb-lg-30">
+            <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right3 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
                 <img class="icon" src="images/icons/s03.png" alt="Icon" />
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
-                Water Refine
+                Activities
               </h6>
               <p class="service-details font-size-15 mb-0">
                 Lorem ipsum is free text used by neque porro est qui
-                dolorem ipsum quia.
+                dolorem ipsum quia Lorem ipsum is free text used by neque porro est qui.
               </p>
               <div class="floating-object-1 tm-animation-floating" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -231,16 +228,16 @@
             </div>
           </div>
           <div class="col-sm-6 col-xl-3">
-            <div class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right4 animate mb-lg-30">
+            <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right4 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
                 <img class="icon" src="images/icons/s04.png" alt="Icon" />
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
-                Save Animals
+                Programs
               </h6>
               <p class="service-details font-size-15 mb-0">
                 Lorem ipsum is free text used by neque porro est qui
-                dolorem ipsum quia.
+                dolorem ipsum quia Lorem ipsum is free text used by neque porro est qui.
               </p>
               <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -260,13 +257,9 @@
           <div class="col-lg-4">
             <div class="tm-sc-section-title section-title mb-0 pr-70 pr-lg--0 mb-md-40">
               <div class="title-wrapper mb-0">
-                <div class="title-icon-img">
-                  <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
-                </div>
                 <h2 class="title">Our Blogs</h2>
                 <p class="paragraph mb-0">
-                  Lorem ipsum dolor sit amet nsectetur cing elituspe
-                  ndisse suscipit sagitis leo sit.
+                The first thing our blog conveys is what you want to accomplish with it, and what it can do if it's successful. It also, advises bloggers seeking to spread their interests across multiple revenue streams.
                 </p>
               </div>
             </div>
@@ -277,10 +270,10 @@
                 <div class="item">
                   <div class="causes-item-current-style1">
                     <div class="causes-item">
-                      <div class="causes-thumb">
+                      <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
                         <img src="images/POSI.jpg" alt="Image" class="w-100" style="height:320px" />
                       </div>
-                      <div class="causes-details">
+                      <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
                         <h5 class="causes-title mt-0 mb-20">
                           <a href="page-campaign-details.html">A Little Thing Called Positive Thinking</a>
                         </h5>
@@ -294,10 +287,10 @@
                 <div class="item">
                   <div class="causes-item-current-style1">
                     <div class="causes-item">
-                      <div class="causes-thumb">
+                      <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
                         <img src="images/JM1.png" alt="Image" class="w-100" style="height:320px" />
                       </div>
-                      <div class="causes-details">
+                      <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
                         <h5 class="causes-title mt-0 mb-20">
                           <a href="page-campaign-details.html">How To Become A Better Version Of Yourself</a>
                         </h5>
@@ -311,10 +304,44 @@
                 <div class="item">
                   <div class="causes-item-current-style1">
                     <div class="causes-item">
-                      <div class="causes-thumb">
+                      <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
                         <img src="images/RACE.jpg" alt="Image" class="w-100" style="height:320px" />
                       </div>
-                      <div class="causes-details">
+                      <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
+                        <h5 class="causes-title mt-0 mb-20">
+                          <a href="page-campaign-details.html">Life Is Not A Race : Shraddha Mane</a>
+                        </h5>
+                        <div class="post-btn-readmore">
+                          <a href="news-details.html" class="btn btn-plain-text-with-arrow">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="causes-item-current-style1">
+                    <div class="causes-item">
+                      <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
+                        <img src="images/JM1.png" alt="Image" class="w-100" style="height:320px" />
+                      </div>
+                      <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
+                        <h5 class="causes-title mt-0 mb-20">
+                          <a href="page-campaign-details.html">How To Become A Better Version Of Yourself</a>
+                        </h5>
+                        <div class="post-btn-readmore">
+                          <a href="news-details.html" class="btn btn-plain-text-with-arrow">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="causes-item-current-style1">
+                    <div class="causes-item">
+                      <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
+                        <img src="images/RACE.jpg" alt="Image" class="w-100" style="height:320px" />
+                      </div>
+                      <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
                         <h5 class="causes-title mt-0 mb-20">
                           <a href="page-campaign-details.html">Life Is Not A Race : Shraddha Mane</a>
                         </h5>
@@ -351,7 +378,7 @@
           responsibility and spreading smiles. Email:
           <a href="mailto:contact@adoreearth.org">contact@adoreearth.org<a />
         </h4>
-        <a href="news-details.html" class="btn btn-lg btn-theme-colored2 btn-flat">Contact Us</a>
+        <a href="news-details.html" style="border-radius:6px;" class="btn btn-lg btn-theme-colored2 btn-flat">Contact Us</a>
       </div>
     </div>
   </div>
@@ -553,35 +580,6 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="tm-sc-section-title section-title mb-0" data-tm-margin-top="45">
-            <div class="title-wrapper mb-0">
-              <div class="row align-items-center">
-                <div class="col-lg-4 mt-10">
-                  <div class="title-icon-img">
-                    <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
-                  </div>
-                  <h2 class="title mt-0">
-                    Helping Animals & Working On Environmental Issues
-                  </h2>
-                </div>
-                <div class="col-lg-4">
-                  <p class="paragraph mb-0">
-                    There are many variations of passages of lorem ipsum
-                    available, but the majority have suffered alteration
-                    in some form, by injected humour, or randomised
-                    words which don't look even slightly believable.
-                  </p>
-                </div>
-                <div class="col-lg-4">
-                  <img class="w-md-100 mt-md-40" src="images/photos/newsletter-02.jpg" alt="Image" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <div class="tm-floating-objects">
@@ -703,27 +701,6 @@
 <!-- End Divider -->
 
 <!-- Section: Divider -->
-<section class="bg-theme-colored1">
-  <div class="section-content">
-    <div class="container pt-10 pb-100">
-      <div class="row align-items-center">
-        <div class="col-lg-9">
-          <div class="d-block d-lg-flex align-items-center">
-            <div class="d-block d-lg-flex align-items-center justify-content-center mr-30 mr-md--0" data-tm-width="80" data-tm-height="250">
-              <img src="images/icons/d01.png" alt="Icon" />
-            </div>
-            <h2 class="text-white font-weight-900 mt--0 mb--0 mt-md-20">
-              Don't Throw Away Recycle for <br />Another Day!
-            </h2>
-          </div>
-        </div>
-        <div class="col-lg-3 text-left text-lg-right mt-md-20">
-          <a href="page-campaign-details.html" class="btn btn-lg btn-theme-colored2 btn-flat">Discover More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Section: Feature -->
 
@@ -842,51 +819,7 @@
 </section>
 
 <!-- Start Divider -->
-<section data-tm-bg-color="#f4f3ef">
-  <div class="container pt-80 pb-80">
-    <div class="section-content pt-1">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="tm-sc-clients tm-sc-clients-carousel owl-dots-light-skin owl-dots-center clients-animation-grayscale">
-            <div class="owl-carousel owl-theme tm-owl-carousel-5col" data-autoplay="true" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="120" data-stagepadding="0" data-laptop="4">
-              <div class="item">
-                <a target="_blank" href="#">
-                  <img src="images/clients/1.png" alt="Image" />
-                </a>
-              </div>
-              <div class="item">
-                <a target="_blank" href="#">
-                  <img src="images/clients/2.png" alt="Image" />
-                </a>
-              </div>
-              <div class="item">
-                <a target="_blank" href="#">
-                  <img src="images/clients/3.png" alt="Image" />
-                </a>
-              </div>
-              <div class="item">
-                <a target="_blank" href="#">
-                  <img src="images/clients/4.png" alt="Image" />
-                </a>
-              </div>
-              <div class="item">
-                <a target="_blank" href="#">
-                  <img src="images/clients/5.png" alt="Image" />
-                </a>
-              </div>
-              <div class="item">
-                <a target="_blank" href="#">
-                  <img src="images/clients/6.png" alt="Image" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
+
 <!-- end main-content -->
 
 <!-- Footer -->
