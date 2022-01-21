@@ -43,7 +43,7 @@
                         <div class="menu-footer-page-list">
                             <ul id="footer-page-list" class="menu">
                                 <li><a href="index-mp-layout1.html">Home</a></li>
-                                <li><a href="index-mp-layout1.html">Conatct Us</a></li>
+                                <li><a href="index-mp-layout1.html">Contact Us</a></li>
                                 <li><a href="index-mp-layout1.html">About us</a></li>
                                 <li>
                                     <a href="index-mp-layout1.html">our programs</a>

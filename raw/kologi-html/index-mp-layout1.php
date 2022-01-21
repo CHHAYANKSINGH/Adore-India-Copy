@@ -121,7 +121,7 @@
           <div class="col-lg-6">
             <div class="about-image-layer1 rs-about-image-layer1">
               <div class="about-thumb">
-                <img src="images/4.png" alt="Image" />
+                <img style="max-height:450px;" src="images/4.png" alt="Image" />
               </div>
             </div>
           </div>
