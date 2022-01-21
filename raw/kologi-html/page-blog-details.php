@@ -2,7 +2,7 @@
 <!-- Start main-content -->
 <div class="main-content-area">
   <!-- Section: page title -->
-  <section class="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center" data-tm-bg-img="images/bg/bg1.jpg">
+  <!-- <section class="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center" data-tm-bg-img="images/bg/bg1.jpg">
     <div class="container pt-90 pb-90">
       <div class="section-content">
         <div class="row">
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Section: home End -->
 
   <!-- Section: Blog -->
@@ -32,7 +32,7 @@
           <div class="blog-posts single-post">
             <article class="post clearfix mb-0">
               <div class="entry-header mb-30">
-                <div class="post-thumb thumb"> <img src="images/bg/slide1.jpg" alt="images" class="img-responsive img-fullwidth"> </div>
+                <div class="post-thumb thumb"> <img src="images/blog/2d.jpg" alt="images" class="img-responsive img-fullwidth"> </div>
                 <h3 class="mt-30">A Little Thing Called Positive Thinking</h3>
                 <div class="entry-meta mt-0">
                   <span class="mb-10 text-gray mr-10"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i> Jul 15, 2021</span>
@@ -40,6 +40,7 @@
                 </div>
               </div>
               <div class="entry-content">
+                <?php ?>
                 <p>Thinking is one activity that is generally associated with our mind. Mind is a part of our body which
                   functions ceaselessly what it means is that even when we are asleep we use our mind . That is why
                   mind can be called a factory which produces thoughts. Thousands of thoughts come in our mind
