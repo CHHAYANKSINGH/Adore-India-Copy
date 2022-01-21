@@ -71,46 +71,10 @@
             <div id="side-panel-trigger-close" class="side-panel-trigger">
                 <a href="#"><i class="fa fa-times side-panel-trigger-icon"></i></a>
             </div>
-            <img class="logo mb-50" src="images/logo-wide%402x.png" width="200" alt="Logo" />
+            <img class="logo mb-50" src="images/ADORE.png" width="200" alt="Logo" />
             <p>
-                Lorem ipsum is simply free text dolor sit am adipi we help you ensure
-                everyone is in the right jobs sicing elit, sed do consulting firms Et
-                leggings across the nation tempor.
+                ADORE is a global voluntary group of college students and professionals, who have come forward together to motivate the budding youth into taking positive action.
             </p>
-            <div class="widget">
-                <h4 class="widget-title widget-title-line-bottom line-bottom-theme-colored1">
-                    Latest News
-                </h4>
-                <div class="latest-posts">
-                    <article class="post clearfix pb-0 mb-10">
-                        <a class="post-thumb" href="#"><img src="images/blog/s1.jpg" alt="" /></a>
-                        <div class="post-right">
-                            <h5 class="post-title mt-0">
-                                <a href="#">Sustainable Construction</a>
-                            </h5>
-                            <p>Lorem ipsum dolor...</p>
-                        </div>
-                    </article>
-                    <article class="post clearfix pb-0 mb-10">
-                        <a class="post-thumb" href="#"><img src="images/blog/s2.jpg" alt="" /></a>
-                        <div class="post-right">
-                            <h5 class="post-title mt-0">
-                                <a href="#">Industrial Coatings</a>
-                            </h5>
-                            <p>Lorem ipsum dolor...</p>
-                        </div>
-                    </article>
-                    <article class="post clearfix pb-0 mb-10">
-                        <a class="post-thumb" href="#"><img src="images/blog/s1.jpg" alt="" /></a>
-                        <div class="post-right">
-                            <h5 class="post-title mt-0">
-                                <a href="#">Storefront Installations</a>
-                            </h5>
-                            <p>Lorem ipsum dolor...</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
 
             <div class="widget">
                 <h5 class="widget-title widget-title-line-bottom line-bottom-theme-colored1">
@@ -122,14 +86,14 @@
                             <div class="icon">
                                 <i class="flaticon-contact-037-address"></i>
                             </div>
-                            <div class="text">John Doe</div>
+                            <div class="text">Adore Earth</div>
                         </li>
                         <li class="contact-phone">
                             <div class="icon">
                                 <i class="flaticon-contact-042-phone-1"></i>
                             </div>
                             <div class="text">
-                                <a href="tel:+510-455-6735">+510-455-6735</a>
+                                <a href="tel:+917223859729">+91 79804 60134</a>
                             </div>
                         </li>
                         <li class="contact-email">
@@ -137,7 +101,7 @@
                                 <i class="flaticon-contact-043-email-1"></i>
                             </div>
                             <div class="text">
-                                <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                                <a href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
                             </div>
                         </li>
                         <li class="contact-address">
@@ -145,7 +109,7 @@
                                 <i class="flaticon-contact-047-location"></i>
                             </div>
                             <div class="text">
-                                3982 Browning Lane Carolyns Circle, California
+                                Kolkata, West Bengal 700046
                             </div>
                         </li>
                     </ul>
@@ -193,7 +157,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Campaigns</a>
+                                                <a href="#">Countries</a>
                                                 <ul class="dropdown">
                                                     <li><a href="page-campaign.php">Campaign</a></li>
                                                     <li>
@@ -202,7 +166,10 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Blog</a>
+                                                <a href="#">Programs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Newsletter</a>
                                                 <ul class="dropdown">
                                                     <li><a href="news-grid.php">News Grid</a></li>
                                                     <li>
@@ -210,13 +177,16 @@
                                                     </li>
                                                 </ul>
                                             </li>
+                                            <li>
+                                                <a href="page-blog.php">Blog</a>
+                                            </li>
                                             <li><a href="page-contact.php">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <div class="col-sm-auto align-self-center nav-side-icon-parent">
                                     <ul class="list-inline nav-side-icon-list">
-                                        
+
                                         <li class="hidden-mobile-mode">
                                             <div id="side-panel-trigger" class="side-panel-trigger">
                                                 <a href="#">

@@ -45,7 +45,7 @@
               <div class="tm-sc-section-title section-title mb-50">
                 <div class="title-wrapper mb-0">
                   <div class="title-icon-img">
-                    <img src="images/icons/title-icon.png" alt="Image">
+                    <!-- <img src="images/icons/title-icon.png" alt="Image"> -->
                   </div>
                   <h2 class="title">We Have the Power Today to Change Tomorrow!</h2>
                   <p class="paragraph mb-0">Lorem ipsum dolor sit amet consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua lonm andhn notted adipisicing elit dolor</p>
@@ -87,7 +87,7 @@
             <div class="tm-sc-section-title section-title mb-0 pr-70 pr-lg--0 mb-md-40">
               <div class="title-wrapper mb-0">
                 <div class="title-icon-img">
-                  <img src="images/icons/title-icon.png" alt="Image">
+                  <!-- <img src="images/icons/title-icon.png" alt="Image"> -->
                 </div>
                 <h2 class="title">Our Fundraising Campaigns</h2>
                 <p class="paragraph mb-0">Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse suscipit sagitis leo sit.</p>

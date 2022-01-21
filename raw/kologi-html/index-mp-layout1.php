@@ -21,10 +21,9 @@
                   <img src="images/bg/slide1.jpg" title="firoox-s1" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina />
                   <rs-layer id="slider-2-slide-2-layer-2" data-type="text" data-color="rgba(255, 255, 255, 0.11)" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:0,26px,0,0;y:m;yo:-141px,-103px,-124px,-99px;" data-text="w:normal;s:180,150,130,100;l:165,98,90,72;ls:0,0,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:1200px,890px,537px,455px;h:186px,138px,auto,auto;" data-frame_0="o:1;" data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;" data-frame_1="st:1360;sp:1200;sR:1360;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5640;" style="z-index: 13; text-transform: uppercase" class="font-current-theme1">Adore
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-2-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to Adore Earth
+                  <rs-layer id="slider-2-slide-2-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to Adore
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Youth is a gift given
-                    by
+                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Youth is a gift given by
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
@@ -38,14 +37,13 @@
                           ">
                   </rs-layer>
                 </rs-slide>
-                <rs-slide data-key="rs-11" data-title="Slide 1" data-thumb="images/bg/slide2.jpg" data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;">
-                  <img src="images/bg/slide2.jpg" title="Untitled-1" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina />
+                <rs-slide data-key="rs-11" data-title="Slide 1" data-thumb="images/2.png" data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;">
+                  <img src="images/2.png" title="Untitled-1" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina />
                   <rs-layer id="slider-2-slide-11-layer-2" data-type="text" data-color="rgba(255, 255, 255, 0.11)" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:0,26px,0,0;y:m;yo:-141px,-103px,-124px,-99px;" data-text="w:normal;s:180,150,130,100;l:165,98,90,72;ls:0,0,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:1200px,890px,537px,455px;h:186px,138px,auto,auto;" data-frame_0="o:1;" data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;" data-frame_1="st:1360;sp:1200;sR:1360;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5640;" style="z-index: 13; text-transform: uppercase" class="font-current-theme1">Adore
                   </rs-layer>
                   <rs-layer id="slider-2-slide-11-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to Adore
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Youth is a gift given
-                    by
+                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Youth is a gift given by
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
@@ -63,10 +61,9 @@
                   <img src="images/bg/slide3.jpg" title="firoox-s3" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina />
                   <rs-layer id="slider-2-slide-12-layer-2" data-type="text" data-color="rgba(255, 255, 255, 0.11)" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:0,26px,0,0;y:m;yo:-141px,-106px,-124px,-99px;" data-text="w:normal;s:180,150,130,100;l:165,98,90,72;ls:0,0,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:1200px,890px,537px,455px;h:186px,138px,auto,auto;" data-frame_0="o:1;" data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;" data-frame_1="st:1360;sp:1200;sR:1360;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5640;" style="z-index: 13; text-transform: uppercase" class="font-current-theme1">Adore
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-12-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to Adore Earth
+                  <rs-layer id="slider-2-slide-12-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to Adore
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Youth is a gift given
-                    by
+                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Youth is a gift given by
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
@@ -85,8 +82,7 @@
                 <!--
                     -->
               </rs-static-layers>
-              <rs-progress class="rs-bottom" style="height: 5px; background: rgba(199, 199, 199, 0.5)">
-              </rs-progress>
+              <rs-progress class="rs-bottom" style="height: 5px; background: rgba(199, 199, 199, 0.5)"></rs-progress>
             </rs-module>
             <script>
               if (
@@ -125,7 +121,7 @@
           <div class="col-lg-6">
             <div class="about-image-layer1 rs-about-image-layer1">
               <div class="about-thumb">
-                <img src="images/about/about1.jpg" alt="Image" />
+                <img src="images/4.png" alt="Image" />
               </div>
             </div>
           </div>
@@ -133,9 +129,7 @@
             <div class="about-content pr-30 pl-30 pl-md--0 pr-md--0" data-tm-padding-top="55">
               <div class="tm-sc-section-title section-title mb-50">
                 <div class="title-wrapper mb-0">
-                  <div class="title-icon-img">
-                    <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
-                  </div>
+
                   <h2 class="title">About Us</h2>
                   <p class="paragraph mb-0">
                     ADORE is a global voluntary group of college students
@@ -344,12 +338,11 @@
 </section>
 
 <!-- Start Divider -->
-<section class="text-center bg-img-cover bg-img-center-top" data-tm-bg-img="images/bg/bg1.jpg">
+<section class="text-center bg-img-cover bg-img-center-top" data-tm-bg-img="images/5.png">
   <div class="container">
     <div class="row">
       <div class="col-xl-8 m-auto text-center">
-        <div class="m-auto mb-25" data-tm-width="75" data-tm-height="63" data-tm-bg-img="images/icons/heart01.png">
-        </div>
+        <div class="m-auto mb-25" data-tm-width="75" data-tm-height="63" data-tm-bg-img="images/icons/heart01.png"></div>
         <h2 class="text-white rs-divider-title font-weight-900 mb-40 mt-0">
           GET IN TOUCH NOW
         </h2>
