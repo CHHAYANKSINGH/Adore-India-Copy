@@ -259,7 +259,7 @@
               <div class="title-wrapper mb-0">
                 <h2 class="title">Our Blogs</h2>
                 <p class="paragraph mb-0">
-                The first thing our blog conveys is what you want to accomplish with it, and what it can do if it's successful. It also, advises bloggers seeking to spread their interests across multiple revenue streams.
+                  The first thing our blog conveys is what you want to accomplish with it, and what it can do if it's successful. It also, advises bloggers seeking to spread their interests across multiple revenue streams.
                 </p>
               </div>
             </div>

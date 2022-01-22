@@ -234,7 +234,7 @@ ul.list.theme-colored1.check li:before,
 }
 
 .bg-theme-colored1-lighter4 {
-  background-color: #43ab54 !important;
+  background-color: #5085d4 !important;
 }
 
 .bg-theme-colored1-lighter5 {
@@ -2670,13 +2670,13 @@ blockquote.footer-cite-theme-colored footer {
 
 .btn-theme-colored2 {
   color: #000;
-  background-color: #b3ff66;
-  border-color: #b3ff66;
+  background-color: #7daaee;
+  border-color: #7daaee;
 }
 .btn-theme-colored2:hover {
   color: #000;
-  background-color: #beff7d;
-  border-color: #bbff75;
+  background-color: #7daaee;
+  border-color: #7daaee;
 }
 .btn-check:focus + .btn-theme-colored2,
 .btn-theme-colored2:focus {
