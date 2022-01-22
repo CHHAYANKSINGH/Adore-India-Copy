@@ -93,7 +93,7 @@
 
 	.current-page,
 	.dots {
-		/* background: #ccc; */
+		background: #ccc;
 		width: 45px;
 		border-radius: 50%;
 		cursor: pointer;
@@ -129,7 +129,7 @@
 						<img src="images/causes/c01.jpg" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
-						<h3>Let’s Fight for Global Warnings</h3>
+						<h3><a href="activity-details.php">Let’s Fight for Global Warnings</a></h3>
 						<p>Delhi</p>
 						<h6>><a href="activity-details.php"> Read more</a></h6>
 					</div>
@@ -137,7 +137,7 @@
 				<div class="card">
 					<div class="card-image"><img src="images/causes/c02.jpg" alt=""></div>
 					<div class="card-info">
-						<h3>Eco System for Global Warnings</h3>
+						<h3><a href="activity-details.php">Eco System for Global Warnings</a></h3>
 						<p>Kolkata</p>
 						<h6>><a href="activity-details.php"> Read more</a></h6>
 					</div>
@@ -145,7 +145,7 @@
 				<div class="card">
 					<div class="card-image"><img src="images/causes/c03.jpg" alt=""></div>
 					<div class="card-info">
-						<h3>Let’s Fight for Global Warnings</h3>
+						<h3><a href="activity-details.php">Let’s Fight for Global Warnings</a></h3>
 						<p>Mumbai</p>
 						<h6>><a href="activity-details.php"> Read more</a></h6>
 					</div>
@@ -156,7 +156,6 @@
 						<h3>Card 04</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua.</p>
-						<h6>><a href="activity-details.php"> Read more</a></h6>
 					</div>
 				</div>
 				<div class="card">
@@ -165,7 +164,6 @@
 						<h3>Card 05</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua.</p>
-						<h6>><a href="activity-details.php"> Read more</a></h6>
 					</div>
 				</div>
 				<div class="card">
