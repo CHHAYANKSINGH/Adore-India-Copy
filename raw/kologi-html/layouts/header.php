@@ -175,7 +175,7 @@
                                             <li>
                                                 <a href="#">Releases</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="news-grid.php">Blog</a></li>
+                                                    <li><a href="page-blog.php">Blog</a></li>
                                                     <li>
                                                         <a href="news-details.php">Newsletter</a>
                                                     </li>

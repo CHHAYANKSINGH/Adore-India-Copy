@@ -30,6 +30,112 @@
     <div class="container">
       <div class="section-content">
         <div class="row" style="margin-bottom:80px;">
+          <div class="col-md-6 col-lg-4" id="1">
+            <div class="causes-item-current-style1 mb-md-30">
+              <div class="causes-item">
+                <div class="causes-thumb">
+                  <img src="images/causes/c01.jpg" alt="Image" class="w-100">
+                </div>
+                <div class="causes-details">
+                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
+                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
+                    <div class="progress-title">
+                      <h6 class="title m-0">Delhi</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" id="2">
+            <div class="causes-item-current-style1 mb-sm-30">
+              <div class="causes-item">
+                <div class="causes-thumb">
+                  <img src="images/causes/c02.jpg" alt="Image" class="w-100">
+                </div>
+                <div class="causes-details">
+                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Eco System for Global Warnings</a></h5>
+                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
+                    <div class="progress-title">
+                      <h6 class="title m-0">Kolkata</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" id="3">
+            <div class="causes-item-current-style1">
+              <div class="causes-item">
+                <div class="causes-thumb">
+                  <img src="images/causes/c03.jpg" alt="Image" class="w-100">
+                </div>
+                <div class="causes-details">
+                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
+                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
+                    <div class="progress-title">
+                      <h6 class="title m-0">Mumbai</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-bottom:80px;">
+          <div class="col-md-6 col-lg-4" id="4">
+            <div class="causes-item-current-style1 mb-md-30">
+              <div class="causes-item">
+                <div class="causes-thumb">
+                  <img src="images/causes/c01.jpg" alt="Image" class="w-100">
+                </div>
+                <div class="causes-details">
+                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
+                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
+                    <div class="progress-title">
+                      <h6 class="title m-0">Delhi</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" id="5">
+            <div class="causes-item-current-style1 mb-sm-30">
+              <div class="causes-item">
+                <div class="causes-thumb">
+                  <img src="images/causes/c02.jpg" alt="Image" class="w-100">
+                </div>
+                <div class="causes-details">
+                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Eco System for Global Warnings</a></h5>
+                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
+                    <div class="progress-title">
+                      <h6 class="title m-0">Kolkata</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" id="6">
+            <div class="causes-item-current-style1">
+              <div class="causes-item">
+                <div class="causes-thumb">
+                  <img src="images/causes/c03.jpg" alt="Image" class="w-100">
+                </div>
+                <div class="causes-details">
+                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
+                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
+                    <div class="progress-title">
+                      <h6 class="title m-0">Mumbai</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row" style="margin-bottom:80px;">
           <div class="col-md-6 col-lg-4">
             <div class="causes-item-current-style1 mb-md-30">
               <div class="causes-item">
@@ -134,116 +240,11 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row" style="margin-bottom:80px;">
-          <div class="col-md-6 col-lg-4">
-            <div class="causes-item-current-style1 mb-md-30">
-              <div class="causes-item">
-                <div class="causes-thumb">
-                  <img src="images/causes/c01.jpg" alt="Image" class="w-100">
-                </div>
-                <div class="causes-details">
-                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
-                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
-                    <div class="progress-title">
-                      <h6 class="title m-0">Delhi</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="causes-item-current-style1 mb-sm-30">
-              <div class="causes-item">
-                <div class="causes-thumb">
-                  <img src="images/causes/c02.jpg" alt="Image" class="w-100">
-                </div>
-                <div class="causes-details">
-                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Eco System for Global Warnings</a></h5>
-                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
-                    <div class="progress-title">
-                      <h6 class="title m-0">Kolkata</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="causes-item-current-style1">
-              <div class="causes-item">
-                <div class="causes-thumb">
-                  <img src="images/causes/c03.jpg" alt="Image" class="w-100">
-                </div>
-                <div class="causes-details">
-                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
-                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
-                    <div class="progress-title">
-                      <h6 class="title m-0">Mumbai</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" style="margin-bottom:80px;">
-          <div class="col-md-6 col-lg-4">
-            <div class="causes-item-current-style1 mb-md-30">
-              <div class="causes-item">
-                <div class="causes-thumb">
-                  <img src="images/causes/c01.jpg" alt="Image" class="w-100">
-                </div>
-                <div class="causes-details">
-                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
-                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
-                    <div class="progress-title">
-                      <h6 class="title m-0">Delhi</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="causes-item-current-style1 mb-sm-30">
-              <div class="causes-item">
-                <div class="causes-thumb">
-                  <img src="images/causes/c02.jpg" alt="Image" class="w-100">
-                </div>
-                <div class="causes-details">
-                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Eco System for Global Warnings</a></h5>
-                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
-                    <div class="progress-title">
-                      <h6 class="title m-0">Kolkata</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="causes-item-current-style1">
-              <div class="causes-item">
-                <div class="causes-thumb">
-                  <img src="images/causes/c03.jpg" alt="Image" class="w-100">
-                </div>
-                <div class="causes-details">
-                  <h5 class="causes-title mt-0 mb-20"><a href="page-campaign-details.html">Let’s Fight for Global Warnings</a></h5>
-                  <div class="tm-sc-progress progress-item progress-item-current-style2 m-0">
-                    <div class="progress-title">
-                      <h6 class="title m-0">Mumbai</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
+  </nav>
 
 </div>
 <!-- end main-content -->

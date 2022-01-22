@@ -1,20 +1,41 @@
 <?php include "layouts/header.php" ?>
 <div class="main-content-area">
-	<section data-tm-bg-color="#fff">
+	<!-- Section: page title -->
+	<section class="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center" data-tm-bg-img="images/bg/bg1.jpg">
+		<div class="container pt-90 pb-90">
+			<div class="section-content">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2 class="title">Blogs</h2>
+						<nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
+							<div class="breadcrumbs">
+								<span><a href="#" rel="home">Home</a></span>
+								<span><i class="fa fa-angle-right"></i></span>
+								<span><a href="#">Pages</a></span>
+								<span><i class="fa fa-angle-right"></i></span>
+								<span class="active">Blogs </span>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-img-right-top bg-img-cover bg-img-no-repeat" data-tm-bg-img="images/bg/bg1.png">
 		<div class="section-content mt-lg--0 pt-lg--0" data-tm-margin-top="-183" data-tm-padding-top="184">
 			<div class="container">
-				<div class="tm-sc-section-title section-title text-center mb-50">
+				<!-- <div class="tm-sc-section-title section-title text-center mb-50">
 					<div class="row">
 						<div class="col-lg-5 m-auto">
 							<div class="title-wrapper mb-0">
 								<div class="title-icon-img line-height-1">
-									<!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
+									<img src="images/icons/title-icon.png" alt="Image" />
 								</div>
 								<h2 class="title">Blogs</h2>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div class="row">
 					<div class="col-md-6 col-lg-4">
 						<div class="blog-current-style1 mb-lg-30">
