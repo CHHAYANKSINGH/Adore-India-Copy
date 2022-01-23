@@ -167,7 +167,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="page-activities.php">Activities</a>
+                                                <a href="pagination.php">Activities</a>
                                             </li>
                                             <li>
                                                 <a href="#">Programs</a>
