@@ -57,6 +57,7 @@
 		margin-bottom: 5px;
 	}
 
+
 	.pagination {
 		text-align: center;
 		margin: 30px 30px 60px;
@@ -78,7 +79,7 @@
 	.previous-page,
 	.next-page {
 		width: 80px;
-		border-radius: 45px;
+		border-radius: 15px;
 		cursor: pointer;
 		transition: 0.3s ease;
 	}
