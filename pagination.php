@@ -56,6 +56,7 @@
 		font-size: 1em;
 		margin-bottom: 5px;
 	}
+	
 
 	.pagination {
 		text-align: center;
