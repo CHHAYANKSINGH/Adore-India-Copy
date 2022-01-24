@@ -25,7 +25,7 @@
 		max-width: 325px;
 		width: 325px;
 		height: auto;
-		margin: 25px;
+		margin: 15px;
 		box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
 		border-radius: 10px;
 		overflow: hidden;
@@ -56,6 +56,7 @@
 		font-size: 1em;
 		margin-bottom: 5px;
 	}
+	
 
 	.pagination {
 		text-align: center;
