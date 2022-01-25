@@ -731,18 +731,14 @@
               <div class="entry-header">
                 <div class="post-thumb">
                   <div class="post-thumb-inner">
-                    <div class="thumb">
+                    <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
                       <img class="w-100" src="images/blog/session1.jpeg" alt="Image" />
-                    </div>
-                    <div class="blog-meta">
-                      <span class="admin-type mr-10"><i class="far fa-user-circle"></i>Admin</span>
-                      <span class="comments-type"><i class="far fa-comments"></i>2 Comments</span>
                     </div>
                     <div class="meta-date">22 Jan</div>
                   </div>
                 </div>
               </div>
-              <div class="entry-content">
+              <div class="entry-content" style="border-radius:0px 0px 15px 15px;">
                 <h6 class="entry-title mt-0">
                   <p>ADORE INDIA invites you for a Webinar on Empathy by Ms. Shalini Sahay</p>
                 </h6>
@@ -759,21 +755,18 @@
               <div class="entry-header">
                 <div class="post-thumb">
                   <div class="post-thumb-inner">
-                    <div class="thumb">
+                    <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
                       <img class="w-100" src="images/blog/session2.jpeg" alt="Image" />
                     </div>
-                    <div class="blog-meta">
-                      <span class="admin-type mr-10"><i class="far fa-user-circle"></i>Admin</span>
-                      <span class="comments-type"><i class="far fa-comments"></i>2 Comments</span>
-                    </div>
+
                     <div class="meta-date">15 Jan</div>
                   </div>
                 </div>
               </div>
-              <div class="entry-content">
+              <div class="entry-content" style="border-radius:0px 0px 15px 15px;">
                 <h6 class="entry-title mt-0">
                   <p>Greetings everyone✨!
-ADORE invites you to a Webinar on Pursuing your Interest in a Dynamic World by Mr. Chitresh Shrivastva
+                    ADORE invites you to a Webinar on Pursuing your Interest in a Dynamic World by Mr. Chitresh Shrivastva
             </p>
                 </h6>
                 <div class="post-btn-readmore">
@@ -789,18 +782,14 @@ ADORE invites you to a Webinar on Pursuing your Interest in a Dynamic World by M
               <div class="entry-header">
                 <div class="post-thumb">
                   <div class="post-thumb-inner">
-                    <div class="thumb">
+                    <div class="thumb" style="border-radius:15px 15px 0px 0px;">
                       <img class="w-100" src="images/blog/session1.jpeg" alt="Image" />
-                    </div>
-                    <div class="blog-meta">
-                      <span class="admin-type mr-10"><i class="far fa-user-circle"></i>Admin</span>
-                      <span class="comments-type"><i class="far fa-comments"></i>2 Comments</span>
                     </div>
                     <div class="meta-date">22 Jan</div>
                   </div>
                 </div>
               </div>
-              <div class="entry-content">
+              <div class="entry-content" style="border-radius:0px 0px 15px 15px;">
                 <h6 class="entry-title mt-0">
                   <p>ADORE INDIA invites you for a Webinar on Empathy by Ms. Shalini Sahay</p>
                 </h6>
@@ -834,6 +823,7 @@ ADORE invites you to a Webinar on Pursuing your Interest in a Dynamic World by M
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
+
 </body>
 
 </html>
