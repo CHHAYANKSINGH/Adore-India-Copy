@@ -716,10 +716,9 @@
               <div class="title-icon-img line-height-1">
                 <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
               </div>
-              <h2 class="title">News & Articles</h2>
+              <h2 class="title">Upcoming Webinars</h2>
               <p class="paragraph mb-0">
-                Lorem ipsum dolor sit amet nsectetur cing elituspe
-                ndisse suscipit sagitis leo sit.
+                Get latest update on our upcoming webinars.
               </p>
             </div>
           </div>
@@ -733,22 +732,22 @@
                 <div class="post-thumb">
                   <div class="post-thumb-inner">
                     <div class="thumb">
-                      <img class="w-100" src="images/blog/1.jpg" alt="Image" />
+                      <img class="w-100" src="images/blog/session1.jpeg" alt="Image" />
                     </div>
                     <div class="blog-meta">
                       <span class="admin-type mr-10"><i class="far fa-user-circle"></i>Admin</span>
                       <span class="comments-type"><i class="far fa-comments"></i>2 Comments</span>
                     </div>
-                    <div class="meta-date">26 Feb</div>
+                    <div class="meta-date">22 Jan</div>
                   </div>
                 </div>
               </div>
               <div class="entry-content">
                 <h6 class="entry-title mt-0">
-                  <a href="news-details.html">Eco System Responsible For Wind Generators</a>
+                  <p>ADORE INDIA invites you for a Webinar on Empathy by Ms. Shalini Sahay</p>
                 </h6>
                 <div class="post-btn-readmore">
-                  <a href="news-details.html" class="btn btn-plain-text-with-arrow">Read More</a>
+                  <a href="https://zoom.us/j/3874658951" class="btn btn-plain-text-with-arrow">Register Now!</a>
                 </div>
               </div>
             </article>
@@ -761,48 +760,52 @@
                 <div class="post-thumb">
                   <div class="post-thumb-inner">
                     <div class="thumb">
-                      <img class="w-100" src="images/blog/2.jpg" alt="Image" />
+                      <img class="w-100" src="images/blog/session2.jpeg" alt="Image" />
                     </div>
                     <div class="blog-meta">
                       <span class="admin-type mr-10"><i class="far fa-user-circle"></i>Admin</span>
                       <span class="comments-type"><i class="far fa-comments"></i>2 Comments</span>
                     </div>
-                    <div class="meta-date">26 Feb</div>
+                    <div class="meta-date">15 Jan</div>
                   </div>
                 </div>
               </div>
               <div class="entry-content">
                 <h6 class="entry-title mt-0">
-                  <a href="news-details.html">Eco System Responsible For Green Energy</a>
+                  <p>Greetings everyone✨!
+ADORE invites you to a Webinar on Pursuing your Interest in a Dynamic World by Mr. Chitresh Shrivastva
+            </p>
                 </h6>
                 <div class="post-btn-readmore">
-                  <a href="news-details.html" class="btn btn-plain-text-with-arrow">Read More</a>
+                  <a href="https://zoom.us/j/7300060337?pwd=bWNPZ2JnS1o5TXNTVmhnVmM1L050Zz09" class="btn btn-plain-text-with-arrow">Register Now!</a>
                 </div>
               </div>
             </article>
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
-          <div class="blog-current-style1 mb-30">
-            <article class="post post-quote">
-              <div class="entry-content shadow-none border-0 p-0">
-                <div class="quote-content bg-theme-colored1">
-                  <p class="text-white mb-0">
-                    “I think the cost of energy will come down when we
-                    make this transition to renewable energy”
-                  </p>
+          <div class="blog-current-style1 mb-lg-30">
+            <article class="post">
+              <div class="entry-header">
+                <div class="post-thumb">
+                  <div class="post-thumb-inner">
+                    <div class="thumb">
+                      <img class="w-100" src="images/blog/session1.jpeg" alt="Image" />
+                    </div>
+                    <div class="blog-meta">
+                      <span class="admin-type mr-10"><i class="far fa-user-circle"></i>Admin</span>
+                      <span class="comments-type"><i class="far fa-comments"></i>2 Comments</span>
+                    </div>
+                    <div class="meta-date">22 Jan</div>
+                  </div>
                 </div>
               </div>
-            </article>
-          </div>
-          <div class="blog-current-style1">
-            <article class="post">
-              <div class="entry-content shadow-none border-0" data-tm-bg-color="#f4f3ef">
+              <div class="entry-content">
                 <h6 class="entry-title mt-0">
-                  <a href="news-details.html">Your sustainable guide your Green Energy</a>
+                  <p>ADORE INDIA invites you for a Webinar on Empathy by Ms. Shalini Sahay</p>
                 </h6>
                 <div class="post-btn-readmore">
-                  <a href="news-details.html" class="btn btn-plain-text-with-arrow">Read More</a>
+                  <a href="https://zoom.us/j/3874658951" class="btn btn-plain-text-with-arrow">Register Now!</a>
                 </div>
               </div>
             </article>
