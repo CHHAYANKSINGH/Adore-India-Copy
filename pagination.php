@@ -24,8 +24,8 @@
 		background: #fff;
 		max-width: 325px;
 		width: 325px;
-		height: auto;
-		margin: 15px;
+		height: 500px;
+		margin: 25px;
 		box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
 		border-radius: 10px;
 		overflow: hidden;
@@ -37,7 +37,7 @@
 
 	.card-image img {
 		max-width: 100%;
-		height: auto;
+		height: 300px;
 	}
 
 	.card-info {
@@ -47,7 +47,7 @@
 	}
 
 	.card-info h3 {
-		font-size: 1.8em;
+		font-size: 1.6em;
 		font-weight: 800;
 		margin-bottom: 5px;
 	}
@@ -124,8 +124,8 @@
 			</div>
 		</section>
 		<div class="container">
-			<div class="card-content" style="display: none">
-				<div class="card">
+			<div class="card-content" id="cards" style="display: none">
+				<!-- <div class="card">
 					<div class="causes-thumb">
 						<img src="images/causes/c01.jpg" alt="Image" class="w-100">
 					</div>
@@ -176,7 +176,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 							labore et dolore magna aliqua.</p>
 					</div>
-				</div>
+				</div> -->
 				<div class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
 					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
@@ -194,7 +194,52 @@
 <?php include "layouts/footer.php" ?>
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
-
+<script>
+	// check if products are present in localstorage if not then fetch and set
+	if (localStorage.getItem("activity") === null) {
+		fetch("https://api.adoreearth.org/activities/").then((res) => {
+			return res.json();
+			// set this res.json in local storage
+		}).then((data) => {
+			localStorage.setItem('activity', JSON.stringify(data))
+			let data1 = ""
+			data.map((values) => {
+				data1 += `<div class="card" id=${values.activity_id}>
+						<div class="card-image">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
+					</div>
+					<div class="card-info">
+						<h3>${values.type}</h3>
+						<p>Delhi</p>
+						<h6>><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
+					</div>
+				</div>`
+			});
+			document.getElementById("cards").innerHTML = data1;
+			console.log(data);
+		}).catch((error) => {
+			console.log(error);
+		});
+	} else {
+		localStorage.getItem('activity')
+		data = JSON.parse(localStorage.getItem('activity'));
+		let data1 = ""
+		data.map((values) => {
+			data1 += `<div class="card" id=${values.activity_id}>
+						<div class="card-image">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
+					</div>
+					<div class="card-info">
+						<h3>${values.type}</h3>
+						<p>Delhi</p>
+						<h6>><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
+					</div>
+				</div>`
+		});
+		document.getElementById("cards").innerHTML = data1;
+		console.log(data);
+	}
+</script>
 <script type="text/javascript">
 	function getPageList(totalPages, page, maxLength) {
 		function range(start, end) {

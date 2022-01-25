@@ -25,13 +25,11 @@
 
   <!-- Section: Campaign details -->
   <section>
-    <div class="container" align="center">
-      <div class="section-content">
+    <div class="container" id="detail" align="center">
+      <!-- <div class="section-content">
         <div class="col-lg-9">
           <img alt="images" src="images/bg/activity1.jpg" />
           <h3 class="mt-20 mb-10">Session by Mr. Dinesh Agarwal</h3>
-          <!-- <p class="lead">Lorem ipsum dolor sit amet <span class="text-theme-colored1 font-weight-600">Ecology</span>
-			 adipiscing elit. Etiam aliquet odio non porta laoreet. Vestibulum in dui euismod, molestie quam  -->
           <span class="text-theme-colored1 font-weight-600">Report</span>
           <p>The session began with a round of introductions of all the participants. Mr. Agarwal then dove into
             his experiences as a young start-up founder and why failure is just a stepping stone to success.
@@ -48,8 +46,7 @@
             and we are always ready to help and support others.The session concluded with a round of thanks to
             Mr. Amit Agarwal for his insight and to all the participants.</p>
         </div>
-
-      </div>
+      </div> -->
     </div>
   </section>
   <!-- End Divider -->
@@ -64,6 +61,31 @@
 
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
+<script>
+  var id = window.location.search.substr(4)
+  fetch("https://api.adoreearth.org/activities/?akey=" + id).then((res) => {
+    return res.json();
+  }).then((data) => {
+    console.log(data);
+    let data1 = ""
+    data.map((values) => {
+      data1 = `
+        <div class="section-content">
+        <div class="col-lg-9">
+          <img alt="images" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1}  />
+          <h3 class="mt-20 mb-10">${values.type}</h3>
+          <span class="text-theme-colored1 font-weight-600">Report</span>
+          <p>${values.report}</p>
+          <p> <span class="text-theme-colored1 font-weight-600">Impact</span> </p>
+          <p>${values.impact}</p>
+        </div>
+      </div>`
+    });
+    document.getElementById("detail").innerHTML = data1;
+  }).catch((error) => {
+    console.log(error);
+  });
+</script>
 <script src="js/custom.js"></script>
 
 </body>
