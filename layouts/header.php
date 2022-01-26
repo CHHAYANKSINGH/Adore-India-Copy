@@ -8,7 +8,7 @@
     <meta name="description" content="kologi - Charity & Fundraising Responsive HTML Template" />
     <meta name="keywords" content="agency, business, charity, corporate, fundraising" />
     <meta name="author" content="ThemeMascot" />
-
+    <script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
     <!-- Page Title -->
     <title>Adore Earth Website</title>
 

@@ -11,20 +11,22 @@
 		font-family: "Poppins", sans-serif;
 	}
 
+
 	.card-content {
+		margin-left:15px;
 		display: flex;
 		justify-content: center;
-		align-items: center;
 		flex-wrap: wrap;
-		margin: 30px;
+		width:1480px;
+		padding: 100px 0;
 	}
 
 	.card {
 		position: relative;
 		background: #fff;
 		max-width: 325px;
-		width: 325px;
-		height: 500px;
+		width: 300px;
+		height: 430px;
 		margin: 25px;
 		box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
 		border-radius: 10px;
@@ -37,7 +39,7 @@
 
 	.card-image img {
 		max-width: 100%;
-		height: 300px;
+		height: 250px;
 	}
 
 	.card-info {
@@ -49,12 +51,19 @@
 	.card-info h3 {
 		font-size: 1.6em;
 		font-weight: 800;
-		margin-bottom: 5px;
+		margin-bottom: 20px;
+		text-align:center;
+	}
+
+	.card-info h6 {
+		margin-top: 15px;
+		text-align: center;
 	}
 
 	.card-info p {
 		font-size: 1em;
 		margin-bottom: 5px;
+		text-align: center;
 	}
 
 
@@ -104,7 +113,7 @@
 <body>
 	<div class="main-content-area">
 		<section class="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center" data-tm-bg-img="images/bg/bg1.jpg">
-			<div class="container pt-90 pb-90">
+			<div class="container1 pt-90 pb-90">
 				<div class="section-content">
 					<div class="row">
 						<div class="col-md-12 text-center">
@@ -123,60 +132,8 @@
 				</div>
 			</div>
 		</section>
-		<div class="container">
+		<div class="container1">
 			<div class="card-content" id="cards" style="display: none">
-				<!-- <div class="card">
-					<div class="causes-thumb">
-						<img src="images/causes/c01.jpg" alt="Image" class="w-100">
-					</div>
-					<div class="card-info">
-						<h3>Let’s Fight for Global Warnings</h3>
-						<p>Delhi</p>
-						<h6>><a href="activity-details.php"> Read more</a></h6>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-image"><img src="images/causes/c02.jpg" alt=""></div>
-					<div class="card-info">
-						<h3>Eco System for Global Warnings</h3>
-						<p>Kolkata</p>
-						<h6>><a href="activity-details.php"> Read more</a></h6>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-image"><img src="images/causes/c03.jpg" alt=""></div>
-					<div class="card-info">
-						<h3>Let’s Fight for Global Warnings</h3>
-						<p>Mumbai</p>
-						<h6>><a href="activity-details.php"> Read more</a></h6>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-image"><img src="images/bg/bg1.png" alt=""></div>
-					<div class="card-info">
-						<h3>Card 04</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua.</p>
-						<h6>><a href="activity-details.php"> Read more</a></h6>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-image"><img src="images/bg/bg1.png" alt=""></div>
-					<div class="card-info">
-						<h3>Card 05</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua.</p>
-						<h6>><a href="activity-details.php"> Read more</a></h6>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-image"><img src="images/bg/bg1.png" alt=""></div>
-					<div class="card-info">
-						<h3>Card 06</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua.</p>
-					</div>
-				</div> -->
 				<div class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
 					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
@@ -201,6 +158,7 @@
 			return res.json();
 			// set this res.json in local storage
 		}).then((data) => {
+			data = _.orderBy(data, ['timestamp'], ['desc']);
 			localStorage.setItem('activity', JSON.stringify(data))
 			let data1 = ""
 			data.map((values) => {
@@ -211,7 +169,7 @@
 					<div class="card-info">
 						<h3>${values.type}</h3>
 						<p>Delhi</p>
-						<h6>><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
+						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
 			});
@@ -232,13 +190,15 @@
 					<div class="card-info">
 						<h3>${values.type}</h3>
 						<p>Delhi</p>
-						<h6>><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
+						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
 		});
 		document.getElementById("cards").innerHTML = data1;
 		console.log(data);
 	}
+
+
 </script>
 <script type="text/javascript">
 	function getPageList(totalPages, page, maxLength) {
@@ -266,9 +226,9 @@
 	}
 
 	$(function() {
-		var numberOfItems = $(".card-content .card").length;
-		var limitPerPage = 3; //How many card items visible per a page
-		var totalPages = Math.ceil(numberOfItems / limitPerPage);
+		var numberOfdata = $(".card-content .card").length;
+		var limitPerPage = 8; //How many card data visible per a page
+		var totalPages = Math.ceil(numberOfdata / limitPerPage);
 		var paginationSize = 7; //How many page elements visible in the pagination
 		var currentPage;
 
