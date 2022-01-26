@@ -127,7 +127,7 @@
                         <div class="container position-relative">
                             <div class="row header-nav-col-row">
                                 <div class="col-sm-auto align-self-center">
-                                    <a class="menuzord-brand site-brand" href="index-mp-layout1.php">
+                                    <a class="menuzord-brand site-brand" href="index.php">
                                         <img class="logo-default logo-1x" src="images/ADORE.png" alt="Logo" />
                                         <img class="logo-default logo-2x retina" src="images/ADORE.png" alt="Logo" />
                                     </a>
@@ -136,7 +136,7 @@
                                     <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
                                         <ul id="main-nav" class="menuzord-menu">
                                             <li class="active">
-                                                <a href="index-mp-layout1.php">Home</a>
+                                                <a href="index.php">Home</a>
                                             </li>
                                             <li>
                                                 <a href="#">About</a>
@@ -151,10 +151,6 @@
                                                     <li>
                                                         <a href="page-testimonial.php">Testimonial</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="shop-products-sidebar.php">Shop</a>
-                                                    </li>
-                                                    <li><a href="page-404.html">404</a></li>
                                                 </ul>
                                             </li>
                                             <li>
