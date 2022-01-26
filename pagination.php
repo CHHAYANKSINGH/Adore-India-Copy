@@ -13,12 +13,12 @@
 
 
 	.card-content {
-		margin-left:15px;
+		margin-left: 15px;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		width:1480px;
-		padding: 100px 0;
+		max-width: 1480px;
+		padding: 80px 0;
 	}
 
 	.card {
@@ -52,7 +52,7 @@
 		font-size: 1.6em;
 		font-weight: 800;
 		margin-bottom: 20px;
-		text-align:center;
+		text-align: center;
 	}
 
 	.card-info h6 {
@@ -79,7 +79,7 @@
 	}
 
 	.pagination li a {
-		color: #fff;
+		color: black !important;
 		text-decoration: none;
 		font-size: 1.2em;
 		line-height: 4px;
@@ -88,7 +88,7 @@
 	.previous-page,
 	.next-page {
 		width: 80px;
-		border-radius: 15px;
+		border-radius: 45px !important;
 		cursor: pointer;
 		transition: 0.3s ease;
 	}
@@ -105,7 +105,7 @@
 	.dots {
 		/* background: #ccc; */
 		width: 45px;
-		border-radius: 50%;
+		border-radius: 50% !important;
 		cursor: pointer;
 	}
 </style>
@@ -134,7 +134,8 @@
 		</section>
 		<div class="container1">
 			<div class="card-content" id="cards" style="display: none">
-				<div class="pagination">
+
+				<!-- <div class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
 					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
 					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
@@ -143,7 +144,7 @@
 					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
 					<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
 					<li class="page-item next-page"><a class="page-link" href="#">Next</a></li>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -183,7 +184,8 @@
 		data = JSON.parse(localStorage.getItem('activity'));
 		let data1 = ""
 		data.map((values) => {
-			data1 += `<div class="card" id=${values.activity_id}>
+			data1 += `
+			<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
@@ -193,12 +195,20 @@
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
+			pagination = `<div class="pagination">
+					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
+					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
+				</div>`
 		});
-		document.getElementById("cards").innerHTML = data1;
+		document.getElementById("cards").innerHTML = data1 + pagination;
 		console.log(data);
 	}
-
-
 </script>
 <script type="text/javascript">
 	function getPageList(totalPages, page, maxLength) {
