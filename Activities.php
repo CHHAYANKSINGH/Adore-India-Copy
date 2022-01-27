@@ -18,7 +18,8 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		max-width: 1480px;
-		padding: 80px 0;
+		padding-top: 100px;
+		padding-bottom: 50px;
 	}
 
 	.card {
@@ -63,6 +64,7 @@
 		text-align: center;
 		margin: 30px 30px 60px;
 		user-select: none;
+		padding-top: 30px;
 	}
 
 	.pagination li {
@@ -75,6 +77,11 @@
 		text-decoration: none;
 		font-size: 1.2em;
 		line-height: 4px;
+	}
+
+	.pagination li a:hover 
+	{
+		color : #fff !important;
 	}
 
 	.previous-page,
@@ -157,7 +164,7 @@
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
-						<h6><a href = "#">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
+						<h6><a href = "User.php">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
 						<p>${currentUser.city}</p>
 						<h6>Activity : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
@@ -200,7 +207,7 @@
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
-						<h6><a href = "#">${currentUser.f_name+ " " + currentUser.l_name}</a></h6>
+						<h6><a href = "User.php">${currentUser.f_name+ " " + currentUser.l_name}</a></h6>
 						<p>${currentUser.city}</p>
 						<h6>Activity : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
