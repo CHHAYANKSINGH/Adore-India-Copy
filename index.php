@@ -821,6 +821,20 @@
 </div>
 <!-- end wrapper -->
 
+
+<script>
+  // check if products are present in localstorage if not then fetch and set
+  if (localStorage.getItem("users") === null) {
+		fetch("https://api.adoreearth.org/users/").then((res) => {
+			return res.json();
+    }).then((usersData) => {
+			
+			localStorage.setItem('users', JSON.stringify(usersData));
+     });
+
+  }
+</script>
+
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
