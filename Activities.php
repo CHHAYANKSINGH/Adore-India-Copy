@@ -173,7 +173,7 @@
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
-						<h6><a href = "User.php">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
+						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
 						<p>${currentUser.city}</p>
 						<h6>Activity : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
@@ -217,7 +217,7 @@
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
-						<h6><a href = "User.php">${currentUser.f_name+ " " + currentUser.l_name}</a></h6>
+						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a></h6>
 						<p>${currentUser.city}</p>
 						<h6>Activity : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
