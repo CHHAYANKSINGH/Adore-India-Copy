@@ -176,6 +176,23 @@
                                             </li>
                                             <li>
                                                 <a href="#">Programs</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="YoungLeader.php">Young Leader</a></li>
+                                                    <li>
+                                                        <a href="#">Webinar</a>
+                                                        <ul class="dropdown dropdown-left">
+                                                            <li><a href="Synergy.php">Synergy</a></li>
+                                                            <li><a href="SoaringWings.php">Soaring Wings</a></li>
+                                                            <li><a href="GYPSE.php">GYPSE</a></li>
+                                                            <li><a href="WiseTalk.php">Wise Talk</a></li>
+                                                            <li><a href="XperTalk.php">Xper Talk</a></li>
+                                                            <li><a href="YoungLeaderSpeak.php">Young Leader Speak</a></li>
+                                                            <li><a href="YouthImpact.php">Youth Impact</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="Workshop.php">Workshops</a></li>
+                                                    <li><a href="E-sessions.php">E-sessions</a></li>
+                                                </ul>
                                             </li>
                                             <li>
                                                 <a href="#">Releases</a>
