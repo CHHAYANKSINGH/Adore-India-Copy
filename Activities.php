@@ -46,7 +46,7 @@
 	.card-info {
 		position: relative;
 		color: #222;
-		padding-top:10px;
+		padding-top: 10px;
 	}
 
 	.card-info h6 {
@@ -79,9 +79,8 @@
 		line-height: 4px;
 	}
 
-	.pagination li a:hover 
-	{
-		color : #fff !important;
+	.pagination li a:hover {
+		color: #fff !important;
 	}
 
 	.previous-page,
@@ -153,13 +152,23 @@
 			var users = JSON.parse(localStorage.getItem('users'));
 			let currentUser = {};
 			let data1 = "";
+			var pagination = `<div class="pagination">
+					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
+					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
+				</div>`;
 			try {
-			data.map((values) => {
-				currentUser = _.find(users,u => {
-					return u.u_id == values.u_id
-				});
+				data.map((values) => {
+					currentUser = _.find(users, u => {
+						return u.u_id == values.u_id
+					});
 
-				data1 += `<div class="card" id=${values.activity_id}>
+					data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
@@ -170,20 +179,11 @@
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
-				pagination = `<div class="pagination">
-					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
-					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
-					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
-					<li class="page-item current-page"><a class="page-link" href="#">5</a></li>
-					<li class="page-item current-page"><a class="page-link" href="#">6</a></li>
-					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
-					<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
-					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
-				</div>`
-			});
 
-			} catch(err){
-				console.log(currentUser , err);
+				});
+
+			} catch (err) {
+				console.log(currentUser, err);
 			}
 			document.getElementById("cards").innerHTML = data1 + pagination;
 			console.log(data);
@@ -194,15 +194,25 @@
 		localStorage.getItem('activity')
 		data = JSON.parse(localStorage.getItem('activity'));
 		var users = JSON.parse(localStorage.getItem('users'));
-		let currentUser = {}; 
+		let currentUser = {};
 		let data1 = "";
+		var pagination = `<div class="pagination">
+					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
+					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">5</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">6</a></li>
+					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
+					<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
+					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
+				</div>`
 		try {
-		data.map((values) => {
-			currentUser = _.find(users,u => {
+			data.map((values) => {
+				currentUser = _.find(users, u => {
 					return u.u_id == values.u_id
 				});
-			console.log("co = " ,currentUser)
-			data1 += `<div class="card" id=${values.activity_id}>
+				console.log("co = ", currentUser)
+				data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
@@ -213,26 +223,14 @@
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
-				pagination = `<div class="pagination">
-					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
-					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
-					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
-					<li class="page-item current-page"><a class="page-link" href="#">5</a></li>
-					<li class="page-item current-page"><a class="page-link" href="#">6</a></li>
-					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
-					<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
-					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
-				</div>`
-		});
-		} catch(err){
-			console.log(currentUser , err);
+
+			});
+		} catch (err) {
+			console.log(currentUser, err);
 		}
 		document.getElementById("cards").innerHTML = data1 + pagination;
 		console.log(data);
 	}
-
-
-
 </script>
 <script type="text/javascript">
 	function getPageList(totalPages, page, maxLength) {
