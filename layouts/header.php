@@ -156,14 +156,23 @@
                                             <li>
                                                 <a href="#">Countries</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="page-campaign.php">Campaign</a></li>
-                                                    <li>
-                                                        <a href="page-campaign-details.php">Campaign Details</a>
-                                                    </li>
+                                                    <li><a href="country-details.php">England</a></li>
+                                                    <li><a href=#>Ethopia</a></li>
+                                                    <li><a href=#>France</a></li>
+                                                    <li><a href=#>Nepal</a></li>
+                                                    <li><a href=#>Netherlands</a></li>
+                                                    <li><a href=#>Nigeria</a></li>
+                                                    <li><a href=#>Russia</a></li>
+                                                    <li><a href=#>Sri Lanka</a></li>
+                                                    <li><a href=#>Taiwan</a></li>
+                                                    <li><a href=#>Uganda</a></li>
+                                                    <li><a href=#>Zambia</a></li>
+                                                    <li><a href=#>Zimbabwe</a></li>
+                                                    <li><a href=#>India</a></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="Activities.php">Activities</a>
+                                                <a href="activities.php">Activities</a>
                                             </li>
                                             <li>
                                                 <a href="#">Programs</a>
