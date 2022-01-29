@@ -135,22 +135,18 @@
                                 <div class="col-sm-auto ms-auto pr-0 align-self-center">
                                     <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
                                         <ul id="main-nav" class="menuzord-menu">
-                                            <li class="active">
+                                            <li>
                                                 <a href="index.php">Home</a>
                                             </li>
                                             <li>
                                                 <a href="#">About</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="page-about.php">About</a></li>
                                                     <li><a href="page-contact.php">Contact</a></li>
                                                     <li><a href="page-team-grid.php">Team Grid</a></li>
                                                     <li>
                                                         <a href="page-team-details.php">Team Details</a>
                                                     </li>
                                                     <li><a href="page-gallery.php">Gallery</a></li>
-                                                    <li>
-                                                        <a href="page-testimonial.php">Testimonial</a>
-                                                    </li>
                                                 </ul>
                                             </li>
                                             <li>
@@ -184,8 +180,8 @@
                                                             <li><a href="Synergy.php">Synergy</a></li>
                                                             <li><a href="SoaringWings.php">Soaring Wings</a></li>
                                                             <li><a href="GYPSE.php">GYPSE</a></li>
-                                                            <li><a href="WiseTalk.php">Wise Talk</a></li>
-                                                            <li><a href="XperTalk.php">Xper Talk</a></li>
+                                                            <li><a href="WiseTalk.php">WiseTalk</a></li>
+                                                            <li><a href="XperTalk.php">XperTalk</a></li>
                                                             <li><a href="YoungLeaderSpeak.php">Young Leader Speak</a></li>
                                                             <li><a href="YouthImpact.php">Youth Impact</a></li>
                                                         </ul>
@@ -239,3 +235,4 @@
                 </div>
             </div>
         </header>
+        
