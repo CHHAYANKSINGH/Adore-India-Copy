@@ -82,11 +82,10 @@
       <h4 style="margin: 0; padding-bottom:5px;">AIN - ${currentUser.u_id}</h4>
       <div style="display: flex;">
         <div class="col-lg-4">
-          <h6>Status : Dormant</h6>
-          <h6>State : ${currentUser.state}</h6>
+          <h6>City : ${currentUser.city}</h6>
+          <h6>Country : ${currentUser.country}</h6>
         </div>
         <div class="col-lg-4">
-          <h6>City : ${currentUser.city}</h6>
           <h6>Organization : ADORE</h6>
         </div>
       </div>
@@ -95,31 +94,26 @@
           <tr style="color: black;">
             <th>Activity ID</th>
             <th>Date</th>
-            <th>Venue</th>
-            <th>Status</th>
+            <th>Venue ID</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>${values.activity_id}</td>
-            <td>14/01/2021</td>
-            <td>New Horizon High School</td>
-            <td>Progressive</td>
-          </tr>
-          <tr>
-            <td>222878</td>
-            <td>02/02/2021</td>
-            <td>New Horizon High School</td>
-            <td>Progressive</td>
-          </tr>
-          <tr>
-            <td>222894</td>
-            <td>14/01/2021</td>
-            <td>Springwood High School</td>
-            <td>Active</td>
-          </tr>
-        </tbody>
-      </table>`
+        <tbody>`
+        var userActivities = localStorage.getItem('activity');
+        console.log("activity=", JSON.parse(userActivities));
+        userActivities = JSON.parse(userActivities);
+        userActivities = _.filter(userActivities, u => {
+          return u.u_id == currentUser.u_id
+        });
+        console.log("userActivities=", userActivities);
+        for (let i in userActivities) {
+          data1 += `<tr>
+              <td>${userActivities[i].activity_id}</td>
+              <td>${userActivities[i].doa}</td>
+              <td>${userActivities[i].venue_id}</td>
+            </tr>`
+        }
+        data1 += `</tbody>
+        </table>`
       });
     } catch (err) {
       console.log(currentUser, err);

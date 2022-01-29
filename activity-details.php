@@ -50,20 +50,19 @@
     var users = JSON.parse(localStorage.getItem('users'));
     let currentUser = {};
     let data1 = "";
-    try 
-    {
-    data.map((values) => {
-      currentUser = _.find(users,u => {
-					return u.u_id == values.u_id
-				});
+    try {
+      data.map((values) => {
+        currentUser = _.find(users, u => {
+          return u.u_id == values.u_id
+        });
 
-      data1 = `
+        data1 = `
         <div class="section-content">
         <div class="col-lg-9">
           <div class="img" >
           <img alt="images" style="height:400px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} />
           </div>
-          <h2 style = "margin-top:40px;"><a href = "User.php">${currentUser.f_name+ " " + currentUser.l_name}</a></h2>
+          <h2 style = "margin-top:40px;"><a href = "User.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a></h2>
 					<p>${currentUser.city}</p>
           <h3 class="mt-20 mb-10">${values.type}</h3>
           <span class="text-theme-colored1 font-weight-600">Report</span>
@@ -72,10 +71,10 @@
           <p>${values.impact}</p>
         </div>
       </div>`
-    });
-    } catch(err){
-			console.log(currentUser , err);
-		}
+      });
+    } catch (err) {
+      console.log(currentUser, err);
+    }
 
     document.getElementById("detail").innerHTML = data1;
   }).catch((error) => {
