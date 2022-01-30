@@ -1,47 +1,40 @@
 <?php include "layouts/header.php"; ?>
 <!-- Start main-content -->
 <style>
-    *
-    {
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 
-    body
-    {
-      background-color: #0073aa;
-      
-    }
+  body {
+    background-color: #0073aa;
 
-    section
-    {
-      display: flex;
-    }
+  }
 
-    .sec
-    {
-      background-color: #fff;
-      margin-left:25px;
-      margin-right:25px;
-      margin-top:25px;
-      margin-bottom:25px;
-      padding: 80px;
-    }
+  section {
+    display: flex;
+  }
+
+  .sec {
+    background-color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 80px;
+  }
 
 
-    .par
-    {
-      padding: 30px;
-    }
+  .par {
+    padding: 30px;
+  }
 
 
-    img
-    {
-      background: cover;
-    }
-
+  img {
+    background: cover;
+  }
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -68,12 +61,12 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-    <section>
-        <div class="sec col-lg-7">
-            <h2 style="margin: 0; padding-bottom:10px;">Young <span style="color:#24a8e6;">Leader </span>Speak</h2>
-            <h6><span style="font-weight: 200;">Speech on how we can make our society a better place or responsibility of youth or how we can have a positive attitude etc.</h6>
-        </div>
-    </section>
+  <section>
+    <div class="sec col-lg-7">
+      <h2 style="margin: 0; padding-bottom:10px;">Young <span style="color:#24a8e6;">Leader </span>Speak</h2>
+      <h6><span style="font-weight: 200;">Speech on how we can make our society a better place or responsibility of youth or how we can have a positive attitude etc.</h6>
+    </div>
+  </section>
   <!-- End Divider -->
 </div>
 <!-- end main-content -->

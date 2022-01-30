@@ -173,21 +173,21 @@
                                             <li>
                                                 <a href="#">Programs</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="YoungLeader.php">Young Leader</a></li>
+                                                    <li><a href="youngLeader.php">Young Leader</a></li>
                                                     <li>
                                                         <a href="#">Webinar</a>
                                                         <ul class="dropdown dropdown-left">
-                                                            <li><a href="Synergy.php">Synergy</a></li>
-                                                            <li><a href="SoaringWings.php">Soaring Wings</a></li>
-                                                            <li><a href="GYPSE.php">GYPSE</a></li>
-                                                            <li><a href="WiseTalk.php">WiseTalk</a></li>
-                                                            <li><a href="XperTalk.php">XperTalk</a></li>
-                                                            <li><a href="YoungLeaderSpeak.php">Young Leader Speak</a></li>
-                                                            <li><a href="YouthImpact.php">Youth Impact</a></li>
+                                                            <li><a href="synergy.php">Synergy</a></li>
+                                                            <li><a href="soaringWings.php">Soaring Wings</a></li>
+                                                            <li><a href="gypse.php">GYPSE</a></li>
+                                                            <li><a href="wiseTalk.php">WiseTalk</a></li>
+                                                            <li><a href="xperTalk.php">XperTalk</a></li>
+                                                            <li><a href="youngLeaderSpeak.php">Young Leader Speak</a></li>
+                                                            <li><a href="youthImpact.php">Youth Impact</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="Workshop.php">Workshops</a></li>
-                                                    <li><a href="E-sessions.php">E-sessions</a></li>
+                                                    <li><a href="workshop.php">Workshops</a></li>
+                                                    <li><a href="e-sessions.php">E-sessions</a></li>
                                                 </ul>
                                             </li>
                                             <li>
@@ -235,4 +235,3 @@
                 </div>
             </div>
         </header>
-        

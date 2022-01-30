@@ -1,47 +1,40 @@
 <?php include "layouts/header.php"; ?>
 <!-- Start main-content -->
 <style>
-    *
-    {
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 
-    body
-    {
-      background-color: #0073aa;
-      
-    }
+  body {
+    background-color: #0073aa;
 
-    section
-    {
-      display: flex;
-    }
+  }
 
-    .sec
-    {
-      background-color: #fff;
-      margin-left:25px;
-      margin-right:25px;
-      margin-top:25px;
-      margin-bottom:25px;
-      padding: 80px;
-    }
+  section {
+    display: flex;
+  }
+
+  .sec {
+    background-color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 80px;
+  }
 
 
-    .par
-    {
-      padding: 30px;
-    }
+  .par {
+    padding: 30px;
+  }
 
 
-    img
-    {
-      background: cover;
-    }
-
+  img {
+    background: cover;
+  }
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -68,12 +61,12 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-    <section>
-        <div class="sec col-lg-8">
-            <h2 style="margin: 0; padding-bottom:10px;">Work<span style="color:#24a8e6;">Shops</span></h2>
-            <h6><span style="font-weight: 200;">Skill development workshops are designed for college and university students to enhance different skills for 10 or 14 continuous days. A combination of several <span style="font-weight: 700;">softs skills</span> are discussed, as well as some <span style="font-weight: 700;">technical skills</span> too. It is completely free of charge, and we ask only for participants' valuable time and effort.</h6>
-        </div>
-    </section>
+  <section>
+    <div class="sec col-lg-8">
+      <h2 style="margin: 0; padding-bottom:10px;">Work<span style="color:#24a8e6;">Shops</span></h2>
+      <h6><span style="font-weight: 200;">Skill development workshops are designed for college and university students to enhance different skills for 10 or 14 continuous days. A combination of several <span style="font-weight: 700;">softs skills</span> are discussed, as well as some <span style="font-weight: 700;">technical skills</span> too. It is completely free of charge, and we ask only for participants' valuable time and effort.</h6>
+    </div>
+  </section>
   <!-- End Divider -->
 </div>
 <!-- end main-content -->
