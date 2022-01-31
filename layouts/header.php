@@ -23,6 +23,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="css/javascript-plugins-bundle.css" rel="stylesheet" />
+    <link href="css/preloader.css" rel="stylesheet" type="text/css"/>
+    <link href="css/loader.css" rel="stylesheet" type="text/css"/>
 
     <!-- CSS | menuzord megamenu skins -->
     <link href="js/menuzord/css/menuzord.css" rel="stylesheet" />
@@ -65,6 +67,7 @@
 </head>
 
 <body class="tm-container-1340px has-side-panel side-panel-right">
+
     <div class="side-panel-body-overlay"></div>
     <div id="side-panel-container" class="dark" data-tm-bg-img="images/side-push-bg.jpg">
         <div class="side-panel-wrap">

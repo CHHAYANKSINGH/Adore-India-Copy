@@ -1,4 +1,5 @@
 <?php include "layouts/header.php"; ?>
+
 <!-- Start main-content -->
 <style>
   * {
@@ -47,8 +48,20 @@
 
   <!-- Section: User -->
   <section>
+    
     <div class="sec" id="user">
-
+      <!-- Start of Preloader -->
+<div class="preloader-floating-circles">
+	<div class="f_circleG" id="frotateG_01"></div>
+	<div class="f_circleG" id="frotateG_02"></div>
+	<div class="f_circleG" id="frotateG_03"></div>
+	<div class="f_circleG" id="frotateG_04"></div>
+	<div class="f_circleG" id="frotateG_05"></div>
+	<div class="f_circleG" id="frotateG_06"></div>
+	<div class="f_circleG" id="frotateG_07"></div>
+	<div class="f_circleG" id="frotateG_08"></div>
+</div>
+  <!-- End of Preloader -->
     </div>
   </section>
   <!-- End Divider -->
@@ -65,10 +78,12 @@
 <!-- JS | Custom script for all pages -->
 <script>
   var id = window.location.search.substr(4)
+  
   fetch("https://api.adoreearth.org/users/?ukey=" + id).then((res) => {
     return res.json();
   }).then((data) => {
     console.log(data);
+    document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
     var users = JSON.parse(localStorage.getItem('users'));
     let currentUser = {};
     let data1 = "";
@@ -112,19 +127,31 @@
               <td>${userActivities[i].venue_id}</td>
             </tr>`
         }
+        
         data1 += `</tbody>
         </table>`
+
+        
       });
+      // var loader = document.getElementsByClassName("preloader-floating-circles");
+      // window.addEventListener("load", function(){
+      //   loader.style.display = "none";
+      // });
+
     } catch (err) {
       console.log(currentUser, err);
     }
-
+    
+    
     document.getElementById("user").innerHTML = data1;
   }).catch((error) => {
     console.log(error);
   });
+  
 </script>
 <script src="js/custom.js"></script>
+
+
 
 </body>
 

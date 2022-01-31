@@ -1,4 +1,8 @@
 <?php include "layouts/header.php"; ?>
+<!-- Preloader -->
+
+<div id="preloader"></div>
+
 <!-- Start main-content -->
 <div class="main-content-area">
   <!-- Section: home Start -->
@@ -178,7 +182,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <!-- <img class="icon" src="images/icons/s01.png" alt="Icon" /> -->
+                <img class="icon" style="height:75px;" src="images/mission1.png" alt="Icon" />
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Our Mission
@@ -195,7 +199,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right2 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <!-- <img class="icon" src="images/icons/s02.png" alt="Icon" /> -->
+                <img class="icon" style="height:80px;" src="images/vision.png" alt="Icon" />
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Our Vision
@@ -213,7 +217,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right3 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <!-- <img class="icon" src="images/icons/s03.png" alt="Icon" /> -->
+                <img class="icon" style="height:80px;" src="images/activities1.png" alt="Icon" />
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Activities
@@ -230,7 +234,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right4 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <!-- <img class="icon" src="images/icons/s04.png" alt="Icon" /> -->
+                <img class="icon" style="height:80px;" src="images/programs1.png" alt="Icon" />
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Programs
