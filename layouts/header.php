@@ -152,12 +152,12 @@
                                             <li>
                                                 <a href="#">Countries</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="country-details.php">England</a></li>
-                                                    <li><a href=#>Ethopia</a></li>
-                                                    <li><a href=#>France</a></li>
-                                                    <li><a href=#>Nepal</a></li>
-                                                    <li><a href=#>Netherlands</a></li>
-                                                    <li><a href=#>Nigeria</a></li>
+                                                    <li><a href="country-england.php">England</a></li>
+                                                    <li><a href="country-ethopia.php">Ethopia</a></li>
+                                                    <li><a href="country-france.php">France</a></li>
+                                                    <li><a href="country-nepal.php">Nepal</a></li>
+                                                    <li><a href="country-netherlands.php">Netherlands</a></li>
+                                                    <li><a href="country-nigeria.php">Nigeria</a></li>
                                                     <li><a href=#>Russia</a></li>
                                                     <li><a href=#>Sri Lanka</a></li>
                                                     <li><a href=#>Taiwan</a></li>
