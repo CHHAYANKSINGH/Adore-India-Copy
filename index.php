@@ -178,7 +178,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <img class="icon" src="images/icons/s01.png" alt="Icon" />
+                <!-- <img class="icon" src="images/icons/s01.png" alt="Icon" /> -->
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Our Mission
@@ -195,7 +195,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right2 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <img class="icon" src="images/icons/s02.png" alt="Icon" />
+                <!-- <img class="icon" src="images/icons/s02.png" alt="Icon" /> -->
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Our Vision
@@ -213,7 +213,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right3 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <img class="icon" src="images/icons/s03.png" alt="Icon" />
+                <!-- <img class="icon" src="images/icons/s03.png" alt="Icon" /> -->
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Activities
@@ -230,7 +230,7 @@
           <div class="col-sm-6 col-xl-3">
             <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right4 animate mb-lg-30">
               <div class="service-icon mb-25 text-center d-inline-block">
-                <img class="icon" src="images/icons/s04.png" alt="Icon" />
+                <!-- <img class="icon" src="images/icons/s04.png" alt="Icon" /> -->
               </div>
               <h6 class="service-title mb-25 mt-0 mb-lg--0">
                 Programs
@@ -248,7 +248,7 @@
       </div>
     </div>
   </section>
-  
+
 
   <!-- Section: Campaigns -->
   <section>
@@ -366,7 +366,7 @@
 </section>
 
 <!-- Start Divider -->
-<section class="text-center bg-img-cover bg-img-center-top" data-tm-bg-img="images/5.png">
+<section class="text-center bg-img-cover bg-img-center-top" data-tm-bg-img="images/get-in-touch2.jpg">
   <div class="container">
     <div class="row">
       <div class="col-xl-8 m-auto text-center">
@@ -768,7 +768,7 @@
                 <h6 class="entry-title mt-0">
                   <p>Greetings everyone✨!
                     ADORE invites you to a Webinar on Pursuing your Interest in a Dynamic World by Mr. Chitresh Shrivastva
-            </p>
+                  </p>
                 </h6>
                 <div class="post-btn-readmore">
                   <a href="https://zoom.us/j/7300060337?pwd=bWNPZ2JnS1o5TXNTVmhnVmM1L050Zz09" class="btn btn-plain-text-with-arrow">Register Now!</a>
@@ -825,12 +825,12 @@
 <script>
   // check if products are present in localstorage if not then fetch and set
   if (localStorage.getItem("users") === null) {
-		fetch("https://api.adoreearth.org/users/").then((res) => {
-			return res.json();
+    fetch("https://api.adoreearth.org/users/").then((res) => {
+      return res.json();
     }).then((usersData) => {
-			
-			localStorage.setItem('users', JSON.stringify(usersData));
-     });
+
+      localStorage.setItem('users', JSON.stringify(usersData));
+    });
 
   }
 </script>
