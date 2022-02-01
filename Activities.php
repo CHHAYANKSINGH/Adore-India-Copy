@@ -182,8 +182,8 @@
 					currentUser = _.find(users, u => {
 						return u.u_id == values.u_id
 					});
-
-					data1 += `<div class="card" id=${values.activity_id}>
+					if (currentUser) {
+						data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
@@ -194,6 +194,7 @@
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
+					}
 
 				});
 
@@ -223,12 +224,14 @@
 					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
 				</div>`
 		try {
+			console.log(data);
 			data.map((values) => {
 				currentUser = _.find(users, u => {
 					return u.u_id == values.u_id
 				});
 				console.log("co = ", currentUser)
-				data1 += `<div class="card" id=${values.activity_id}>
+				if (currentUser) {
+					data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} alt="Image" class="w-100">
 					</div>
@@ -239,6 +242,7 @@
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
+				}
 
 			});
 		} catch (err) {
