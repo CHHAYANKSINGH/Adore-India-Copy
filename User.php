@@ -94,7 +94,7 @@
           <tr style="color: black;">
             <th>Activity ID</th>
             <th>Date</th>
-            <th>Venue ID</th>
+            <th>Venue</th>
           </tr>
         </thead>
         <tbody>`
@@ -109,7 +109,7 @@
           data1 += `<tr>
               <td>${userActivities[i].activity_id}</td>
               <td>${userActivities[i].doa}</td>
-              <td>${userActivities[i].venue_id}</td>
+              <td>${userActivities[i].name}</td>
             </tr>`
         }
         data1 += `</tbody>
