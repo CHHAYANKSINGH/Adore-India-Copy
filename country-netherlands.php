@@ -4,7 +4,7 @@
 <div class="main-content-area">
 
 <div class="row" style="padding:2% 8%;">
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-6 col-lg-3">
         <div class="blog-current-style1 mb-lg-30">
             <article class="post">
                 <div class="entry-header">
