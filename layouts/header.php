@@ -161,12 +161,12 @@
                                                     <li><a href="country-nepal.php">Nepal</a></li>
                                                     <li><a href="country-netherlands.php">Netherlands</a></li>
                                                     <li><a href="country-nigeria.php">Nigeria</a></li>
-                                                    <li><a href=#>Russia</a></li>
-                                                    <li><a href=#>Sri Lanka</a></li>
-                                                    <li><a href=#>Taiwan</a></li>
-                                                    <li><a href=#>Uganda</a></li>
+                                                    <li><a href="country-russia.php">Russia</a></li>
+                                                    <li><a href="country-srilanka.php">Sri Lanka</a></li>
+                                                    <li><a href="country-taiwan.php">Taiwan</a></li>
+                                                    <li><a href="country-uganda.php">Uganda</a></li>
                                                     <li><a href=#>Zambia</a></li>
-                                                    <li><a href=#>Zimbabwe</a></li>
+                                                    <li><a href="country-zimbabwe.php">Zimbabwe</a></li>
                                                     <li><a href=#>India</a></li>
                                                 </ul>
                                             </li>
