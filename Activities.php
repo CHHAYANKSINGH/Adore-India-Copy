@@ -131,6 +131,18 @@
 			</div>
 		</section>
 		<div class="container1">
+			<!-- Start of Preloader -->
+<div class="preloader-floating-circles">
+	<div class="f_circleG" id="frotateG_01"></div>
+	<div class="f_circleG" id="frotateG_02"></div>
+	<div class="f_circleG" id="frotateG_03"></div>
+	<div class="f_circleG" id="frotateG_04"></div>
+	<div class="f_circleG" id="frotateG_05"></div>
+	<div class="f_circleG" id="frotateG_06"></div>
+	<div class="f_circleG" id="frotateG_07"></div>
+	<div class="f_circleG" id="frotateG_08"></div>
+</div>
+  <!-- End of Preloader -->
 			<div class="card-content" id="cards" style="display: none">
 
 			</div>
@@ -147,6 +159,7 @@
 			return res.json();
 			// set this res.json in local storage
 		}).then((data) => {
+			document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
 			data = _.orderBy(data, ['timestamp'], ['desc']);
 			localStorage.setItem('activity', JSON.stringify(data));
 			var users = JSON.parse(localStorage.getItem('users'));
@@ -162,6 +175,8 @@
 					<li class="page-item current-page"><a class="page-link" href="#">10</a></li>
 					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
 				</div>`;
+
+			
 			try {
 				data.map((values) => {
 					currentUser = _.find(users, u => {
@@ -192,6 +207,7 @@
 			console.log(error);
 		});
 	} else {
+		document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
 		localStorage.getItem('activity')
 		data = JSON.parse(localStorage.getItem('activity'));
 		var users = JSON.parse(localStorage.getItem('users'));

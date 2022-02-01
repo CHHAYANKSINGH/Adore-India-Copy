@@ -11,7 +11,7 @@
                     <div class="post-thumb">
                         <div class="post-thumb-inner">
                             <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
-                                <img class="w-100" src="images/blog/synergy_uk.jpg" alt="Image" height="500px" width="500px">
+                                <img class="w-100" src="images/country/synergy_uk.jpg" alt="Image" height="500px" width="500px">
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                     <div class="post-thumb">
                         <div class="post-thumb-inner">
                             <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
-                                <img class="w-100" src="images/blog/synergy_uk.jpg" alt="Image" height="500px" width="500px">
+                                <img class="w-100" src="images/country/synergy_uk.jpg" alt="Image" height="500px" width="500px">
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                     <div class="post-thumb">
                         <div class="post-thumb-inner">
                             <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
-                                <img class="w-100" src="images/blog/synergy_uk.jpg" alt="Image" height="500px" width="500px">
+                                <img class="w-100" src="images/country/synergy_uk.jpg" alt="Image" height="500px" width="500px">
                             </div>
                         </div>
                     </div>

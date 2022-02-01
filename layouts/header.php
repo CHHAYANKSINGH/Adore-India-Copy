@@ -23,6 +23,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="css/javascript-plugins-bundle.css" rel="stylesheet" />
+    <link href="css/preloader.css" rel="stylesheet" type="text/css"/>
+    <link href="css/loader.css" rel="stylesheet" type="text/css"/>
 
     <!-- CSS | menuzord megamenu skins -->
     <link href="js/menuzord/css/menuzord.css" rel="stylesheet" />
@@ -65,6 +67,7 @@
 </head>
 
 <body class="tm-container-1340px has-side-panel side-panel-right">
+
     <div class="side-panel-body-overlay"></div>
     <div id="side-panel-container" class="dark" data-tm-bg-img="images/side-push-bg.jpg">
         <div class="side-panel-wrap">
@@ -152,12 +155,12 @@
                                             <li>
                                                 <a href="#">Countries</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="country-details.php">England</a></li>
-                                                    <li><a href=#>Ethopia</a></li>
-                                                    <li><a href=#>France</a></li>
-                                                    <li><a href=#>Nepal</a></li>
-                                                    <li><a href=#>Netherlands</a></li>
-                                                    <li><a href=#>Nigeria</a></li>
+                                                    <li><a href="country-england.php">England</a></li>
+                                                    <li><a href="country-ethopia.php">Ethopia</a></li>
+                                                    <li><a href="country-france.php">France</a></li>
+                                                    <li><a href="country-nepal.php">Nepal</a></li>
+                                                    <li><a href="country-netherlands.php">Netherlands</a></li>
+                                                    <li><a href="country-nigeria.php">Nigeria</a></li>
                                                     <li><a href=#>Russia</a></li>
                                                     <li><a href=#>Sri Lanka</a></li>
                                                     <li><a href=#>Taiwan</a></li>

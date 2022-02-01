@@ -1,4 +1,6 @@
 <?php include "layouts/header.php"; ?>
+<!-- Preloader -->
+<div id="loader"></div>
 <!-- Start main-content -->
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -26,7 +28,18 @@
   <!-- Section: Campaign details -->
   <section>
     <div class="container" id="detail" align="center">
-
+      <!-- Start of Preloader -->
+<div class="preloader-floating-circles">
+	<div class="f_circleG" id="frotateG_01"></div>
+	<div class="f_circleG" id="frotateG_02"></div>
+	<div class="f_circleG" id="frotateG_03"></div>
+	<div class="f_circleG" id="frotateG_04"></div>
+	<div class="f_circleG" id="frotateG_05"></div>
+	<div class="f_circleG" id="frotateG_06"></div>
+	<div class="f_circleG" id="frotateG_07"></div>
+	<div class="f_circleG" id="frotateG_08"></div>
+</div>
+  <!-- End of Preloader -->
     </div>
   </section>
   <!-- End Divider -->
@@ -47,6 +60,7 @@
     return res.json();
   }).then((data) => {
     console.log(data);
+    document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
     var users = JSON.parse(localStorage.getItem('users'));
     let currentUser = {};
     let data1 = "";
@@ -82,6 +96,13 @@
   });
 </script>
 <script src="js/custom.js"></script>
+
+<!-- <script>
+  var loader = document.getElementById("loader");
+  window.addEventListener("load", function(){
+      loader.style.display = "none";
+  })
+</script> -->
 
 </body>
 

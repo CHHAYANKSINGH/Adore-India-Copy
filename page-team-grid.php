@@ -1,4 +1,7 @@
 <?php include "layouts/header.php"; ?>
+<!-- Preloader -->
+<div id="preloader"></div>
+
 <!-- Start main-content -->
 <div class="main-content-area">
   <!-- Section: page title -->
