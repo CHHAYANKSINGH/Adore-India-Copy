@@ -35,12 +35,12 @@
           <div class="col-lg-6 col-xl-3 col-md-6">
             <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/1.jpg" alt="">
+                <img class="w-100" src="images/team/team1.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Sarah Albert</h4>
-                  <p class="designation ">Volunteer</p>
+                  <h4 class="team-name mt-0 mb-0">Sayantan Chowdhury</h4>
+                  <p class="designation ">System Administrator</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -55,12 +55,12 @@
           <div class="col-lg-6 col-xl-3 col-md-6">
             <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/2.jpg" alt="">
+                <img class="w-100" src="images/team/team2.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Albert Rose</h4>
-                  <p class="designation ">Volunteer</p>
+                  <h4 class="team-name mt-0 mb-0">Rishika Chowdhury</h4>
+                  <p class="designation ">Webinar and Workshop Manager</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -75,12 +75,12 @@
           <div class="col-lg-6 col-xl-3 col-md-6">
             <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/3.jpg" alt="">
+                <img class="w-100" src="images/team/team4.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Sahara Ali</h4>
-                  <p class="designation ">Volunteer</p>
+                  <h4 class="team-name mt-0 mb-0">Garima Mishra</h4>
+                  <p class="designation ">Young Leader and E-sessions Trainee</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -95,12 +95,92 @@
           <div class="col-lg-6 col-xl-3 col-md-6">
             <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/4.jpg" alt="">
+                <img class="w-100" src="images/team/team5.png" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Jasika Brown</h4>
-                  <p class="designation ">Volunteer</p>
+                  <h4 class="team-name mt-0 mb-0">Simran Mohanty</h4>
+                  <p class="designation ">Social Media Marketing trainee</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6">
+            <div class="team-item mb-30">
+              <div class="team-thumb">
+                <img class="w-100" style="height:245px;" src="images/team/team7.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">Megha Singha</h4>
+                  <p class="designation ">Social Media Marketing trainee</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6">
+            <div class="team-item mb-30">
+              <div class="team-thumb">
+                <img class="w-100" style="height:245px;" src="images/team/team8.png" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">Avya Khurana</h4>
+                  <p class="designation ">Social Media Marketing trainee</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6">
+            <div class="team-item mb-30">
+              <div class="team-thumb">
+                <img class="w-100" style="height:250px;" src="images/team/team6.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">Swaraj Kully</h4>
+                  <p class="designation ">General management trainee</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6">
+            <div class="team-item mb-30">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team3.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">Anmol Goyal</h4>
+                  <p class="designation ">Management Trainee</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">

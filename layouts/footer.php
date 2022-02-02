@@ -5,7 +5,7 @@
                 <div class="col-md-12 col-lg-3">
                     <div class="tm-widget-contact-info contact-info-style1" data-tm-margin-top="-22">
                         <div class="thumb" data-tm-margin-bottom="48">
-                            <img alt="Logo" width="200" src="images/ADORE1.png" />
+                            <img alt="Logo" width="200" src="images/ADORE.png" />
                         </div>
                         <ul class="mb-30">
                             <li class="contact-phone">
