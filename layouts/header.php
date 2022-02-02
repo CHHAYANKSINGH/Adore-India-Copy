@@ -23,8 +23,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
     <link href="css/javascript-plugins-bundle.css" rel="stylesheet" />
-    <link href="css/preloader.css" rel="stylesheet" type="text/css"/>
-    <link href="css/loader.css" rel="stylesheet" type="text/css"/>
+    <link href="css/preloader.css" rel="stylesheet" type="text/css" />
+    <link href="css/loader.css" rel="stylesheet" type="text/css" />
 
     <!-- CSS | menuzord megamenu skins -->
     <link href="js/menuzord/css/menuzord.css" rel="stylesheet" />
@@ -46,7 +46,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/javascript-plugins-bundle.js"></script>
     <script src="js/menuzord/js/menuzord.js"></script>
-    
+
 
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="js/revolution-slider/css/rs6.css" />
@@ -179,7 +179,7 @@
                                                 <ul class="dropdown">
                                                     <li><a href="youngLeader.php">Young Leader</a></li>
                                                     <li>
-                                                        <a href="#">Webinar</a>
+                                                        <a href="webinar.php">Webinar</a>
                                                         <ul class="dropdown dropdown-left">
                                                             <li><a href="synergy.php">Synergy</a></li>
                                                             <li><a href="soaringWings.php">Soaring Wings</a></li>
