@@ -25,7 +25,7 @@
 		background: #fff;
 		max-width: 325px;
 		width: 300px;
-		height: 450px;
+		height: auto;
 		margin: 25px;
 		box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
 		border-radius: 10px;
@@ -264,9 +264,9 @@
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
-						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
-						<p>${currentUser.city}</p>
-						<h6>Activity : ${values.blog_title}</h6>
+						// <h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
+						<p>${values.creator}</p>
+						<h6>${values.blog_title}</h6>
 						<h6><a href="activity-details.php?id=${values.blog_id}"> Read more</a></h6>
 					</div>
 				</div>`
@@ -311,7 +311,8 @@
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
-						<h6>Activity : ${values.blog_title}</h6>
+						<h6>${values.blog_title}</h6>
+						<p>${values.creator}</p>
 						<h6><a href="activity-details.php?id=${values.blog_id}"> Read more</a></h6>
 					</div>
 				</div>`
