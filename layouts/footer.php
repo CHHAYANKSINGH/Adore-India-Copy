@@ -1,11 +1,11 @@
-<footer id="footer" class="footer bg-img-center-bottom bg-img-cover" data-tm-bg-img="images/bg/bg3.jpg">
+<footer id="footer" class="footer bg-img-center-bottom bg-img-cover" data-tm-bg-img="images/bg/bg03.jpg" style="filter:grayscale(50%);">
     <div class="footer-widget-area pt-120">
         <div class="container pb-40">
             <div class="row">
                 <div class="col-md-12 col-lg-3">
                     <div class="tm-widget-contact-info contact-info-style1" data-tm-margin-top="-22">
                         <div class="thumb" data-tm-margin-bottom="48">
-                            <img alt="Logo" width="200" src="images/ADORE.png" />
+                            <img alt="Logo" width="200" src="images/ADORE1.png" />
                         </div>
                         <ul class="mb-30">
                             <li class="contact-phone">

@@ -64,17 +64,52 @@
 						</a>
 					</li>
 					<hr>
-					<li> NOVEMBER 1, 2020</li>
+					<li> OCTOBER 1, 2020</li>
 					<li>
 						<a href=# onclick="myFunction(this)" id="5">
-							<h4>October 2020</h4>
+							<h4>Spetember 2020</h4>
 						</a>
 					</li>
 					<hr>
-					<li> NOVEMBER 1, 2020</li>
+					<li> SEPTEMBER 17, 2020</li>
 					<li>
 						<a href=# onclick="myFunction(this)" id="6">
-							<h4>October 2020</h4>
+							<h4>August 2020</h4>
+						</a>
+					</li>
+					<hr>
+					<li> AUGUST 8, 2020</li>
+					<li>
+						<a href=# onclick="myFunction(this)" id="7">
+							<h4>July 2020</h4>
+						</a>
+					</li>
+					<hr>
+					<li> JULY 9, 2020</li>
+					<li>
+						<a href=# onclick="myFunction(this)" id="8">
+							<h4>June 2020</h4>
+						</a>
+					</li>
+					<hr>
+					<li> JUNE 9, 2020</li>
+					<li>
+						<a href=# onclick="myFunction(this)" id="9">
+							<h4>May 2020</h4>
+						</a>
+					</li>
+					<hr>
+					<li> MAY 11, 2020</li>
+					<li>
+						<a href=# onclick="myFunction(this)" id="10">
+							<h4>April 2020</h4>
+						</a>
+					</li>
+					<hr>
+					<li> APRIL 22, 2020</li>
+					<li>
+						<a href=# onclick="myFunction(this)" id="11">
+							<h4>March 2020</h4>
 						</a>
 					</li>
 					<hr>
