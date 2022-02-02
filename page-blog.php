@@ -127,6 +127,7 @@
 			</div>
 		</div>
 	</section>
+	<img src=""  alt="">
 	<!-- <section class="bg-img-right-top bg-img-cover bg-img-no-repeat" data-tm-bg-img="images/bg/bg1.png">
 		<div class="section-content mt-lg--0 pt-lg--0" data-tm-margin-top="-183" data-tm-padding-top="184">
 			<div class="container">
@@ -260,7 +261,7 @@
 					});
 					data1 += `<div class="card" id=${values.blog_id}>
 						<div class="card-image">
-						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} alt="Image" class="w-100">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
@@ -307,7 +308,7 @@
 				// console.log("co = ", currentUser)
 				data1 += `<div class="card" id=${values.blog_id}>
 						<div class="card-image">
-						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} alt="Image" class="w-100">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						<h6>Activity : ${values.blog_title}</h6>
