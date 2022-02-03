@@ -127,88 +127,7 @@
 			</div>
 		</div>
 	</section>
-	<img src=""  alt="">
-	<!-- <section class="bg-img-right-top bg-img-cover bg-img-no-repeat" data-tm-bg-img="images/bg/bg1.png">
-		<div class="section-content mt-lg--0 pt-lg--0" data-tm-margin-top="-183" data-tm-padding-top="184">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-lg-4">
-						<div class="blog-current-style1 mb-lg-30">
-							<article class="post">
-								<div class="entry-header">
-									<div class="post-thumb">
-										<div class="post-thumb-inner">
-											<div class="thumb">
-												<img class="w-100" src="images/blog/2c.jpg" alt="Image" />
-											</div>
-											<div class="meta-date">26 Feb</div>
-										</div>
-									</div>
-								</div>
-								<div class="entry-content">
-									<h6 class="entry-title mt-0">
-										<a href="news-details.html">A Little Thing Called Positive Thinking : Puja Kumari, Lady Shri Ram College for Women, Bhagalpur, INDIA.</a>
-									</h6>
-									<div class="post-btn-readmore">
-										<a href="page-blog-details.php" class="btn btn-plain-text-with-arrow">Read More</a>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="blog-current-style1 mb-lg-30">
-							<article class="post">
-								<div class="entry-header">
-									<div class="post-thumb">
-										<div class="post-thumb-inner">
-											<div class="thumb">
-												<img class="w-100" src="images/blog/2.jpg" alt="Image" />
-											</div>
-											<div class="meta-date">26 Feb</div>
-										</div>
-									</div>
-								</div>
-								<div class="entry-content">
-									<h6 class="entry-title mt-0">
-										<a href="news-details.html">What's The Big Deal About Being Immature ? : Namrata Khandelwal, Shri Shikshayatan College, Kolkata, INDIA.</a>
-									</h6>
-									<div class="post-btn-readmore">
-										<a href="news-details.html" class="btn btn-plain-text-with-arrow">Read More</a>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="blog-current-style1 mb-lg-30">
-							<article class="post">
-								<div class="entry-header">
-									<div class="post-thumb">
-										<div class="post-thumb-inner">
-											<div class="thumb">
-												<img class="w-100" src="images/blog/2.jpg" alt="Image" />
-											</div>
-
-											<div class="meta-date">26 Feb</div>
-										</div>
-									</div>
-								</div>
-								<div class="entry-content">
-									<h6 class="entry-title mt-0">
-										<a href="news-details.html">How To Become A Better Version of Yourself : Pratik Kadel, The Bhawanipur Education Society College, Kolkata, INDIA.</a>
-									</h6>
-									<div class="post-btn-readmore">
-										<a href="news-details.html" class="btn btn-plain-text-with-arrow">Read More</a>
-									</div>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
+	<img src="" alt="">
 	<div class="container1">
 		<!-- Start of Preloader -->
 		<div class="preloader-floating-circles">
@@ -267,7 +186,7 @@
 						// <h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
 						<p>${values.creator}</p>
 						<h6>${values.blog_title}</h6>
-						<h6><a href="activity-details.php?id=${values.blog_id}"> Read more</a></h6>
+						<h6><a href="page-blog-details.php?id=${values.blog_id}"> Read more</a></h6>
 					</div>
 				</div>`
 
@@ -313,7 +232,7 @@
 					<div class="card-info">
 						<h6>${values.blog_title}</h6>
 						<p>${values.creator}</p>
-						<h6><a href="activity-details.php?id=${values.blog_id}"> Read more</a></h6>
+						<h6><a href="page-blog-details.php?id=${values.blog_id}"> Read more</a></h6>
 					</div>
 				</div>`
 
