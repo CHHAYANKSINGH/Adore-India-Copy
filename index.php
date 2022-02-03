@@ -271,8 +271,8 @@
           </div>
           <div class="col-lg-8">
             <div class="causes-carousel-current-style1">
-              <div class="tm-owl-carousel-2col owl-carousel owl-theme" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true">
-                <div class="item">
+              <div class="tm-owl-carousel-2col owl-carousel owl-theme" id="blog" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true">
+                <!-- <div class="item">
                   <div class="causes-item-current-style1">
                     <div class="causes-item">
                       <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
@@ -356,7 +356,93 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
+                <script>
+                  // check if products are present in localstorage if not then fetch and set
+                  if (localStorage.getItem("blog") === null) {
+                    fetch("https://api.adoreearth.org/blog/").then((res) => {
+                      return res.json();
+                      // set this res.json in local storage
+                    }).then((data) => {
+                      // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
+                      data = _.orderBy(data, ['timestamp'], ['desc']);
+                      localStorage.setItem('blog', JSON.stringify(data));
+                      var users = JSON.parse(localStorage.getItem('users'));
+                      let currentUser = {};
+                      let data1 = "";
+                      try {
+                        data.map((values) => {
+                          currentUser = _.find(users, u => {
+                            return u.u_id == values.u_id
+                          });
+                          data1 += `<div class="item">
+                                      <div class="causes-item-current-style1">
+                                        <div class="causes-item">
+                                          <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
+                                            <img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100" style="height:320px" />
+                                          </div>
+                                          <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
+                                            <h5 class="causes-title mt-0 mb-20">
+                                              <a href="page-campaign-details.html">${values.blog_title}</a>
+                                            </h5>
+                                            <div class="post-btn-readmore">
+                                              <a href="page-blog-details.php?id=${values.blog_id}" class="btn btn-plain-text-with-arrow">Read More</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>`
+
+                        });
+
+                      } catch (err) {
+                        console.log(currentUser, err);
+                      }
+                      document.getElementById("blog").innerHTML = data1;
+                      console.log(data);
+                    }).catch((error) => {
+                      console.log(error);
+                    });
+                  } else {
+                    // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
+                    localStorage.getItem('blog')
+                    data = JSON.parse(localStorage.getItem('blog'));
+                    // var users = JSON.parse(localStorage.getItem('users'));
+                    // let currentUser = {};
+                    let data1 = "";
+                    try {
+                      console.log(data);
+                      data.map((values) => {
+                        // currentUser = _.find(users, u => {
+                        // 	return u.u_id == values.u_id
+                        // });
+                        // console.log("co = ", currentUser)
+                        data1 += `<div class="item">
+                                    <div class="causes-item-current-style1">
+                                      <div class="causes-item">
+                                        <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
+                                          <img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'"  alt="Image" class="w-100" style="height:320px" />
+                                        </div>
+                                        <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
+                                          <h5 class="causes-title mt-0 mb-20">
+                                            <a href="page-campaign-details.html">${values.blog_title}</a>
+                                          </h5>
+                                          <div class="post-btn-readmore">
+                                            <a href="page-blog-details.php?id=${values.blog_id}" class="btn btn-plain-text-with-arrow">Read More</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>`
+
+                      });
+                    } catch (err) {
+                      console.log(err);
+                    }
+                    document.getElementById("blog").innerHTML = data1;
+                    console.log(data);
+                  }
+                </script>
               </div>
             </div>
           </div>
@@ -717,17 +803,18 @@
           if (setupTime == null) {
             localStorage.setItem('setupTime', now)
           } else {
-          if(now-setupTime > hours*60*60*1000) {
-          localStorage.clear()
-          localStorage.setItem('setupTime', now);
-        }
-      }
+            if (now - setupTime > hours * 60 * 60 * 1000) {
+              localStorage.clear()
+              localStorage.setItem('setupTime', now);
+            }
+          }
           // check if products are present in localstorage if not then fetch and set
           if (localStorage.getItem("webinars") === null) {
             fetch("https://api.adoreearth.org/webinars/").then((res) => {
               return res.json();
               // set this res.json in local storage
             }).then((data) => {
+              console.log(data)
               // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
               data = _.orderBy(data, ['webinars_date'], ['desc']);
               localStorage.setItem('webinars', JSON.stringify(data));
@@ -778,11 +865,11 @@
             localStorage.getItem('webinars')
             data = JSON.parse(localStorage.getItem('webinars'));
             let data1 = "";
-                try {
-                data.map((values) => {
-                  currentwebinar = _.find(setupTime, webinars => {
-                    return setupTime >= values.webinars_id
-                  });
+            try {
+              data.map((values) => {
+                currentwebinar = _.find(setupTime, webinars => {
+                  return setupTime >= values.webinars_id
+                });
                 data1 += `<div class="col-md-6 col-lg-4" id="${currentwebinar.webinars_id}">
                             <div class="blog-current-style1 mb-lg-30">
                               <article class="post">
