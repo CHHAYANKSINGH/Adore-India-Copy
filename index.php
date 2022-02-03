@@ -691,7 +691,7 @@
               <div class="tm-gallery-inner">
                 <div class="thumb">
                   <a href="#">
-                    <img class="w-100" src="images/gallery/01.jpg" alt="Image" />
+                    <img class="w-100" src="images/gallery/1c.jpg" height="720" alt="Image" />
                   </a>
                 </div>
               </div>
@@ -705,7 +705,7 @@
               <div class="tm-gallery-inner">
                 <div class="thumb">
                   <a href="#">
-                    <img class="w-100" src="images/gallery/02.jpg" alt="Image" />
+                    <img class="w-100" src="images/gallery/2d.jpg" height="720" alt="Image" />
                   </a>
                 </div>
               </div>
@@ -719,7 +719,7 @@
               <div class="tm-gallery-inner">
                 <div class="thumb">
                   <a href="#">
-                    <img class="w-100" src="images/gallery/03.jpg" alt="Image" />
+                    <img class="w-100" src="images/gallery/3b.jpg" height="720" alt="Image" />
                   </a>
                 </div>
               </div>
@@ -733,7 +733,7 @@
               <div class="tm-gallery-inner">
                 <div class="thumb">
                   <a href="#">
-                    <img class="w-100" src="images/gallery/04.jpg" alt="Image" />
+                    <img class="w-100" src="images/gallery/4c.jpg" height="720" alt="Image" />
                   </a>
                 </div>
               </div>
