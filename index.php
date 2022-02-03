@@ -655,14 +655,10 @@
                   $mailchimpform.children(".alert").remove();
                   if (resp.result === "success") {
                     $response =
-                      '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
-                      resp.msg +
-                      "</div>";
+                      '<div class="alert alert-success">' + resp.msg + '<i class="far fa-check-circle mr-10 text-theme-colored1"></div>';
                   } else if (resp.result === "error") {
                     $response =
-                      '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
-                      resp.msg +
-                      "</div>";
+                      '<div class="alert alert-danger">' + resp.msg + '<i class="far fa-times-circle mr-10 text-theme-colored1"></div>';
                   }
                   $mailchimpform.prepend($response);
                 }
