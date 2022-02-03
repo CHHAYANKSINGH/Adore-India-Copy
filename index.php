@@ -562,48 +562,44 @@
         <div class="col-lg-4">
           <div class="testimonial-item mb-md-150">
             <div class="author-text mb-30">
-              I was very impresed by the kologi service lorem ipsum is
-              simply free text used by copytyping refreshing. Neque
-              porro est qui dolorem ipsum quia.
+            ADORE made me experience possibly the very best as I got really corporating team and mentor with so much of ideas and knowledge to share with. It's the best platform for who genuinely wants to learn. I am so so impressed that what a remarkable company ADORE is. Thankyou so much for considering a part of team here.
             </div>
             <div class="author-info clearfix">
-              <h5 class="name mt-0 mb-0">Mike Hardson</h5>
-              <span class="job-position">Donater</span>
+              <h5 class="name mt-0 mb-0">Simran Mohanty</h5>
+              <span class="job-position">Social Media Manager</span>
             </div>
             <div class="author-thumb">
-              <img src="images/testimonials/1.jpg" alt="Image" />
+              <img src="images/team/team5.jpg" alt="Image" style="width:60px;height:60px;" />
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mb-md-150">
             <div class="author-text mb-30">
-              I was very impresed by the kologi service lorem ipsum is
-              simply free text used by copytyping refreshing. Neque
-              porro est qui dolorem ipsum quia.
+            Working in Adore exceeded my expectations, for here the learning is never ending, and the growth is limitless, Also got connected with so many influential personalities because of the webinars and workshops. I am grateful to this platform for believing me and trusting me with the task of leading the team in Adore.
             </div>
             <div class="author-info clearfix">
-              <h5 class="name mt-0 mb-0">Nike Hardson</h5>
-              <span class="job-position">Donater</span>
+              <h5 class="name mt-0 mb-0">Garima Mishra</h5>
+              <span class="job-position">Young Leader and E-sessions Trainee</span>
             </div>
             <div class="author-thumb">
-              <img src="images/testimonials/2.jpg" alt="Image" />
+              <img src="images/team/team4.jpg" alt="Image" style="width:60px;height:60px;"/>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item">
             <div class="author-text mb-30">
-              I was very impresed by the kologi service lorem ipsum is
-              simply free text used by copytyping refreshing. Neque
-              porro est qui dolorem ipsum quia.
+            I have been working in ADORE as Management Trainee. I would like to say,
+its a vast platform to skilled up and enhance knowledge and experience in every domain, and really its been a great experience working here, learned so many things hoping to gain much more. Thankyou so much for considering a part of team here.
+
             </div>
             <div class="author-info clearfix">
-              <h5 class="name mt-0 mb-0">Rike Hardson</h5>
-              <span class="job-position">Donater</span>
+              <h5 class="name mt-0 mb-0">Megha Singha</h5>
+              <span class="job-position">Management Trainee</span>
             </div>
             <div class="author-thumb">
-              <img src="images/testimonials/3.jpg" alt="Image" />
+              <img src="images/team/team7.jpg" alt="Image" style="width:60px;height:60px;"/>
             </div>
           </div>
         </div>
