@@ -115,7 +115,7 @@
           <div class="col-lg-6 col-xl-3 col-md-6">
             <div class="team-item mb-30" style="height:500px;">
               <div class="team-thumb">
-                <img class="w-100" style="height:245px;" src="images/team/team7.jpg" alt="">
+                <img class="w-100" style="height:240px;" src="images/team/team7.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">

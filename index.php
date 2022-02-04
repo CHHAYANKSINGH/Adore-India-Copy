@@ -125,7 +125,7 @@
           <div class="col-lg-6">
             <div class="about-image-layer1 rs-about-image-layer1">
               <div class="about-thumb">
-                <img style="max-height:450px;" src="images/4.png" alt="Image" />
+                <img style="max-height:450px;filter:brightness(0.6)" src="images/4.png" alt="Image" />
               </div>
             </div>
           </div>
@@ -143,7 +143,6 @@
                   </p>
                 </div>
               </div>
-              <a href="page-about.html" style="border-radius:5px;" class="btn btn-lg btn-theme-colored1 btn-flat">know More</a>
             </div>
           </div>
         </div>
@@ -566,7 +565,7 @@
             </div>
             <div class="author-info clearfix">
               <h5 class="name mt-0 mb-0">Simran Mohanty</h5>
-              <span class="job-position">Social Media Manager</span>
+              <span class="job-position">volunteer</span>
             </div>
             <div class="author-thumb">
               <img src="images/team/team5.jpg" alt="Image" style="width:60px;height:60px;" />
@@ -580,7 +579,7 @@
             </div>
             <div class="author-info clearfix">
               <h5 class="name mt-0 mb-0">Garima Mishra</h5>
-              <span class="job-position">Young Leader and E-sessions Trainee</span>
+              <span class="job-position">volunteer</span>
             </div>
             <div class="author-thumb">
               <img src="images/team/team4.jpg" alt="Image" style="width:60px;height:60px;"/>
@@ -596,7 +595,7 @@ its a vast platform to skilled up and enhance knowledge and experience in every 
             </div>
             <div class="author-info clearfix">
               <h5 class="name mt-0 mb-0">Megha Singha</h5>
-              <span class="job-position">Management Trainee</span>
+              <span class="job-position">volunteer</span>
             </div>
             <div class="author-thumb">
               <img src="images/team/team7.jpg" alt="Image" style="width:60px;height:60px;"/>
@@ -792,6 +791,17 @@ its a vast platform to skilled up and enhance knowledge and experience in every 
           var hours = 24; // to clear the localStorage after 1 hour(if someone want to clear after 8hrs simply change hours=8)
           var now = new Date().getTime();
           var setupTime = localStorage.getItem('setupTime');
+          var setupDate = localStorage.getItem('setupDate');
+          var today = new Date();
+          var dd = String(today.getDate()).padStart(2, '0');
+          var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+          var yyyy = today.getFullYear();
+
+          today = yyyy + '-' + mm + '-' + dd;
+          console.log(today);
+          if (setupTime == null) {
+            localStorage.setItem('setupDate', today)
+          }
           if (setupTime == null) {
             localStorage.setItem('setupTime', now)
           } else {
@@ -815,8 +825,8 @@ its a vast platform to skilled up and enhance knowledge and experience in every 
 
               try {
                 data.map((values) => {
-                  currentwebinar = _.find(setupTime, webinars => {
-                    return setupTime <= values.webinars_id
+                  currentwebinar = _.find(data ,setupDate => {
+                    return setupDate >= values.webinars_date
                   });
                   data1 += `<div class="col-md-6 col-lg-4" id="${currentwebinar.webinars_id}">
                               <div class="blog-current-style1 mb-lg-30">
@@ -859,8 +869,8 @@ its a vast platform to skilled up and enhance knowledge and experience in every 
             let data1 = "";
             try {
               data.map((values) => {
-                currentwebinar = _.find(setupTime, webinars => {
-                  return setupTime >= values.webinars_id
+                currentwebinar = _.find(data ,setupDate=> {
+                  return setupDate >= values.webinars_date
                 });
                 data1 += `<div class="col-md-6 col-lg-4" id="${currentwebinar.webinars_id}">
                             <div class="blog-current-style1 mb-lg-30">

@@ -90,14 +90,22 @@
                             <div class="icon">
                                 <i class="flaticon-contact-037-address"></i>
                             </div>
-                            <div class="text">Adore Earth</div>
+                            <div class="text">Adore</div>
                         </li>
                         <li class="contact-phone">
                             <div class="icon">
                                 <i class="flaticon-contact-042-phone-1"></i>
                             </div>
                             <div class="text">
-                                <a href="tel:+917223859729">+91 79804 60134</a>
+                                <a href="tel:+917980460134">+91 79804 60134</a>
+                            </div>
+                        </li>
+                        <li class="contact-phone">
+                            <div class="icon">
+                                <i class="fab fa-whatsapp" style="color:#99aadc;"></i>
+                            </div>
+                            <div class="text">
+                                <a href="https://wa.me/+917223859729">+91 79804 60134</a>
                             </div>
                         </li>
                         <li class="contact-email">
@@ -106,14 +114,6 @@
                             </div>
                             <div class="text">
                                 <a href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
-                            </div>
-                        </li>
-                        <li class="contact-address">
-                            <div class="icon">
-                                <i class="flaticon-contact-047-location"></i>
-                            </div>
-                            <div class="text">
-                                Kolkata, West Bengal 700046
                             </div>
                         </li>
                     </ul>
