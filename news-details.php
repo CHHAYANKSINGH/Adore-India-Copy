@@ -45,70 +45,70 @@
 					<hr>
 					<li>JANUARY 12, 2021</li>
 					<li>
-						<a href=#>
+						<a href=# onclick="myFunction(this)" id="3">
 							<h4>December 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li>DECEMBER 10, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="3">
+						<a href=# onclick="myFunction(this)" id="4">
 							<h4>November 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> NOVEMBER 1, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="4">
+						<a href=# onclick="myFunction(this)" id="5">
 							<h4>October 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> OCTOBER 1, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="5">
+						<a href=# onclick="myFunction(this)" id="6">
 							<h4>Spetember 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> SEPTEMBER 17, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="6">
+						<a href=# onclick="myFunction(this)" id="7">
 							<h4>August 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> AUGUST 8, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="7">
+						<a href=# onclick="myFunction(this)" id="8">
 							<h4>July 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> JULY 9, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="8">
+						<a href=# onclick="myFunction(this)" id="9">
 							<h4>June 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> JUNE 9, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="9">
+						<a href=# onclick="myFunction(this)" id="10">
 							<h4>May 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> MAY 11, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="10">
+						<a href=# onclick="myFunction(this)" id="11">
 							<h4>April 2020</h4>
 						</a>
 					</li>
 					<hr>
 					<li> APRIL 22, 2020</li>
 					<li>
-						<a href=# onclick="myFunction(this)" id="11">
+						<a href=# onclick="myFunction(this)" id="12">
 							<h4>March 2020</h4>
 						</a>
 					</li>
@@ -172,11 +172,23 @@
 		} else if (elem.id == 3) {
 			src = "https://adoreearth.org/public_data/global_youth_dec2020.pdf";
 		} else if (elem.id == 4) {
-			src = "https://adoreearth.org/public_data/global_youth_jan2021.pdf";
+			src = "https://adoreearth.org/public_data/global_youth_nov2020.pdf";
 		} else if (elem.id == 5) {
-			src = "https://adoreearth.org/public_data/global_youth_jan2021.pdf";
+			src = "https://adoreearth.org/public_data/global_youth_oct2020.pdf";
 		} else if (elem.id == 6) {
-			src = "https://adoreearth.org/public_data/global_youth_jan2021.pdf";
+			src = "https://adoreearth.org/public_data/global_youth_sep2020.pdf";
+		} else if (elem.id == 7) {
+			src = "https://adoreearth.org/public_data/global_youth_aug2020.pdf";
+		} else if (elem.id == 8) {
+			src = "https://adoreearth.org/public_data/global_youth_jul2020.pdf";
+		} else if (elem.id == 9) {
+			src = "https://adoreearth.org/public_data/global_youth_jun2020.pdf";
+		} else if (elem.id == 10) {
+			src = "https://adoreearth.org/public_data/global_youth_may2020.pdf";
+		} else if (elem.id == 11) {
+			src = "https://adoreearth.org/public_data/global_youth_apr2020.pdf";
+		} else if (elem.id == 12) {
+			src = "https://adoreearth.org/public_data/global_youth_mar2020.pdf";
 		} else {
 			src = "images/newsletter.png";
 		}
