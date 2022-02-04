@@ -1,4 +1,5 @@
-<footer id="footer" class="footer bg-img-center-bottom bg-img-cover" data-tm-bg-img="images/bg/bg03.jpg" style="filter:grayscale(50%);">
+<!-- <footer id="footer" class="footer bg-img-center-bottom bg-img-cover" data-tm-bg-img="images/bg/bg03.jpg"> -->
+<footer id="footer" class="footer bg-img-center-bottom bg-theme-colored1">
     <div class="footer-widget-area pt-120">
         <div class="container pb-40">
             <div class="row">
@@ -42,13 +43,13 @@
                         <h4 class="widget-title">Links</h4>
                         <div class="menu-footer-page-list">
                             <ul id="footer-page-list" class="menu">
-                                <li><a href="index-mp-layout1.html">Home</a></li>
-                                <li><a href="index-mp-layout1.html">Contact Us</a></li>
-                                <li><a href="index-mp-layout1.html">About us</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">About us</a></li>
                                 <li>
-                                    <a href="index-mp-layout1.html">our programs</a>
+                                    <a href="#">Our programs</a>
                                 </li>
-                                <li><a href="index-mp-layout1.html">our activities</a></li>
+                                <li><a href="Activities.php">Our activities</a></li>
                             </ul>
                         </div>
                     </div>
@@ -91,9 +92,9 @@
                         <!-- Mailchimp Subscription Form-->
                         <form id="mailchimp-subscription-form10" class="newsletter-form cp-newsletter m-0 p-0">
                             <div class="input-group">
-                                <input type="email" id="mce-EMAIL2" class="form-control font-size-13 border-radius-0" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="#272f2a" data-tm-height="81px" />
+                                <input type="email" id="mce-EMAIL2" class="form-control font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="#1974a8" data-tm-height="81px" />
                                 <div class="input-group-append tm-sc tm-sc-button">
-                                    <button type="submit" class="btn text-theme-colored1 btn-sm btn-flat border-0 box-shadow-none font-size-13" data-tm-bg-color="#272f2a" data-tm-height="81px">
+                                    <button type="submit" class="btn text-theme-colored1 btn-sm btn-flat border-0 box-shadow-none font-size-13" data-tm-bg-color="#085682" data-tm-height="81px">
                                         <i class="fa fa-arrow-right"></i>
                                     </button>
                                 </div>
