@@ -150,7 +150,6 @@
                                                     <li>
                                                         <a href="page-team-details.php">Team Details</a>
                                                     </li>
-                                                    <li><a href="page-gallery.php">Gallery</a></li>
                                                 </ul>
                                             </li>
                                             <li>
