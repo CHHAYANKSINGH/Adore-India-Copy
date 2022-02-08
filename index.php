@@ -31,9 +31,9 @@
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-2-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
+                  <rs-layer id="slider-2-slide-2-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;width:148px;height:60px;" class="btn btn-theme-colored1 btn-flat">Know More</a>
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
+                  <rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;width:148px;height:60px;" class="btn btn-theme-colored2 btn-flat">Contact Us</a>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-2-layer-0" data-type="shape" data-rsp_ch="on" data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;" data-basealign="slide" data-frame_999="o:0;st:w;sR:8700;" style="
                             z-index: 8;
@@ -51,9 +51,9 @@
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
+                  <rs-layer id="slider-2-slide-11-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;width:148px;height:60px;" class="btn btn-theme-colored1 btn-flat">Know More</a>
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
+                  <rs-layer id="slider-2-slide-11-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;width:148px;height:60px;" class="btn btn-theme-colored2 btn-flat">Contact Us</a>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-11-layer-0" data-type="shape" data-rsp_ch="on" data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;" data-basealign="slide" data-frame_999="o:0;st:w;sR:8700;" style="
                             z-index: 8;
@@ -71,9 +71,9 @@
                     <span class="text-theme-colored2">nature </span>
                     to all
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-12-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;" class="btn btn-theme-colored1 btn-lg btn-flat">know More</a>
+                  <rs-layer id="slider-2-slide-12-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="page-about.html" style="border-radius:5px;width:148px;height:60px;" class="btn btn-theme-colored1 btn-flat">Know More</a>
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-12-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;" class="btn btn-theme-colored2 btn-lg btn-flat">Contact Us</a>
+                  <rs-layer id="slider-2-slide-12-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,100px,110px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;" data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9" class="font-current-theme1"><a href="page-contact.html" style="border-radius:5px;width:148px;height:60px;" class="btn btn-theme-colored2 btn-flat">Contact Us</a>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-12-layer-0" data-type="shape" data-rsp_ch="on" data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;" data-basealign="slide" data-frame_999="o:0;st:w;sR:8700;" style="
                             z-index: 8;
@@ -161,7 +161,7 @@
     <div class="container">
       <div class="tm-sc-section-title section-title text-center mb-50">
         <div class="row">
-          <div class="col-lg-6 m-auto">
+          <div class="col-lg-12 m-auto">
             <div class="title-wrapper mb-0">
               <h2 class="title">What We Do</h2>
               <p class="paragraph mb-0">
@@ -464,11 +464,11 @@
           GET IN TOUCH NOW
         </h2>
         <h4 style="color: white; margin-bottom: 60px">
-          Come, join hands with us in full-filling our social
+          Come, join hands with us in fulfilling our social
           responsibility and spreading smiles. Email:
           <a href="mailto:contact@adoreearth.org">contact@adoreearth.org<a />
         </h4>
-        <a href="news-details.html" style="border-radius:6px;" class="btn btn-lg btn-theme-colored2 btn-flat">Contact Us</a>
+        <a href="page-contact.php" style="border-radius:5px;width:148px;height:60px;" class="btn btn-theme-colored2 btn-flat">Contact Us</a>
       </div>
     </div>
   </div>
