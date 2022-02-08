@@ -132,17 +132,17 @@
 		</section>
 		<div class="container1">
 			<!-- Start of Preloader -->
-<div class="preloader-floating-circles">
-	<div class="f_circleG" id="frotateG_01"></div>
-	<div class="f_circleG" id="frotateG_02"></div>
-	<div class="f_circleG" id="frotateG_03"></div>
-	<div class="f_circleG" id="frotateG_04"></div>
-	<div class="f_circleG" id="frotateG_05"></div>
-	<div class="f_circleG" id="frotateG_06"></div>
-	<div class="f_circleG" id="frotateG_07"></div>
-	<div class="f_circleG" id="frotateG_08"></div>
-</div>
-  <!-- End of Preloader -->
+			<div class="preloader-floating-circles">
+				<div class="f_circleG" id="frotateG_01"></div>
+				<div class="f_circleG" id="frotateG_02"></div>
+				<div class="f_circleG" id="frotateG_03"></div>
+				<div class="f_circleG" id="frotateG_04"></div>
+				<div class="f_circleG" id="frotateG_05"></div>
+				<div class="f_circleG" id="frotateG_06"></div>
+				<div class="f_circleG" id="frotateG_07"></div>
+				<div class="f_circleG" id="frotateG_08"></div>
+			</div>
+			<!-- End of Preloader -->
 			<div class="card-content" id="cards" style="display: none">
 
 			</div>
@@ -176,7 +176,7 @@
 					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
 				</div>`;
 
-			
+
 			try {
 				data.map((values) => {
 					currentUser = _.find(users, u => {
@@ -279,7 +279,7 @@
 
 	$(function() {
 		var numberOfdata = $(".card-content .card").length;
-		var limitPerPage = 8; //How many card data visible per a page
+		var limitPerPage = 16; //How many card data visible per a page
 		var totalPages = Math.ceil(numberOfdata / limitPerPage);
 		var paginationSize = 7; //How many page elements visible in the pagination
 		var currentPage;
