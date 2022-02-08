@@ -45,11 +45,11 @@
                             <ul id="footer-page-list" class="menu">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About Us</a></li>
                                 <li>
-                                    <a href="#">Our programs</a>
+                                    <a href="#">Our Programs</a>
                                 </li>
-                                <li><a href="Activities.php">Our activities</a></li>
+                                <li><a href="Activities.php">Our Activities</a></li>
                             </ul>
                         </div>
                     </div>
