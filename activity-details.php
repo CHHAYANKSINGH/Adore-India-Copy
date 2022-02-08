@@ -29,17 +29,17 @@
   <section>
     <div class="container" id="detail" align="center">
       <!-- Start of Preloader -->
-<div class="preloader-floating-circles">
-	<div class="f_circleG" id="frotateG_01"></div>
-	<div class="f_circleG" id="frotateG_02"></div>
-	<div class="f_circleG" id="frotateG_03"></div>
-	<div class="f_circleG" id="frotateG_04"></div>
-	<div class="f_circleG" id="frotateG_05"></div>
-	<div class="f_circleG" id="frotateG_06"></div>
-	<div class="f_circleG" id="frotateG_07"></div>
-	<div class="f_circleG" id="frotateG_08"></div>
-</div>
-  <!-- End of Preloader -->
+      <div class="preloader-floating-circles">
+        <div class="f_circleG" id="frotateG_01"></div>
+        <div class="f_circleG" id="frotateG_02"></div>
+        <div class="f_circleG" id="frotateG_03"></div>
+        <div class="f_circleG" id="frotateG_04"></div>
+        <div class="f_circleG" id="frotateG_05"></div>
+        <div class="f_circleG" id="frotateG_06"></div>
+        <div class="f_circleG" id="frotateG_07"></div>
+        <div class="f_circleG" id="frotateG_08"></div>
+      </div>
+      <!-- End of Preloader -->
     </div>
   </section>
   <!-- End Divider -->
@@ -74,7 +74,7 @@
         <div class="section-content">
         <div class="col-lg-9">
           <div class="img" >
-          <img alt="images" style="height:400px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} />
+          <img alt="images" style="height:400px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1}  onerror="this.onerror=null;this.src='images/JM1.png'"  />
           </div>
           <h2 style = "margin-top:40px;"><a href = "User.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a></h2>
 					<p>${currentUser.city}</p>
