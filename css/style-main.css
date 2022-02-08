@@ -26129,7 +26129,13 @@ section .container-fluid {
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0;
-  
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
 }
 
 .btn-lg {
