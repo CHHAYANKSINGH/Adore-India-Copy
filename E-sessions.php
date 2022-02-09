@@ -1,47 +1,40 @@
 <?php include "layouts/header.php"; ?>
 <!-- Start main-content -->
 <style>
-    *
-    {
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 
-    body
-    {
-      background-color: #0073aa;
-      
-    }
+  body {
+    background-color: #0073aa;
 
-    section
-    {
-      display: flex;
-    }
+  }
 
-    .sec
-    {
-      background-color: #fff;
-      margin-left:25px;
-      margin-right:25px;
-      margin-top:25px;
-      margin-bottom:25px;
-      padding: 80px;
-    }
+  section {
+    display: flex;
+  }
+
+  .sec {
+    background-color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 80px;
+  }
 
 
-    .par
-    {
-      padding: 30px;
-    }
+  .par {
+    padding: 30px;
+  }
 
 
-    img
-    {
-      background: cover;
-    }
-
+  img {
+    background: cover;
+  }
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -53,7 +46,7 @@
             <h2 class="title">E-sessions</h2>
             <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
               <div class="breadcrumbs">
-                <span><a href="#" rel="home">Home</a></span>
+                <span><a href="index.php" rel="home">Home</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
                 <span><a href="#">Pages</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
@@ -68,19 +61,19 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-    <section>
-        <div class="sec col-lg-8">
-            <h2 style="margin: 0; padding-bottom:10px;">E-<span style="color:#24a8e6;">Sessions</span></h2>
-            <h6><span style="font-weight: 200;">Interaction and facilitation are two of the most important skills to conduct education and outreach sessions on various significant issues. Adore volunteers connect with children at schools and children’s homes to conduct interactive sessions on matters that they usually find difficult to understand or discuss with their parents and teachers. The interactions cater to learning outcomes in students at a knowledge-based, emotion-based and action-based level. The idea is to engage all students during the interactions and not just the extrovert few.
+  <section>
+    <div class="sec col-lg-8">
+      <h2 style="margin: 0; padding-bottom:10px;">E-<span style="color:#24a8e6;">Sessions</span></h2>
+      <h6><span style="font-weight: 200;">Interaction and facilitation are two of the most important skills to conduct education and outreach sessions on various significant issues. Adore volunteers connect with children at schools and children’s homes to conduct interactive sessions on matters that they usually find difficult to understand or discuss with their parents and teachers. The interactions cater to learning outcomes in students at a knowledge-based, emotion-based and action-based level. The idea is to engage all students during the interactions and not just the extrovert few.
 
-            <h6><span style="font-weight: 200;">These sessions are around various important topics like</span> Child Safety, How to Overcome Fear, General Awareness, Public Speaking Sessions, Career Choice, Managing Peer Pressure, Health and Hygiene, Respecting Elders, Teenage Issues, Personality Development and many more.</h6>
-            We familiarize the students with some of the crucial topics by discussing and enticing them with engaging and challenging discussion questions which creates essential classroom learning opportunities.
-            </span></h6>
-        </div>
-        <div class="col-lg-3">
+          <h6><span style="font-weight: 200;">These sessions are around various important topics like</span> Child Safety, How to Overcome Fear, General Awareness, Public Speaking Sessions, Career Choice, Managing Peer Pressure, Health and Hygiene, Respecting Elders, Teenage Issues, Personality Development and many more.</h6>
+          We familiarize the students with some of the crucial topics by discussing and enticing them with engaging and challenging discussion questions which creates essential classroom learning opportunities.
+        </span></h6>
+    </div>
+    <div class="col-lg-3">
 
-        </div>
-    </section>
+    </div>
+  </section>
   <!-- End Divider -->
 </div>
 <!-- end main-content -->

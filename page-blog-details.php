@@ -100,21 +100,29 @@
 <!-- JS | Custom script for all pages -->
 <script>
   var id = window.location.search.substr(4)
-  fetch("https://api.adoreearth.org/blog/?bkey=" + id).then((res) => {
-    return res.json();
-  }).then((data) => {
-    console.log(data);
-    // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
-    var users = JSON.parse(localStorage.getItem('users'));
-    let currentUser = {};
-    let data1 = "";
-    try {
-      data.map((values) => {
-        currentUser = _.find(users, u => {
-          return u.u_id == values.u_id
-        });
-
-        data1 = `
+  localStorage.getItem('blog')
+  data = JSON.parse(localStorage.getItem('blog'));
+  console.log(data);
+  var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://api.adoreearth.org/blog/",
+    "method": "GET"
+  }
+  $.ajax(settings).done(function(response) {
+    console.log(response.blog);
+  })
+  // function getItemById(blog, id) {
+  //   var ret = data.filter(function(blog) {
+  //     return blog.blog_id === id;
+  //   });
+  //   return ret[0];
+  // }
+  // console.log(getItemById(blog))
+  let data1 = "";
+  try {
+    data.map((values) => {
+      data1 = `
         <div class="entry-header mb-30">
                 <div class="post-thumb thumb"> <img src="${values.blog_image}" onerror="this.onerror=null;this.src='images/JM1.png' alt="images" class="img-responsive img-fullwidth"> </div>
                 <h3 class="mt-30">${values.blog_title}</h3>
@@ -126,15 +134,12 @@
               <div class="entry-content">
                 <h5>${values.blog_data}</h5>
               </div>`
-      });
-    } catch (err) {
-      console.log(currentUser, err);
-    }
+    });
+  } catch (err) {
+    console.log(err);
+  }
 
-    document.getElementById("detail").innerHTML = data1;
-  }).catch((error) => {
-    console.log(error);
-  });
+  document.getElementById("detail").innerHTML = data1;
 </script>
 <script src="js/custom.js"></script>
 

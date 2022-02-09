@@ -12,7 +12,7 @@
             <nav role="navigation" class="breadcrumb-trail breadcrumbs">
               <div class="breadcrumbs">
                 <span class="trail-item trail-begin">
-                  <a href="#"><span>Home</span></a>
+                  <a href="index.php"><span>Home</span></a>
                 </span>
                 <span><i class="fa fa-angle-right"></i></span>
                 <span class="trail-item"><a href="#"><span>Pages</span></a></span>

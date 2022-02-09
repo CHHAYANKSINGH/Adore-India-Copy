@@ -10,7 +10,7 @@
             <h2 class="title">Contact</h2>
             <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
               <div class="breadcrumbs">
-                <span><a href="#" rel="home">Home</a></span>
+                <span><a href="index.php" rel="home">Home</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
                 <span><a href="#">Pages</a></span>
                 <span><i class="fa fa-angle-right"></i></span>

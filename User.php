@@ -32,7 +32,7 @@
             <h2 class="title">Users</h2>
             <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
               <div class="breadcrumbs">
-                <span><a href="#" rel="home">Home</a></span>
+                <span><a href="index.php" rel="home">Home</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
                 <span><a href="#">Pages</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
@@ -48,20 +48,20 @@
 
   <!-- Section: User -->
   <section>
-    
+
     <div class="sec" id="user">
       <!-- Start of Preloader -->
-<div class="preloader-floating-circles">
-	<div class="f_circleG" id="frotateG_01"></div>
-	<div class="f_circleG" id="frotateG_02"></div>
-	<div class="f_circleG" id="frotateG_03"></div>
-	<div class="f_circleG" id="frotateG_04"></div>
-	<div class="f_circleG" id="frotateG_05"></div>
-	<div class="f_circleG" id="frotateG_06"></div>
-	<div class="f_circleG" id="frotateG_07"></div>
-	<div class="f_circleG" id="frotateG_08"></div>
-</div>
-  <!-- End of Preloader -->
+      <div class="preloader-floating-circles">
+        <div class="f_circleG" id="frotateG_01"></div>
+        <div class="f_circleG" id="frotateG_02"></div>
+        <div class="f_circleG" id="frotateG_03"></div>
+        <div class="f_circleG" id="frotateG_04"></div>
+        <div class="f_circleG" id="frotateG_05"></div>
+        <div class="f_circleG" id="frotateG_06"></div>
+        <div class="f_circleG" id="frotateG_07"></div>
+        <div class="f_circleG" id="frotateG_08"></div>
+      </div>
+      <!-- End of Preloader -->
     </div>
   </section>
   <!-- End Divider -->
@@ -78,7 +78,7 @@
 <!-- JS | Custom script for all pages -->
 <script>
   var id = window.location.search.substr(4)
-  
+
   fetch("https://api.adoreearth.org/users/?ukey=" + id).then((res) => {
     return res.json();
   }).then((data) => {
@@ -127,11 +127,11 @@
               <td>${userActivities[i].name}</td>
             </tr>`
         }
-        
+
         data1 += `</tbody>
         </table>`
 
-        
+
       });
       // var loader = document.getElementsByClassName("preloader-floating-circles");
       // window.addEventListener("load", function(){
@@ -141,13 +141,12 @@
     } catch (err) {
       console.log(currentUser, err);
     }
-    
-    
+
+
     document.getElementById("user").innerHTML = data1;
   }).catch((error) => {
     console.log(error);
   });
-  
 </script>
 <script src="js/custom.js"></script>
 
