@@ -44,10 +44,10 @@
                         <div class="menu-footer-page-list">
                             <ul id="footer-page-list" class="menu">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="page-contact.php">Contact Us</a></li>
+                                <li><a href="page-team-grid.php">About Us</a></li>
                                 <li>
-                                    <a href="#">Our Programs</a>
+                                    <a href="webinar.php">Our Programs</a>
                                 </li>
                                 <li><a href="Activities.php">Our Activities</a></li>
                             </ul>
