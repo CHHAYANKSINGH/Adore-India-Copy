@@ -542,15 +542,14 @@
   <div class="container pb-0">
     <div class="tm-sc-section-title section-title text-center mb-50">
       <div class="row">
-        <div class="col-lg-5 m-auto">
+        <div class="col-lg-4 m-auto">
           <div class="title-wrapper mb-0">
             <div class="title-icon-img line-height-1">
               <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
             </div>
             <h2 class="title">What They Say</h2>
             <p class="paragraph mb-0">
-              Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse
-              suscipit sagitis leo sit.
+            While it is wise to learn from experience, it is wiser to learn from the experienced.
             </p>
           </div>
         </div>

@@ -1,17 +1,17 @@
 <!-- <footer id="footer" class="footer bg-img-center-bottom bg-img-cover" data-tm-bg-img="images/bg/bg03.jpg"> -->
-<footer id="footer" class="footer bg-img-center-bottom bg-theme-colored1">
+<footer id="footer" class="footer bg-img-center-bottom bg-theme-colored3-darker5">
     <div class="footer-widget-area pt-120">
         <div class="container pb-40">
             <div class="row">
                 <div class="col-md-12 col-lg-3">
                     <div class="tm-widget-contact-info contact-info-style1" data-tm-margin-top="-22">
                         <div class="thumb" data-tm-margin-bottom="48">
-                            <img alt="Logo" width="200" src="images/ADORE.png" />
+                            <img alt="Logo" width="200" src="images/ADORE1.png" />
                         </div>
                         <ul class="mb-30">
                             <li class="contact-phone">
                                 <div class="icon">
-                                    <img src="images/icons/c1.png" alt="Icon" />
+                                    <img src="images/icons/ic1.png" alt="Icon" />
                                 </div>
                                 <div class="text">
                                     <a href="tel:+91.722.3859.729">+91 79804 60134</a>
@@ -20,7 +20,7 @@
                             </li>
                             <li class="contact-email">
                                 <div class="icon">
-                                    <img src="images/icons/c2.png" alt="Icon" />
+                                    <img src="images/icons/ic2.png" alt="Icon" />
                                 </div>
                                 <div class="text">
                                     <a href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
@@ -29,7 +29,7 @@
                             </li>
                             <li class="contact-address border-0">
                                 <div class="icon">
-                                    <img src="images/icons/c3.png" alt="Icon" />
+                                    <img src="images/icons/ic3.png" alt="Icon" />
                                 </div>
                                 <div class="text">
                                     <span class="font-size-15 text-white">Kolkata, West Bengal 700046</span><span>Visit us</span>
@@ -62,7 +62,7 @@
                                 <a class="post-thumb" href="#"><img src="images/POSI.jpg" alt="Image" /></a>
                                 <div class="post-right">
                                     <div class="post-date">
-                                        <span class="entry-date text-theme-colored2 pt-0 text-uppercase mb-10">Jan 22 - 2021</span>
+                                        <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">Jan 22 - 2021</span>
                                     </div>
                                     <p class="post-title m-0">
                                         <a href="#">A Little Thing Called Positive Thinking</a>
@@ -73,7 +73,7 @@
                                 <a class="post-thumb" href="#"><img src="images/JM1.png" alt="Image" /></a>
                                 <div class="post-right">
                                     <div class="post-date">
-                                        <span class="entry-date text-theme-colored2 pt-0 text-uppercase mb-10">Jan 22 - 2021</span>
+                                        <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">Jan 22 - 2021</span>
                                     </div>
                                     <p class="post-title m-0">
                                         <a href="#">How To Become A Better Version Of Yourself</a>
@@ -92,9 +92,9 @@
                         <!-- Mailchimp Subscription Form-->
                         <form id="mailchimp-subscription-form10" class="newsletter-form cp-newsletter m-0 p-0">
                             <div class="input-group">
-                                <input type="email" id="mce-EMAIL2" class="form-control font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="#1974a8" data-tm-height="81px" />
+                                <input type="email" id="mce-EMAIL2" class="form-control text-theme-colored1 font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="black" data-tm-height="81px" />
                                 <div class="input-group-append tm-sc tm-sc-button">
-                                    <button type="submit" class="btn text-theme-colored1 btn-sm btn-flat border-0 box-shadow-none font-size-13" data-tm-bg-color="#085682" data-tm-height="81px">
+                                    <button type="submit" class="btn text-theme-colored1 btn-sm btn-flat border-0 box-shadow-none font-size-13" data-tm-bg-color="black" data-tm-height="81px">
                                         <i class="fa fa-arrow-right"></i>
                                     </button>
                                 </div>
@@ -141,7 +141,7 @@
                     <div class="col-lg-12">
                         <div class="footer-bottom-style1">
                             <div class="footer-paragraph font-size-15">
-                                © Copyright Adoreearth.org /All rights reserved. / Privacy
+                                © Copyright Adoreearth.org /All rights reserved / Privacy
                             </div>
                             <div class="widget widget-social-list-custom clearfix mb-0">
                                 <ul class="styled-icons icon-theme-colored1">
