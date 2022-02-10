@@ -9,7 +9,7 @@
 
 
   body {
-    background-color: #0073aa;
+    background-color: #a4d4ff;
 
   }
 
@@ -65,7 +65,7 @@
     <div class="sec col-lg-8">
       <h2 style="margin: 0; padding-bottom:10px;">Global Youth Program For Social Exchange</h2>
       <h6><span style="font-weight: 200;">Self - awareness is key, but knowledge about other cultures is very beneficial for the youths to function effectively in this fast paced world. Through <span style="font-weight: 600;">GYPSE</span>, we would like to provide a platform to the youth to connect with youths across countries.</h6>
-      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;">Objective </h2>
+      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
       <ul style="color:black;">
         <li>To give a platform to the youths to interact with each other and impart information about different countries.</li>
         <li>Youths to gain cultural competence/knowledge to possess mutual respect.</li>

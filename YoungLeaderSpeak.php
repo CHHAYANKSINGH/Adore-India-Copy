@@ -9,7 +9,7 @@
 
 
   body {
-    background-color: #0073aa;
+    background-color: #a4d4ff;
 
   }
 

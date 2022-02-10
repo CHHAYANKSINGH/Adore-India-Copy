@@ -9,7 +9,7 @@
 
 
   body {
-    background-color: #0073aa;
+    background-color: #a4d4ff;
 
   }
 
@@ -64,7 +64,7 @@
   <section>
     <div class="sec col-lg-8">
       <h2 style="margin: 0; padding-bottom:10px;">Young <span style="color:#24a8e6;">Leaders</span></h2>
-      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;">Objective </h2>
+      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
       <h6><span style="font-weight: 200;">To motivate students to engage themselves in self-development and socially responsible activities. These activities also help them inculcate and develop: Confidence, Creativity, Social Responsibility, Public Speaking and other Soft Skills</span></h6>
       <h6 style="margin-top: 40px;">Some of the Young Leader Activities include :</h6>
       <div style="display: flex;">

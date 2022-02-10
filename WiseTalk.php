@@ -9,7 +9,7 @@
 
 
   body {
-    background-color: #0073aa;
+    background-color: #a4d4ff;
 
   }
 
@@ -67,7 +67,7 @@
       <h6><span style="font-weight: 200;">WiseTalk provides a platform to gather knowledge and experiences which can provide an immense help to the younger generations with the help of experience of senior citizens.
           Through these fun learning sessions, we interact and make new friends.
       </h6>
-      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;">Objective </h2>
+      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
       <ul style="color:black;">
         <li>To provide an opportunity for both to interact to each other and learn new skills</li>
         <li>To invigorate and energize senior citizens</li>
