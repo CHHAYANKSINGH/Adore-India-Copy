@@ -101,43 +101,29 @@
 <script>
   var id = window.location.search.substr(4)
   localStorage.getItem('blog')
-  data = JSON.parse(localStorage.getItem('blog'));
+  var data = JSON.parse(localStorage.getItem('blog'));
   console.log(data);
-  var settings = {
-    "async": true,
-    "crossDomain": true,
-    "url": "https://api.adoreearth.org/blog/",
-    "method": "GET"
+  for (let x in data) {
+    if (data[x].blog_id == id) {
+      var image = data[x].blog_image
+      var title = data[x].blog_title
+      var timestamp = data[x].blog_timestamp
+      var creator = data[x].creator
+      var content = data[x].blog_data
+    }
   }
-  $.ajax(settings).done(function(response) {
-    console.log(response.blog);
-  })
-  // function getItemById(blog, id) {
-  //   var ret = data.filter(function(blog) {
-  //     return blog.blog_id === id;
-  //   });
-  //   return ret[0];
-  // }
-  // console.log(getItemById(blog))
-  let data1 = "";
-  try {
-    data.map((values) => {
-      data1 = `
+  data1 = `
         <div class="entry-header mb-30">
-                <div class="post-thumb thumb"> <img src="${values.blog_image}" onerror="this.onerror=null;this.src='images/JM1.png' alt="images" class="img-responsive img-fullwidth"> </div>
-                <h3 class="mt-30">${values.blog_title}</h3>
+                <div class="post-thumb thumb"> <img src="${image}" onerror="this.onerror=null;this.src='images/JM1.png' alt="images" class="img-responsive img-fullwidth"> </div>
+                <h3 class="mt-30">${title}</h3>
                 <div class="entry-meta mt-0">
-                  <span class="mb-10 text-gray mr-10"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i>${values.blog_timestamp}</span>
-                  <span class="mb-10 text-gray mr-10"><i class="far fa-user mr-10 text-theme-colored1"></i>${values.creator}</span>
+                  <span class="mb-10 text-gray mr-10"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i>${timestamp}</span>
+                  <span class="mb-10 text-gray mr-10"><i class="far fa-user mr-10 text-theme-colored1"></i>${creator}</span>
                 </div>
               </div>
               <div class="entry-content">
-                <h5>${values.blog_data}</h5>
+                <h5>${content}</h5>
               </div>`
-    });
-  } catch (err) {
-    console.log(err);
-  }
 
   document.getElementById("detail").innerHTML = data1;
 </script>
