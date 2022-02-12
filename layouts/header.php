@@ -147,9 +147,6 @@
                                                 <ul class="dropdown">
                                                     <li><a href="page-contact.php">Contact</a></li>
                                                     <li><a href="page-team-grid.php">Team Grid</a></li>
-                                                    <li>
-                                                        <a href="page-team-details.php">Team Details</a>
-                                                    </li>
                                                 </ul>
                                             </li>
                                             <li>
