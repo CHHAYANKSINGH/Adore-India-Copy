@@ -1,6 +1,6 @@
 <!-- <footer id="footer" class="footer bg-img-center-bottom bg-img-cover" data-tm-bg-img="images/bg/bg03.jpg"> -->
 <footer id="footer" class="footer bg-img-center-bottom bg-theme-colored3-darker5">
-    <div class="footer-widget-area pt-120">
+    <div class="footer-widget-area pt-60">
         <div class="container pb-40">
             <div class="row">
                 <div class="col-md-12 col-lg-3" style="margin-top:60px;">
