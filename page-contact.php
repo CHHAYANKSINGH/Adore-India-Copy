@@ -116,10 +116,10 @@
             </div>
             <div class="mb-3">
               <input name="form_botcheck" class="form-control" type="hidden" value="" />
-              <button type="submit" class="btn btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">
+              <button type="submit" style="transform:none;" class="btn btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">
                 Send your message
               </button>
-              <button type="reset" class="btn btn-theme-colored2 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">
+              <button type="reset" style="transform:none;" class="btn btn-theme-colored2 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">
                 Reset
               </button>
             </div>
