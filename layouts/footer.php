@@ -57,29 +57,39 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="widget">
                         <h4 class="widget-title mb-40">Blogs</h4>
-                        <div class="latest-posts pt-2">
-                            <article class="post clearfix pb-0 mb-40">
-                                <a class="post-thumb" href="#"><img src="images/POSI.jpg" alt="Image" /></a>
-                                <div class="post-right">
-                                    <div class="post-date">
-                                        <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">Jan 22 - 2021</span>
+                        <div class="latest-posts pt-2" id="blogs">
+                            <script>
+                                localStorage.getItem('blog')
+                                var data = JSON.parse(localStorage.getItem('blog'));
+                                console.log(data)
+                                for (let x in data) {
+                                    let id = data[x].blog_id
+                                    let image = data[x].blog_image
+                                    let title = data[x].blog_title
+                                    let timestamp = data[x].blog_timestamp
+                                    let creator = data[x].creator
+                                    let content = data[x].blog_data
+                                    let i = 0
+                                    let data1 = ""
+                                    while (i < 2) {
+                                        data1 += `<article class="post clearfix pb-0 mb-40">
+                                                <a class="post-thumb" href="#"><img src="images/POSI.jpg" alt="Image" /></a>
+                                    <div class="post-right">
+                                        <div class="post-date">
+                                            <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${timestamp}</span>
+                                        </div>
+                                        <p class="post-title m-0">
+                                            <a href="page-blog-details.php?id=${id}">${title}</a>
+                                        </p>
                                     </div>
-                                    <p class="post-title m-0">
-                                        <a href="#">A Little Thing Called Positive Thinking</a>
-                                    </p>
-                                </div>
-                            </article>
-                            <article class="post clearfix pb-0">
-                                <a class="post-thumb" href="#"><img src="images/JM1.png" alt="Image" /></a>
-                                <div class="post-right">
-                                    <div class="post-date">
-                                        <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">Jan 22 - 2021</span>
-                                    </div>
-                                    <p class="post-title m-0">
-                                        <a href="#">How To Become A Better Version Of Yourself</a>
-                                    </p>
-                                </div>
-                            </article>
+                                    </article>`
+
+                                        console.log(title)
+                                        document.getElementById("blogs").innerHTML = data1;
+                                        i++;
+                                    }
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
