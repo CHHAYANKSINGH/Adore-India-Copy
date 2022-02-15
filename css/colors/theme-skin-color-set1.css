@@ -337,9 +337,7 @@ ul.list.theme-colored1.check li:before,
 }
 
 /* -------- layer overlay Color ---------- */
-.layer-overlay {
-  /* .overlay-theme-colored1 */
-}
+
 .layer-overlay.overlay-theme-colored1::before {
   background-color: rgba(61, 156, 77, 0.8) !important;
 }
@@ -785,9 +783,7 @@ ul.list.theme-colored2.check li:before,
 }
 
 /* -------- layer overlay Color ---------- */
-.layer-overlay {
-  /* .overlay-theme-colored2 */
-}
+
 .layer-overlay.overlay-theme-colored2::before {
   background-color: rgba(179, 255, 102, 0.8) !important;
 }
@@ -1232,9 +1228,7 @@ ul.list.theme-colored3.check li:before,
 }
 
 /* -------- layer overlay Color ---------- */
-.layer-overlay {
-  /* .overlay-theme-colored3 */
-}
+
 .layer-overlay.overlay-theme-colored3::before {
   background-color: rgba(45, 54, 48, 0.8) !important;
 }
@@ -1679,9 +1673,7 @@ ul.list.theme-colored4.check li:before,
 }
 
 /* -------- layer overlay Color ---------- */
-.layer-overlay {
-  /* .overlay-theme-colored4 */
-}
+
 .layer-overlay.overlay-theme-colored4::before {
   background-color: rgba(18, 42, 72, 0.8) !important;
 }
@@ -4214,9 +4206,6 @@ body.single-portfolio-items
  * Shortcode: testimonials.scss
  * -----------------------------------------------
 */
-.tm-sc-testimonials {
-  /* Style 7 - Current Theme */
-}
 
 /*
  *  cpt-works.scss
@@ -5579,7 +5568,7 @@ a:focus {
 
 /* About */
 .about-image-layer1:after {
-  background-color: #b3ff66;
+  background-color: #7daaee;
 }
 
 .trusted-number .number {
