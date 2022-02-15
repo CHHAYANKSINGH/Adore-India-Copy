@@ -114,7 +114,7 @@
   }
   data1 = `
         <div class="entry-header mb-30">
-                <div class="post-thumb thumb"> <img src="${image}" onerror="this.onerror=null;this.src='images/JM1.png' alt="images" class="img-responsive img-fullwidth"> </div>
+                <div class="post-thumb thumb"> <img src="${image}" onerror="this.onerror=null;this.src='images/POSI.jpg'" alt="images" class="img-responsive img-fullwidth"> </div>
                 <h3 class="mt-30">${title}</h3>
                 <div class="entry-meta mt-0">
                   <span class="mb-10 text-gray mr-10"><i class="far fa-calendar-alt mr-10 text-theme-colored1"></i>${timestamp}</span>

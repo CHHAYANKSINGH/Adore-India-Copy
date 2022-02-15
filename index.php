@@ -130,7 +130,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="about-content pr-30 pl-30 pl-md--0 pr-md--0" data-tm-padding-top="55">
+            <div class="about-content pr-20 pl-20 pl-md--0 pr-md--0" data-tm-padding-top="55">
               <div class="tm-sc-section-title section-title mb-50">
                 <div class="title-wrapper mb-0">
 
@@ -139,7 +139,7 @@
                     ADORE is a global voluntary group of college students
                     and professionals, who have come forward together to
                     motivate the budding youth into taking positive
-                    action.
+                    action. Our volunteers are located all over the world. We DO NOT collect any funds for its work as all its associates work voluntarily. The interactive sessions are on various subjects from Cleanliness to Soft skills, from Career Orientation to Self-Development, etc.
                   </p>
                 </div>
               </div>
@@ -187,8 +187,9 @@
                 Our Mission
               </h6>
               <p class="service-details font-size-15 mb-0">
-                Our neighbourhood, our Society, our world is our own, it’s
-                our home. It’s our’s to take care of, our’s to improve.
+                Our mission is to create a platform for the youth where
+                they can reach out to perform their social
+                responsibilities.
               </p>
               <div class="floating-object-1 tm-animation-floating" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -204,9 +205,8 @@
                 Our Vision
               </h6>
               <p class="service-details font-size-15 mb-0">
-                Our mission is to create a platform for the youth where
-                they can reach out to perform their social
-                responsibilities.
+                Our neighbourhood, our Society, our world is our own, it’s
+                our home. It’s our’s to take care of, our’s to improve.
               </p>
               <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
               </div>
