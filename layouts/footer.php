@@ -73,7 +73,7 @@
                                     let data1 = ""
                                     while (i < 2) {
                                         data1 += `<article class="post clearfix pb-0 mb-40">
-                                                <a class="post-thumb" href="page-blog-details.php?id=${id}"><img src="images/POSI.jpg" alt="Image" /></a>
+                                                <a class="post-thumb" href="#"><img src="images/POSI.jpg" alt="Image" /></a>
                                     <div class="post-right">
                                         <div class="post-date">
                                             <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${timestamp}</span>

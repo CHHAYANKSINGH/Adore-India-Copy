@@ -549,7 +549,7 @@
             </div>
             <h2 class="title">What They Say</h2>
             <p class="paragraph mb-0">
-            While it is wise to learn from experience, it is wiser to learn from the experienced.
+              While it is wise to learn from experience, it is wiser to learn from the experienced.
             </p>
           </div>
         </div>
@@ -560,7 +560,7 @@
         <div class="col-lg-4">
           <div class="testimonial-item mb-md-150">
             <div class="author-text mb-30">
-            ADORE made me experience possibly the very best as I got really corporating team and mentor with so much of ideas and knowledge to share with. It's the best platform for who genuinely wants to learn. I am so so impressed that what a remarkable company ADORE is. Thankyou so much for considering a part of team here.
+              ADORE made me experience possibly the very best as I got really corporating team and mentor with so much of ideas and knowledge to share with. It's the best platform for who genuinely wants to learn. I am so so impressed that what a remarkable company ADORE is. Thankyou so much for considering a part of team here.
             </div>
             <div class="author-info clearfix">
               <h5 class="name mt-0 mb-0">Simran Mohanty</h5>
@@ -574,22 +574,22 @@
         <div class="col-lg-4">
           <div class="testimonial-item mb-md-150">
             <div class="author-text mb-30">
-            Working in Adore exceeded my expectations, for here the learning is never ending, and the growth is limitless, Also got connected with so many influential personalities because of the webinars and workshops. I am grateful to this platform for believing me and trusting me with the task of leading the team in Adore.
+              Working in Adore exceeded my expectations, for here the learning is never ending, and the growth is limitless, Also got connected with so many influential personalities because of the webinars and workshops. I am grateful to this platform for believing me and trusting me with the task of leading the team in Adore.
             </div>
             <div class="author-info clearfix">
               <h5 class="name mt-0 mb-0">Garima Mishra</h5>
               <span class="job-position">Volunteer</span>
             </div>
             <div class="author-thumb">
-              <img src="images/team/team4.jpg" alt="Image" style="width:60px;height:60px;"/>
+              <img src="images/team/team4.jpg" alt="Image" style="width:60px;height:60px;" />
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item">
             <div class="author-text mb-30">
-            I have been working in ADORE as Management Trainee. I would like to say,
-its a vast platform to skilled up and enhance knowledge and experience in every domain, and really its been a great experience working here, learned so many things hoping to gain much more. Thankyou so much for considering a part of team here.
+              I have been working in ADORE as Management Trainee. I would like to say,
+              its a vast platform to skilled up and enhance knowledge and experience in every domain, and really its been a great experience working here, learned so many things hoping to gain much more. Thankyou so much for considering a part of team here.
 
             </div>
             <div class="author-info clearfix">
@@ -597,7 +597,7 @@ its a vast platform to skilled up and enhance knowledge and experience in every 
               <span class="job-position">Volunteer</span>
             </div>
             <div class="author-thumb">
-              <img src="images/team/team7.jpg" alt="Image" style="width:60px;height:60px;"/>
+              <img src="images/team/team7.jpg" alt="Image" style="width:60px;height:60px;" />
             </div>
           </div>
         </div>
@@ -743,176 +743,137 @@ its a vast platform to skilled up and enhance knowledge and experience in every 
 
 
 <!-- Section: News & Blog -->
-<section data-tm-bg-color="#fff">
-  <div class="section-content mt-lg--0 pt-lg--0" data-tm-margin-top="-183" data-tm-padding-top="184">
-    <div class="container">
-      <div class="tm-sc-section-title section-title text-center mb-50">
-        <div class="row">
-          <div class="col-lg-5 m-auto">
+<section>
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="tm-sc-section-title section-title mb-0 pr-70 pr-lg--0 mb-md-40">
             <div class="title-wrapper mb-0">
-              <div class="title-icon-img line-height-1">
-                <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
-              </div>
               <h2 class="title">Upcoming Webinars</h2>
               <p class="paragraph mb-0">
-                Get latest update on our upcoming webinars.
               </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row" id="webinar">
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="blog-current-style1 mb-lg-30">
-            <article class="post">
-              <div class="entry-header">
-                <div class="post-thumb">
-                  <div class="post-thumb-inner">
-                    <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
-                      <img class="w-100" src="images/blog/session1.jpeg" alt="Image" />
-                    </div>
-                    <div class="meta-date">22 Jan</div>
-                  </div>
-                </div>
-              </div>
-              <div class="entry-content" style="border-radius:0px 0px 15px 15px;">
-                <h6 class="entry-title mt-0">
-                  <p>ADORE INDIA invites you for a Webinar on Empathy by Ms. Shalini Sahay</p>
-                </h6>
-                <div class="post-btn-readmore">
-                  <a href="https://zoom.us/j/3874658951" class="btn btn-plain-text-with-arrow">Register Now!</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div> -->
-        <script>
-          var hours = 24; // to clear the localStorage after 1 hour(if someone want to clear after 8hrs simply change hours=8)
-          var now = new Date().getTime();
-          var setupTime = localStorage.getItem('setupTime');
-          var setupDate = localStorage.getItem('setupDate');
-          var today = new Date();
-          var dd = String(today.getDate()).padStart(2, '0');
-          var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-          var yyyy = today.getFullYear();
+        <div class="col-lg-8">
+          <div class="causes-carousel-current-style1">
+            <div class="tm-owl-carousel-2col owl-carousel owl-theme" id="webinar" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true">
+              <script>
+                var hours = 24; // to clear the localStorage after 1 hour(if someone want to clear after 8hrs simply change hours=8)
+                var now = new Date().getTime();
+                var setupTime = localStorage.getItem('setupTime');
+                var setupDate = localStorage.getItem('setupDate');
+                var today = new Date();
+                var dd = String(today.getDate()).padStart(2, '0');
+                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+                var yyyy = today.getFullYear();
 
-          today = yyyy + '-' + mm + '-' + dd;
-          console.log(today);
-          if (setupTime == null) {
-            localStorage.setItem('setupDate', today)
-          }
-          if (setupTime == null) {
-            localStorage.setItem('setupTime', now)
-          } else {
-            if (now - setupTime > hours * 60 * 60 * 1000) {
-              localStorage.clear()
-              localStorage.setItem('setupTime', now);
-            }
-          }
-          // check if products are present in localstorage if not then fetch and set
-          if (localStorage.getItem("webinars") === null) {
-            fetch("https://api.adoreearth.org/webinars/").then((res) => {
-              return res.json();
-              // set this res.json in local storage
-            }).then((data) => {
-              console.log(data)
-              // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
-              data = _.orderBy(data, ['webinars_date'], ['desc']);
-              localStorage.setItem('webinars', JSON.stringify(data));
-              let currentwebinar = {};
-              let data1 = "";
+                today = yyyy + '-' + mm + '-' + dd;
+                console.log(today);
+                if (setupTime == null) {
+                  localStorage.setItem('setupDate', today)
+                }
+                if (setupTime == null) {
+                  localStorage.setItem('setupTime', now)
+                } else {
+                  if (now - setupTime > hours * 60 * 60 * 1000) {
+                    localStorage.clear()
+                    localStorage.setItem('setupTime', now);
+                  }
+                }
+                // check if products are present in localstorage if not then fetch and set
+                if (localStorage.getItem("webinars") === null) {
+                  fetch("https://api.adoreearth.org/webinars/").then((res) => {
+                    return res.json();
+                    // set this res.json in local storage
+                  }).then((data) => {
+                    console.log(data)
+                    // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
+                    data = _.orderBy(data, ['webinars_date'], ['desc']);
+                    localStorage.setItem('webinars', JSON.stringify(data));
+                    let currentwebinar = {};
+                    let data1 = "";
 
-              try {
-                data.map((values) => {
-                  currentwebinar = _.find(data ,setupDate => {
-                    return setupDate >= values.webinars_date
-                  });
-                  data1 += `<div class="col-md-6 col-lg-4" id="${currentwebinar.webinars_id}">
-                              <div class="blog-current-style1 mb-lg-30">
-                                <article class="post">
-                                  <div class="entry-header">
-                                    <div class="post-thumb">
-                                      <div class="post-thumb-inner">
-                                        <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
-                                          <img class="w-100" src="images/blog/session1.jpeg" alt="Image" />
-                                        </div>
-                                        <div class="meta-date">${currentwebinar.webinars_date}</div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="entry-content" style="border-radius:0px 0px 15px 15px;">
-                                    <h6 class="entry-title mt-0">
-                                      <p>${currentwebinar.webname}</p>
+                    try {
+                      data.map((values) => {
+                        currentwebinar = _.find(data, setupDate => {
+                          return setupDate >= values.webinars_date
+                        });
+                        data1 += `<div class="item" id="${currentwebinar.webinars_id}">
+                                      <div class="causes-item-current-style1">
+                                        <div class="causes-item">
+                                          <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
+                                            <img src="images/blog/session1.jpeg" onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100" style="height:320px" />
+                                          </div>
+                                          <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
+                                            <h5 class="causes-title mt-0 mb-20">
+                                              <a href="page-campaign-details.html">${currentwebinar.webname}</a>
                                       <p>Speaker: ${currentwebinar.speaker_name}</p>
-                                    </h6>
-                                    <div class="post-btn-readmore">
-                                      <a href="${currentwebinar.webinars_invitation}" class="btn btn-plain-text-with-arrow">Register Now!</a>
-                                    </div>
-                                  </div>
-                                </article>
-                              </div>
-                            </div>`
-                });
-
-              } catch (err) {
-                console.log(err);
-              }
-              document.getElementById("webinar").innerHTML = data1;
-            }).catch((error) => {
-              console.log(error);
-            });
-          } else {
-            // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
-            localStorage.getItem('webinars')
-            data = JSON.parse(localStorage.getItem('webinars'));
-            let data1 = "";
-            try {
-              data.map((values) => {
-                currentwebinar = _.find(data ,setupDate=> {
-                  return setupDate >= values.webinars_date
-                });
-                data1 += `<div class="col-md-6 col-lg-4" id="${currentwebinar.webinars_id}">
-                            <div class="blog-current-style1 mb-lg-30">
-                              <article class="post">
-                                <div class="entry-header">
-                                  <div class="post-thumb">
-                                    <div class="post-thumb-inner">
-                                      <div class="thumb" style="border-radius:15px 15px 0px 0px ;">
-                                        <img class="w-100" src="images/blog/session1.jpeg" alt="Image" />
+                                            </h5>
+                                            <div class="post-btn-readmore">
+                                              <a href="${currentwebinar.webinars_invitation}" class="btn btn-plain-text-with-arrow">Register Now!</a>
+                                            </div>
+                                          </div>
+                                        </div>
                                       </div>
-                                      <div class="meta-date">${currentwebinar.webinars_date}</div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="entry-content" style="border-radius:0px 0px 15px 15px;">
-                                  <h6 class="entry-title mt-0">
-                                    <p>${currentwebinar.webname}</p>
-                                    </h6>
-                                    <p>Speaker: ${currentwebinar.speaker_name}</p>
-                                  
-                                  <div class="post-btn-readmore">
-                                    <a href="${currentwebinar.webinars_invitation}" class="btn btn-plain-text-with-arrow">Register Now!</a>
-                                  </div>
-                                </div>
-                              </article>
-                            </div>
-                          </div>`
+                                    </div>`
+                      });
+
+                    } catch (err) {
+                      console.log(err);
+                    }
+                    document.getElementById("webinar").innerHTML = data1;
+                  }).catch((error) => {
+                    console.log(error);
+                  });
+                } else {
+                  // document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
+                  localStorage.getItem('webinars')
+                  data = JSON.parse(localStorage.getItem('webinars'));
+                  console.log(data)
+                  let data1 = "";
+                  try {
+                    data.map((values) => {
+                      currentwebinar = _.find(data, setupDate => {
+                        return setupDate >= values.webinars_date
+                      });
+                      data1 += `<div class="item" id="${currentwebinar.webinars_id}">
+                                      <div class="causes-item-current-style1">
+                                        <div class="causes-item">
+                                          <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
+                                            <img src="images/blog/session1.jpeg" onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100" style="height:320px" />
+                                          </div>
+                                          <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
+                                            <h5 class="causes-title mt-0 mb-20">
+                                              <a href="page-campaign-details.html">${currentwebinar.webname}</a>
+                                      <p>Speaker: ${currentwebinar.speaker_name}</p>
+                                            </h5>
+                                            <div class="post-btn-readmore">
+                                              <a href="${currentwebinar.webinars_invitation}" class="btn btn-plain-text-with-arrow">Register Now!</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>`
 
 
-              });
-            } catch (err) {
-              console.log(err);
-            }
-            document.getElementById("webinar").innerHTML = data1;
-          }
-        </script>
+                    });
+                  } catch (err) {
+                    console.log(err);
+                  }
+                  document.getElementById("webinar").innerHTML = data1;
+                }
+              </script>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  </div>
   <div class="tm-floating-objects">
-    <span class="floating-object-1" data-tm-bg-img="images/shape/blog-01.png" data-tm-width="185" data-tm-height="253" data-tm-top="auto" data-tm-bottom="-6" data-tm-left="75" data-tm-opacity="1"></span>
-    <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/shape/blog-02.png" data-tm-width="90" data-tm-height="80" data-tm-top="440" data-tm-bottom="auto" data-tm-left="180" data-tm-opacity="1"></span>
-    <span class="floating-object-3" data-tm-bg-img="images/shape/blog-03.png" data-tm-width="136" data-tm-height="201" data-tm-top="auto" data-tm-bottom="0" data-tm-right="100" data-tm-left="auto" data-tm-opacity="1"></span>
+    <span class="floating-object-1" data-tm-bg-img="images/shape/causes-06.png" data-tm-width="382" data-tm-height="440" data-tm-top="auto" data-tm-bottom="-4px" data-tm-left="25" data-tm-opacity="1"></span>
   </div>
 </section>
 
