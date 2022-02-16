@@ -192,6 +192,10 @@ a:focus {
   color: #003f5e;
   text-decoration: none;
 }
+.contact_shiv_a:hover {
+  color: #7daaee;
+}
+
 a img {
   border: none;
 }
