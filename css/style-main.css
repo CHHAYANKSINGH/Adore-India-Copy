@@ -144,20 +144,17 @@ html {
  * -----------------------------------------------
 */
 ::selection {
-  background: #333;
   color: #fff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #333;
   /* Firefox */
   color: #fff;
   text-shadow: none;
 }
 
 ::-webkit-selection {
-  background: #333;
   /* Safari */
   color: #fff;
   text-shadow: none;
@@ -13455,7 +13452,6 @@ blockquote.blockquote-style8 footer cite {
 .btn-outline--theme-colored2:before {
   position: absolute;
   content: "";
-  background: var(--theme-color3);
   width: 0;
   height: 100%;
   left: 0;
@@ -25038,7 +25034,7 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul > li {
   position: relative;
 }
 .testimonial-item .author-info .name {
-  color: #3d9c4d;
+  color: #7daaee;
   font-size: 1.125rem;
   line-height: 1;
   transition: all 0.2s ease-in-out;
@@ -25059,7 +25055,7 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul > li {
 }
 .testimonial-item .author-info:after {
   content: "“";
-  color: #3d9c4d;
+  color: #7daaee;
   font-size: 6.25rem;
   font-family: "Roboto", sans-serif;
   position: absolute;
@@ -25119,10 +25115,10 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul > li {
   border-radius: 50%;
 }
 .testimonial-item:hover {
-  background-color: #3d9c4d;
+  background-color: #5085d4;
 }
 .testimonial-item:hover:after {
-  border-color: #b3ff66;
+  border-color: #7daaee;
 }
 .testimonial-item:hover .author-text {
   color: #fff;
@@ -25134,13 +25130,13 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul > li {
   color: #fff;
 }
 .testimonial-item:hover .author-info:after {
-  color: #b3ff66;
+  color: #7daaee;
 }
 .testimonial-item:hover .author-thumb {
-  background-color: #3d9c4d;
+  background-color: #5085d4;
 }
 .testimonial-item:hover .author-thumb:after {
-  border-color: #3d9c4d #b3ff66 #b3ff66;
+  border-color: #7daaee;
 }
 
 /*
