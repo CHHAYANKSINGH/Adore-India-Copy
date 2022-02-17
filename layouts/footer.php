@@ -151,7 +151,7 @@
                     <div class="col-lg-12">
                         <div class="footer-bottom-style1">
                             <div class="footer-paragraph font-size-15">
-                                © Copyright Adoreearth.org /All rights reserved / Privacy
+                                © Copyright Adoreearth.org
                             </div>
                             <div class="widget widget-social-list-custom clearfix mb-0">
                                 <ul class="styled-icons icon-theme-colored1">

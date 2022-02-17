@@ -61,9 +61,10 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-  <section>
+  <section style="justify-content:center;">
     <div class="sec col-lg-7">
-      <h2 style="margin: 0; padding-bottom:10px;">Synergy</h2>
+      <!-- <h2 style="margin: 0; padding-bottom:10px;">Synergy</h2> -->
+      <img style="margin-bottom:20px;border: 4px solid #0073aa" src="images/Sy.jpeg" alt="image">
       <h6><span style="font-weight: 200;">Synergy is a platform which gives an opportunity to the youth to interact with domain experts and learn from them. We invite professionals who are authorities in their subject to speak to our youth.</h6>
       <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
       <ul style="color:black;">

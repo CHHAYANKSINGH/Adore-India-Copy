@@ -61,11 +61,12 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-  <section>
+  <section style="justify-content:center;">
     <div class="sec col-lg-7">
-      <h2 style="margin: 0; padding-bottom:10px;">Soaring <span style="color:#24a8e6;">Wings</span></h2>
+      <!-- <h2 style="margin: 0; padding-bottom:10px;">Soaring <span style="color:#24a8e6;">Wings</span></h2> -->
+      <img style="margin-bottom:20px;border: 4px solid #e89151" src="images/SW(1).jpeg" alt="image">
       <h6><span style="font-weight: 200;">YOUTH has a set of skills or interests that he/she is passionate about and confident to guide and explain to others. Through Soaring Wings, we provide a platform to portray, share, and improvise on areas of proficiency and influence people in a professional manner.</h6>
-      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
+      <h2 style="border-bottom:2px solid #0073aa;font-size:45px;margin-top:40px;">Objective </h2>
       <ul style="color:black;">
         <li>This initiative has the objective of introducing the youth to a forum wherein one can showcase <p style="margin-left: 22px;margin-bottom:0px;"> share his/her ideas and special abilities along with guiding and influencing other people.</p>
         </li>

@@ -622,7 +622,7 @@
               Newsletter Signup
             </h4>
             <p class="mt-0 mb-35">
-              Sign up now to get daily latest news & updates from us
+              Sign up now to get monthly latest news & updates from us
             </p>
             <!-- Mailchimp Subscription Form-->
             <form id="mailchimp-subscription-form2" class="newsletter-form m-0 p-0">
