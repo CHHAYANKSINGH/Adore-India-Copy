@@ -61,7 +61,7 @@
                             <script>
                                 localStorage.getItem('blog')
                                 var data = JSON.parse(localStorage.getItem('blog'));
-                                console.log(data)
+                                
                                 for (let x in data) {
                                     let id = data[x].blog_id
                                     let image = data[x].blog_image
@@ -84,7 +84,7 @@
                                     </div>
                                     </article>`
 
-                                        console.log(title)
+                                        
                                         document.getElementById("blogs").innerHTML = data1;
                                         i++;
                                     }

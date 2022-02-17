@@ -202,7 +202,7 @@
 				console.log(currentUser, err);
 			}
 			document.getElementById("cards").innerHTML = data1 + pagination;
-			console.log(data);
+			
 		}).catch((error) => {
 			console.log(error);
 		});
@@ -224,12 +224,11 @@
 					<li class="page-item next-page"><a class="page-link" href="#" style="border-radius: 45px !important;">Next</a></li>
 				</div>`
 		try {
-			console.log(data);
+			
 			data.map((values) => {
 				currentUser = _.find(users, u => {
 					return u.u_id == values.u_id
 				});
-				console.log("co = ", currentUser)
 				if (currentUser) {
 					data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
@@ -249,7 +248,7 @@
 			console.log(currentUser, err);
 		}
 		document.getElementById("cards").innerHTML = data1 + pagination;
-		console.log(data);
+		
 	}
 </script>
 <script type="text/javascript">
