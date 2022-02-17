@@ -85,7 +85,7 @@
               <div class="col-sm-6">
                 <div class="mb-3">
                   <label>Name <small>*</small></label>
-                  <input name="form_name" class="form-control" type="text" placeholder="Enter Name" />
+                  <input name="form_name" class="form-control required" type="text" placeholder="Enter Name" />
                 </div>
               </div>
               <div class="col-sm-6">
@@ -105,7 +105,7 @@
               <div class="col-sm-6">
                 <div class="mb-3">
                   <label>Phone</label>
-                  <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone" />
+                  <input name="form_phone" class="form-control required" type="text" placeholder="Enter Phone" />
                 </div>
               </div>
             </div>
