@@ -222,7 +222,7 @@
                 Activities
               </h6>
               <p class="service-details font-size-15 mb-0">
-              The interactive sessions are on various concerns from etiquette-based learning to self-development.
+                The interactive sessions are on various concerns from etiquette-based learning to self-development.
               </p>
               <div class="floating-object-1 tm-animation-floating" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -238,7 +238,7 @@
                 Programs
               </h6>
               <p class="service-details font-size-15 mb-0">
-              Our program are designed to provide youth to develop their skills and learn the corporate environment.
+                Our program are designed to provide youth to develop their skills and learn the corporate environment.
               </p>
               <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -261,7 +261,7 @@
               <div class="title-wrapper mb-0">
                 <h2 class="title">Our Blogs</h2>
                 <p class="paragraph mb-0">
-                Through our articles, we provide volunteers a platform to write articles and share their ideas on topics related to youth, motivation and development.
+                  Through our articles, we provide volunteers a platform to write articles and share their ideas on topics related to youth, motivation and development.
                 </p>
               </div>
             </div>
@@ -463,10 +463,10 @@
         </h2>
         <h4 style="color: white; margin-bottom: 60px">
           Come, join hands with us in fulfilling our social
-          responsibility and spreading smiles. Email:
+          responsibility and spreading smiles.<br>Email:
           <a class="contact_shiv_a" href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
         </h4>
-        <a href="page-contact.php" style="border-radius:5px;width:120px;height:50px;padding-left:22px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Contact Us</a>
+        <a href="page-contact.php" style="border-radius:5px;width:120px;height:50px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Volunteer</a>
       </div>
     </div>
   </div>
@@ -547,7 +547,7 @@
             </div>
             <h2 class="title">What They Say</h2>
             <p class="paragraph mb-0">
-            Experience shared by our volunteers.
+              Experience shared by our volunteers.
             </p>
           </div>
         </div>
@@ -620,7 +620,7 @@
               Newsletter Signup
             </h4>
             <p class="mt-0 mb-35">
-            Sign up now to get monthly updates of our activities.
+              Sign up now to get monthly updates of our activities.
             </p>
             <!-- Mailchimp Subscription Form-->
             <form id="mailchimp-subscription-form2" class="newsletter-form m-0 p-0">
