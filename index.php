@@ -222,8 +222,7 @@
                 Activities
               </h6>
               <p class="service-details font-size-15 mb-0">
-                Lorem ipsum is free text used by neque porro est qui
-                dolorem ipsum quia Lorem ipsum is free text used by neque porro est qui.
+              The interactive sessions are on various concerns from etiquette-based learning to self-development.
               </p>
               <div class="floating-object-1 tm-animation-floating" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -239,8 +238,7 @@
                 Programs
               </h6>
               <p class="service-details font-size-15 mb-0">
-                Lorem ipsum is free text used by neque porro est qui
-                dolorem ipsum quia Lorem ipsum is free text used by neque porro est qui.
+              Our program are designed to provide youth to develop their skills and learn the corporate environment.
               </p>
               <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -263,7 +261,7 @@
               <div class="title-wrapper mb-0">
                 <h2 class="title">Our Blogs</h2>
                 <p class="paragraph mb-0">
-                  The first thing our blog conveys is what you want to accomplish with it, and what it can do if it's successful. It also, advises bloggers seeking to spread their interests across multiple revenue streams.
+                Through our articles, we provide volunteers a platform to write articles and share their ideas on topics related to youth, motivation and development.
                 </p>
               </div>
             </div>
@@ -549,7 +547,7 @@
             </div>
             <h2 class="title">What They Say</h2>
             <p class="paragraph mb-0">
-              While it is wise to learn from experience, it is wiser to learn from the experienced.
+            Experience shared by our volunteers.
             </p>
           </div>
         </div>
@@ -622,7 +620,7 @@
               Newsletter Signup
             </h4>
             <p class="mt-0 mb-35">
-              Sign up now to get monthly latest news & updates from us
+            Sign up now to get monthly updates of our activities.
             </p>
             <!-- Mailchimp Subscription Form-->
             <form id="mailchimp-subscription-form2" class="newsletter-form m-0 p-0">
@@ -751,7 +749,7 @@
           <div class="tm-sc-section-title section-title mb-0 pr-70 pr-lg--0 mb-md-40">
             <div class="title-wrapper mb-0">
               <h2 class="title">Upcoming Webinars</h2>
-              <p class="paragraph mb-0">
+              <p class="paragraph mb-0">Get updates about the latest webinars and learn from experienced professionals.
               </p>
             </div>
           </div>

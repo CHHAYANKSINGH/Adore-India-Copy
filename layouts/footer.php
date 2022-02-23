@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="widget widget_nav_menu ml-25">
-                        <h4 class="widget-title">Links</h4>
+                        <h4 style="color:#77aaf7;" class="widget-title">Links</h4>
                         <div class="menu-footer-page-list">
                             <ul id="footer-page-list" class="menu">
                                 <li><a href="#">Home</a></li>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="widget">
-                        <h4 class="widget-title mb-40">Blogs</h4>
+                        <h4 style="color:#77aaf7;" class="widget-title mb-40">Blogs</h4>
                         <div class="latest-posts pt-2" id="blogs">
                             <script>
                                 localStorage.getItem('blog')
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col-md-12 col-lg-3">
                     <div class="widget contact-info contact-info-style1">
-                        <h4 class="widget-title mb-40">Newsletter</h4>
+                        <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
                         <p class="description mb-40 font-size-15">
                             Sign up now to get daily latest news & updates from us
                         </p>
