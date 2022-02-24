@@ -27,14 +27,7 @@
                                     <span>Email address</span>
                                 </div>
                             </li>
-                            <li class="contact-address border-0">
-                                <div class="icon">
-                                    <img src="images/icons/ic3.png" alt="Icon" />
-                                </div>
-                                <div class="text">
-                                    <span class="font-size-15 text-white">Kolkata, West Bengal 700046</span><span>Visit us</span>
-                                </div>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
