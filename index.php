@@ -624,8 +624,8 @@
             </p>
             <!-- Mailchimp Subscription Form-->
             <form id="mailchimp-subscription-form2" class="newsletter-form m-0 p-0">
-              <input type="email" id="mce-EMAIL" class="form-control" placeholder="Email Address" name="EMAIL" value="" />
-              <button type="submit" style="transform:none;;" class="btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
+              <input type="email" id="mce-EMAIL" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="EMAIL" value="" />
+              <button type="submit" style="transform:none; border-radius:10px !important;" class="btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
                 Subscribe Now
               </button>
             </form>
