@@ -61,7 +61,7 @@
                             <script>
                                 localStorage.getItem('blog')
                                 var data = JSON.parse(localStorage.getItem('blog'));
-                                
+
                                 for (let x in data) {
                                     let id = data[x].blog_id
                                     let image = data[x].blog_image
@@ -84,7 +84,7 @@
                                     </div>
                                     </article>`
 
-                                        
+
                                         document.getElementById("blogs").innerHTML = data1;
                                         i++;
                                     }
@@ -98,13 +98,15 @@
                         <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
                         <p class="description mb-40 font-size-15">
                             Sign up now to get daily latest news & updates from us
+                            <hr>
                         </p>
+
                         <!-- Mailchimp Subscription Form-->
                         <form id="mailchimp-subscription-form10" class="newsletter-form cp-newsletter m-0 p-0">
                             <div class="input-group">
-                                <input type="email" id="mce-EMAIL2" class="form-control text-theme-colored1 font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="black" data-tm-height="81px" />
+                                <input type="email" id="mce-EMAIL2" class="form-control text-theme-colored1 font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="white" data-tm-height="60px" />
                                 <div class="input-group-append tm-sc tm-sc-button">
-                                    <button type="submit" class="btn text-theme-colored1 btn-sm btn-flat border-0 box-shadow-none font-size-13" data-tm-bg-color="black" data-tm-height="81px">
+                                    <button type="submit" class="btn text-theme-colored1 btn-sm btn-flat border-0 box-shadow-none font-size-13" data-tm-bg-color="black" data-tm-height="60px">
                                         <i class="fa fa-arrow-right"></i>
                                     </button>
                                 </div>
