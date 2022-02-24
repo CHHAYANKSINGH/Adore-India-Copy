@@ -17,7 +17,7 @@
                 <span><i class="fa fa-angle-right"></i></span>
                 <span><a href="#">Pages</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
-                <span class="active">Page Title</span>
+                <span class="active">Team Grid</span>
               </div>
             </nav>
           </div>
