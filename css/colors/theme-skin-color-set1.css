@@ -2642,7 +2642,7 @@ blockquote.footer-cite-theme-colored footer {
 .btn-theme-colored1.active,
 .show > .btn-theme-colored1.dropdown-toggle {
   color: #000;
-  background-color: #64b071;
+  background-color: #5085d4;
   border-color: #50a65f;
 }
 .btn-check:checked + .btn-theme-colored1:focus,
@@ -2671,7 +2671,7 @@ blockquote.footer-cite-theme-colored footer {
 .btn-check:focus + .btn-theme-colored2,
 .btn-theme-colored2:focus {
   color: #000;
-  background-color: #beff7d;
+  background-color: #7daaee;
   border-color: #bbff75;
   box-shadow: 0 0 0 0.25rem rgba(152, 217, 87, 0.5);
 }
@@ -2681,7 +2681,7 @@ blockquote.footer-cite-theme-colored footer {
 .btn-theme-colored2.active,
 .show > .btn-theme-colored2.dropdown-toggle {
   color: #000;
-  background-color: #c2ff85;
+  background-color: #7daaee;
   border-color: #bbff75;
 }
 .btn-check:checked + .btn-theme-colored2:focus,
@@ -2694,8 +2694,8 @@ blockquote.footer-cite-theme-colored footer {
 .btn-theme-colored2:disabled,
 .btn-theme-colored2.disabled {
   color: #000;
-  background-color: #b3ff66;
-  border-color: #b3ff66;
+  background-color: #7daaee;
+  border-color: #7daaee;
 }
 
 .btn-theme-colored3 {

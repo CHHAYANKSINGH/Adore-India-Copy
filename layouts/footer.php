@@ -91,7 +91,7 @@
                         <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
                         <p class="description mb-40 font-size-15">
                             Sign up now to get daily latest news & updates from us
-                            <hr>
+                            
                         </p>
 
                         <!-- Mailchimp Subscription Form-->
