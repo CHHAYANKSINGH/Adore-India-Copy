@@ -143,10 +143,11 @@
                                                 <a href="index.php">Home</a>
                                             </li>
                                             <li>
-                                                <a href="#">About</a>
+                                                <a href="about.php">About</a>
                                                 <ul class="dropdown">
+                                                    <li><a href="about.php">About Us</a></li>
                                                     <li><a href="page-contact.php">Contact</a></li>
-                                                    <li><a href="page-team-grid.php">Team Grid</a></li>
+                                                    <li><a href="page-team-grid.php">Team</a></li>
                                                 </ul>
                                             </li>
                                             <li>
