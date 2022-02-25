@@ -461,7 +461,7 @@
         <h2 class="text-white rs-divider-title font-weight-900 mb-40 mt-0">
           GET IN TOUCH NOW
         </h2>
-        <h4 style="color: white; margin-bottom: 60px">
+        <h4 class="contact_shiv_h4" style="color: white; margin-bottom: 60px">
           Come, join hands with us in fulfilling our social
           responsibility and spreading smiles.<br>Email:
           <a class="contact_shiv_a" href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
@@ -480,19 +480,19 @@
         <div class="col-lg-6">
           <div class="layer-image-wrapper layer-image-current-style1 position-relative mr-70 mr-lg--0 mb-md-60">
             <div class="layer-image mr-60 mr-sm--0">
-              <img class="w-100" src="images/photos/project-01.jpg" alt="Image" />
+              <img style="border-radius: 4px;border: 4px solid #0073aa" class="w-100" src="images/YL_in.jpeg" alt="Image" />
             </div>
-            <div class="successfull-project-box-style1 bg-theme-colored1">
+            <!-- <div class="successfull-project-box-style1 bg-theme-colored1">
               <img class="icon mb-5" src="images/icons/p01.png" alt="Image" />
               <h2 class="success-number text-white mt-0 mb-5">8800</h2>
               <h6 class="title text-theme-colored2 m-0">
                 Successfully<br />Project
               </h6>
-            </div>
-            <div class="become-volunteer-style1">
+            </div> -->
+            <!-- <div style="margin-top:20px;" class="become-volunteer-style1">
               <a href="news-details.html">Let’s Become a Volunteer
                 <i class="fa fa-angle-right"></i></a>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-6">
@@ -756,7 +756,7 @@
         </div>
         <div class="col-lg-8">
           <div class="causes-carousel-current-style1">
-            <div class="tm-owl-carousel-2col owl-carousel owl-theme" id="webinar" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true">
+            <div class="tm-owl-carousel-2col owl-carousel owl-theme" id="webinar" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true" >
               <script>
                 var hours = 24; // to clear the localStorage after 1 hour(if someone want to clear after 8hrs simply change hours=8)
                 var now = new Date().getTime();
@@ -870,9 +870,9 @@
     </div>
   </div>
   </div>
-  <div class="tm-floating-objects">
+  <!-- <div class="tm-floating-objects">
     <span class="floating-object-1" data-tm-bg-img="images/shape/causes-06.png" data-tm-width="382" data-tm-height="440" data-tm-top="auto" data-tm-bottom="-4px" data-tm-left="25" data-tm-opacity="1"></span>
-  </div>
+  </div> -->
 </section>
 
 <!-- Start Divider -->

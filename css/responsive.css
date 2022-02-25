@@ -69,6 +69,10 @@ Apple iPod Touch (4th generation)
   h3 {
     font-size: 1.8461em;
   } /* 24px */
+
+  h4 {
+    font-size: 1.4em;
+  }
 }
 
 /*
@@ -94,6 +98,10 @@ Samsung Galaxy
   h3 {
     font-size: 1.8461em;
   } /* 24px */
+
+  h4 {
+    font-size: 1.4em;
+  }
 }
 
 /*
@@ -117,8 +125,25 @@ Samsung Galaxy
   h3 {
     font-size: 1.6667em;
   } /* 20px */
+
+  h4 {
+    font-size: 1.4em;
+  }
+
+  .contact_shiv_h4 {
+    font-size: 1.4em;
+  }
 }
 
+@media (max-width: 400px) {
+  h4 {
+    font-size: 1em;
+  }
+
+  .contact_shiv_h4 {
+    font-size: 1em;
+  }
+}
 /*
 Very common low res
 */

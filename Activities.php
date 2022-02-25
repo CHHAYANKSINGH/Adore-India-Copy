@@ -85,7 +85,7 @@
 
 	.previous-page,
 	.next-page {
-		width: 80px;
+		width: 70px;
 		border-radius: 45px !important;
 		cursor: pointer;
 		transition: 0.3s ease;
@@ -106,6 +106,64 @@
 		border-radius: 50% !important;
 		cursor: pointer;
 	}
+
+	@media (max-width:700px) {
+		.pagination {
+		text-align: center;
+		margin: 20px 20px 40px;
+		user-select: none;
+		padding-top: 20px;
+		}
+
+		.pagination li {
+			margin: 0px !important;
+		}
+
+		.pagination li a {
+		font-size: 0.8em;
+		}
+
+		.previous-page,
+		.next-page {
+		width: 50px;
+		border-radius: 45px !important;
+		cursor: pointer;
+		transition: 0.3s ease;
+		}
+		
+
+	}
+
+	@media (max-width:460px) {
+		.pagination {
+		text-align: center;
+		margin: 10px 10px 20px;
+		user-select: none;
+		padding-top: 20px;
+		}
+
+		.pagination li:not(:first-child) {
+			width:30px !important;
+			margin: 0px !important;
+		}
+
+		.pagination li a {
+		height: 25px !important;
+		width: 25px !important;
+		font-size: 0.6em;
+		}
+
+		.previous-page,
+		.next-page {
+		width: 40px;
+		border-radius: 45px !important;
+		cursor: pointer;
+		transition: 0.3s ease;
+		}
+		
+
+	}
+
 </style>
 
 <body>
@@ -278,9 +336,26 @@
 
 	$(function() {
 		var numberOfdata = $(".card-content .card").length;
-		var limitPerPage = 16; //How many card data visible per a page
+		var width = window.innerWidth;
+		console.log("width " + width);
+		if (width>1420){
+			var limitPerPage = 16; //How many card data visible per a page
+		}
+		if (width<=1420 && width>1070){
+			var limitPerPage = 12; //How many card data visible per a page
+		}
+		if (width<1070 && width>715){
+			var limitPerPage = 8; //How many card data visible per a page
+		}
+		if (width<715){
+			var limitPerPage = 5; //How many card data visible per a page
+		}
+	
+
+		
+		
 		var totalPages = Math.ceil(numberOfdata / limitPerPage);
-		var paginationSize = 7; //How many page elements visible in the pagination
+		var paginationSize = 100; //How many page elements visible in the pagination
 		var currentPage;
 
 		function showPage(whichPage) {

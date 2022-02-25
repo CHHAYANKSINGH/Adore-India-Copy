@@ -61,9 +61,9 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-  <section>
+  <section style="justify-content:center;">
     <div class="sec col-lg-7">
-      <h2 style="margin: 0; padding-bottom:10px;">Wise<span style="color:#24a8e6;">Talk</span></h2>
+      <img style="border-radius: 4px;border: 4px solid #275e85;margin-bottom: 60px;" src="images/WiseTalk.jpeg" alt="image">
       <h6><span style="font-weight: 200;">WiseTalk provides a platform to gather knowledge and experiences which can provide an immense help to the younger generations with the help of experience of senior citizens.
           Through these fun learning sessions, we interact and make new friends.
       </h6>
