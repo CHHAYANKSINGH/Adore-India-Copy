@@ -35,6 +35,8 @@
   img {
     background: cover;
   }
+  
+
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -65,9 +67,10 @@
     <div style="border-radius: 4px;" class="sec col-lg-10">
       <!-- <h2 align="center" style="margin: 0; margin-bottom:40px;font-size:80px;">Young <span style="color:#24a8e6;">Leaders</span></h2> -->
       <img style="border-radius: 4px;border: 4px solid #0073aa" src="images/YL(1).jpeg" alt="image">
-      <h2 style=" padding-top:20px;border-bottom:2px solid #0073aa;font-size:45px;margin-top:40px;">Objective </h2>
-      <h6><span style="font-weight: 200;">To motivate students to engage themselves in self-development and socially responsible activities. These activities also help them inculcate and develop: Confidence, Creativity, Social Responsibility, Public Speaking and other Soft Skills</span></h6>
-      <h6 style="margin-top: 40px;">Some of the Young Leader Activities include :</h6>
+      <p class="h1" style=" padding-top:20px;border-bottom:2px solid #0073aa;font-size:45px;margin-top:40px;color:blue;">Objective </p>
+<!-- `      <h2 style=" padding-top:20px;border-bottom:2px solid #0073aa;font-size:45px;margin-top:40px;color:blue;">Objective </h2> -->
+     <h6><span style="font-weight: 200;">To motivate students to engage themselves in self-development and socially responsible activities. These activities also help them inculcate and develop: Confidence, Creativity, Social Responsibility, Public Speaking and other Soft Skills</span></h6>
+      <h6 style="margin-top: 40px;color:#cd8d00;">Some of the Young Leader Activities include :</h6>
       <div style="display: flex;">
         <div class="par col-lg-6">
           <h6>Thank our social Heroes : <span style="font-weight: 200;">Thank social heroes around you like a doctor, nurse, sweeper, or anyone who does something good for society through a gesture</span> </h6>
