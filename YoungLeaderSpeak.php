@@ -35,6 +35,51 @@
   img {
     background: cover;
   }
+
+
+  @media (max-width:500px) {
+    section {
+      justify-content:center !important;
+    }
+    .sec {
+      padding: 20px !important;
+    }
+    .heading {
+      font-size:21px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:9px !important;
+    }
+  }
+
+  @media (min-width:510px) and (max-width:768px) {
+    
+    .sec {
+      padding: 30px !important;
+    }
+    .heading {
+      font-size:35px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:15px !important;
+    }
+  }
+
+  @media (min-width:770px) and (max-width:1024px) {
+    .sec {
+      padding: 40px !important;
+    }
+    .heading {
+      font-size:40px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:20px !important;
+    }
+  }
+
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -62,9 +107,9 @@
 
   <!-- Section: User -->
   <section>
-    <div class="sec col-lg-7">
-      <h2 style="margin: 0; padding-bottom:10px;">Young <span style="color:#24a8e6;">Leader </span>Speak</h2>
-      <h6><span style="font-weight: 200;">Speech on how we can make our society a better place or responsibility of youth or how we can have a positive attitude etc.</h6>
+    <div class="sec col-lg-7 col-sm-7 col-10">
+      <h2 class="heading" style="margin: 0; padding-bottom:10px;">Young <span class="heading" style="color:#24a8e6;">Leader </span>Speak</h2>
+      <h6 class="txt"><span class="txt" style="font-weight: 200;">Speech on how we can make our society a better place or responsibility of youth or how we can have a positive attitude etc.</h6>
     </div>
   </section>
   <!-- End Divider -->

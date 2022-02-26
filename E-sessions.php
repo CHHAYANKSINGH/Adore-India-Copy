@@ -35,6 +35,52 @@
   img {
     background: cover;
   }
+
+  @media (max-width:500px) {
+    section {
+      justify-content:center !important;
+    }
+    .sec {
+      padding: 20px !important;
+    }
+    .heading {
+      font-size:25px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:14px !important;
+    }
+  }
+
+  @media (min-width:510px) and (max-width:768px) {
+    section {
+      justify-content:center !important;
+    }
+    .sec {
+      padding: 30px !important;
+    }
+    .heading {
+      font-size:35px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:14px !important;
+    }
+  }
+
+  @media (min-width:770px) and (max-width:1024px) {
+    .sec {
+      padding: 40px !important;
+    }
+    .heading {
+      font-size:40px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:20px !important;
+    }
+  }
+
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -62,16 +108,13 @@
 
   <!-- Section: User -->
   <section>
-    <div class="sec col-lg-8">
-      <h2 style="margin: 0; padding-bottom:10px;">E-<span style="color:#24a8e6;">Sessions</span></h2>
-      <h6><span style="font-weight: 200;">Interaction and facilitation are two of the most important skills to conduct education and outreach sessions on various significant issues. Adore volunteers connect with children at schools and children’s homes to conduct interactive sessions on matters that they usually find difficult to understand or discuss with their parents and teachers. The interactions cater to learning outcomes in students at a knowledge-based, emotion-based and action-based level. The idea is to engage all students during the interactions and not just the extrovert few.
+    <div class="sec col-lg-8 col-sm-10 col-10">
+      <h2 class="heading" style="margin: 0; padding-bottom:10px;">E-<span class="heading" style="color:#24a8e6;">Sessions</span></h2>
+      <h6><span class="txt" style="font-weight: 400;">Interaction and facilitation are two of the most important skills to conduct education and outreach sessions on various significant issues. Adore volunteers connect with children at schools and children’s homes to conduct interactive sessions on matters that they usually find difficult to understand or discuss with their parents and teachers. The interactions cater to learning outcomes in students at a knowledge-based, emotion-based and action-based level. The idea is to engage all students during the interactions and not just the extrovert few.
 
-          <h6><span style="font-weight: 200;">These sessions are around various important topics like</span> Child Safety, How to Overcome Fear, General Awareness, Public Speaking Sessions, Career Choice, Managing Peer Pressure, Health and Hygiene, Respecting Elders, Teenage Issues, Personality Development and many more.</h6>
+          <h6 class="txt"><span class="txt" style="font-weight: 400;">These sessions are around various important topics like</span> Child Safety, How to Overcome Fear, General Awareness, Public Speaking Sessions, Career Choice, Managing Peer Pressure, Health and Hygiene, Respecting Elders, Teenage Issues, Personality Development and many more.</h6>
           We familiarize the students with some of the crucial topics by discussing and enticing them with engaging and challenging discussion questions which creates essential classroom learning opportunities.
         </span></h6>
-    </div>
-    <div class="col-lg-3">
-
     </div>
   </section>
   <!-- End Divider -->

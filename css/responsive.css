@@ -71,7 +71,15 @@ Apple iPod Touch (4th generation)
   } /* 24px */
 
   h4 {
-    font-size: 1.4em;
+    font-size: 1.6em;
+  }
+
+  h6 {
+    font-size: 1.6em;
+  }
+
+  span {
+    font-size: 1.6em;
   }
 }
 
@@ -100,7 +108,15 @@ Samsung Galaxy
   } /* 24px */
 
   h4 {
-    font-size: 1.4em;
+    font-size: 1.6em;
+  }
+
+  h6 {
+    font-size: 1.6em;
+  }
+
+  span {
+    font-size: 1.6em;
   }
 }
 
@@ -133,6 +149,14 @@ Samsung Galaxy
   .contact_shiv_h4 {
     font-size: 1.4em;
   }
+
+  h6 {
+    font-size: 1.4em;
+  }
+
+  span {
+    font-size: 1.4em;
+  }
 }
 
 @media (max-width: 400px) {
@@ -141,6 +165,14 @@ Samsung Galaxy
   }
 
   .contact_shiv_h4 {
+    font-size: 1em;
+  }
+
+  h6 {
+    font-size: 1em;
+  }
+
+  span {
     font-size: 1em;
   }
 }

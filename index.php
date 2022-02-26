@@ -461,12 +461,12 @@
         <h2 class="text-white rs-divider-title font-weight-900 mb-40 mt-0">
           GET IN TOUCH NOW
         </h2>
-        <h4 class="contact_shiv_h4" style="color: white; margin-bottom: 60px">
+        <h4 class="contact_shiv_h4" style="font-family:cursive;color: white; margin-bottom: 60px; font-weight: 500;">
           Come, join hands with us in fulfilling our social
           responsibility and spreading smiles.<br>Email:
           <a class="contact_shiv_a" href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
         </h4>
-        <a href="page-contact.php" style="border-radius:5px;width:120px;height:50px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Volunteer</a>
+        <a href="page-contact.php" style="border-radius:5px;width:140px;height:50px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Volunteer Us</a>
       </div>
     </div>
   </div>

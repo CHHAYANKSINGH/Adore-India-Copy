@@ -35,6 +35,50 @@
   img {
     background: cover;
   }
+
+  @media (max-width:500px) {
+    section {
+      justify-content:center !important;
+    }
+    .sec {
+      padding: 20px !important;
+    }
+    .heading {
+      font-size:25px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:14px !important;
+    }
+  }
+
+  @media (min-width:510px) and (max-width:768px) {
+    
+    .sec {
+      padding: 30px !important;
+    }
+    .heading {
+      font-size:35px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:14px !important;
+    }
+  }
+
+  @media (min-width:770px) and (max-width:1024px) {
+    .sec {
+      padding: 40px !important;
+    }
+    .heading {
+      font-size:40px !important;
+      padding:0 !important;
+    }
+    .txt {
+      font-size:20px !important;
+    }
+  }
+
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -62,9 +106,9 @@
 
   <!-- Section: User -->
   <section>
-    <div class="sec col-lg-7">
-      <h2 style="margin: 0; padding-bottom:10px;">Youth <span style="color:#24a8e6;">Impact</span></h2>
-      <h6><span style="font-weight: 200;">In Youth Impact Webinar, volunteers speak about their experiences and learning in their journey with ADORE.
+    <div class="sec col-lg-7 col-sm-7 col-10">
+      <h2 class="heading" style="margin: 0; padding-bottom:10px;">Youth <span class="heading" style="color:#24a8e6;">Impact</span></h2>
+      <h6 class="txt"><span class="txt" style="font-weight: 200;">In Youth Impact Webinar, volunteers speak about their experiences and learning in their journey with ADORE.
           They speak about their experiences, impact ADORE has made on them, Impact ADORE has made on the society, Speak about the things they have done , Speak about the problems they have faced.</h6>
     </div>
   </section>
