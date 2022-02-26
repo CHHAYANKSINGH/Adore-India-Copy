@@ -46,7 +46,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -66,7 +66,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -86,7 +86,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -106,7 +106,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -126,7 +126,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -146,7 +146,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -166,7 +166,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -186,7 +186,7 @@
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
