@@ -15,7 +15,7 @@
                                 </div>
                                 <div class="text">
                                     <a href="tel:+91.722.3859.729">+91 79804 60134</a>
-                                    <span>Phone line</span>
+                                    <span>Contact Number</span>
                                 </div>
                             </li>
                             <li class="contact-email">
