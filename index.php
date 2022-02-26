@@ -512,15 +512,15 @@
               </p>
             </div>
           </div>
-          <div class="service-list-item-style1 mb-10">
+          <div class="service-list-item-style1 mb-10" style="border-radius:6px;">
             <span class="number">01</span>
             <p class="mb-0">Save Ecology Begin by Planting Trees</p>
           </div>
-          <div class="service-list-item-style1 mb-10">
+          <div class="service-list-item-style1 mb-10" style="border-radius:6px;">
             <span class="number">02</span>
             <p class="mb-0">Eco System amet for Global Warnings</p>
           </div>
-          <div class="service-list-item-style1">
+          <div class="service-list-item-style1" style="border-radius:6px;">
             <span class="number">03</span>
             <p class="mb-0">People to Clean the Air and Safe Rivers</p>
           </div>
@@ -611,7 +611,7 @@
       <div class="row">
         <div class="col-lg-6 align-self-lg-center align-self-xl-start">
           <div class="thumb">
-            <img class="w-md-100" src="images/photos/newsletter-01.jpg" alt="Image" />
+            <img class="w-md-100" style="border-radius:6px;" src="images/photos/newsletter-01.jpg" alt="Image" />
           </div>
         </div>
         <div class="col-lg-6">
