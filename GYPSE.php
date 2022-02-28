@@ -35,6 +35,68 @@
   img {
     background: cover;
   }
+
+  @media (max-width:500px) {
+    section {
+      justify-content:center !important;
+    }
+    .sec {
+      padding: 10px !important;
+    }
+    .heading {
+      font-size:17px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:9px !important;
+    }
+
+    .pos {
+      margin:0px !important;
+    }
+
+  }
+
+  @media (min-width:510px) and (max-width:768px) {
+    
+    .sec {
+      padding: 30px !important;
+    }
+    .heading {
+      font-size:28px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:15px !important;
+    }
+    
+    .pos {
+      margin:0 !important;
+    }
+
+  }
+
+  @media (min-width:770px) and (max-width:1024px) {
+    .sec {
+      padding: 40px !important;
+    }
+    .heading {
+      font-size:35px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:20px !important;
+    }
+
+    .pos {
+      margin:0 !important;
+    }
+
+  }
+
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -62,15 +124,15 @@
 
   <!-- Section: User -->
   <section>
-    <div class="sec col-lg-8">
-      <h2 style="margin: 0; padding-bottom:10px;">Global Youth Program For Social Exchange</h2>
-      <h6><span style="font-weight: 200;">Self - awareness is key, but knowledge about other cultures is very beneficial for the youths to function effectively in this fast paced world. Through <span style="font-weight: 600;">GYPSE</span>, we would like to provide a platform to the youth to connect with youths across countries.</h6>
-      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
+    <div class="sec col-lg-8 col-sm-8 col-10">
+      <h2 class="heading" style="margin: 0; padding-bottom:10px;">Global Youth Program For Social Exchange</h2>
+      <h6 class="txt"><span class="txt" style="font-weight: 200;">Self - awareness is key, but knowledge about other cultures is very beneficial for the youths to function effectively in this fast paced world. Through <span class="txt" style="font-weight: 600;">GYPSE</span>, we would like to provide a platform to the youth to connect with youths across countries.</h6>
+      <h2 class="heading" style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
       <ul style="color:black;">
-        <li>To give a platform to the youths to interact with each other and impart information about different countries.</li>
-        <li>Youths to gain cultural competence/knowledge to possess mutual respect.</li>
-        <li>Youths to build more confidence while interacting with others from different cultural backgrounds.</li>
-        <li>Gain more insight and better understanding of the world around us.</li>
+        <li class="txt">To give a platform to the youths to interact with each other and impart information about different countries.</li>
+        <li class="txt">Youths to gain cultural competence/knowledge to possess mutual respect.</li>
+        <li class="txt">Youths to build more confidence while interacting with others from different cultural backgrounds.</li>
+        <li class="txt">Gain more insight and better understanding of the world around us.</li>
       </ul>
     </div>
   </section>

@@ -35,6 +35,68 @@
   img {
     background: cover;
   }
+
+  @media (max-width:500px) {
+    section {
+      justify-content:center !important;
+    }
+    .sec {
+      padding: 10px !important;
+    }
+    .heading {
+      font-size:17px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:9px !important;
+    }
+
+    .pos {
+      margin:0px !important;
+    }
+
+  }
+
+  @media (min-width:510px) and (max-width:768px) {
+    
+    .sec {
+      padding: 30px !important;
+    }
+    .heading {
+      font-size:28px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:15px !important;
+    }
+    
+    .pos {
+      margin:0 !important;
+    }
+
+  }
+
+  @media (min-width:770px) and (max-width:1024px) {
+    .sec {
+      padding: 40px !important;
+    }
+    .heading {
+      font-size:35px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:20px !important;
+    }
+
+    .pos {
+      margin:0 !important;
+    }
+
+  }
+
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -62,17 +124,17 @@
 
   <!-- Section: User -->
   <section style="justify-content:center;">
-    <div class="sec col-lg-7">
-      <img style="border-radius: 4px;border: 4px solid #275e85;margin-bottom: 60px;" src="images/WiseTalk.jpeg" alt="image">
-      <h6><span style="font-weight: 200;">WiseTalk provides a platform to gather knowledge and experiences which can provide an immense help to the younger generations with the help of experience of senior citizens.
+    <div class="sec col-lg-8 col-sm-10 col-10">
+      <img class="pos" style="border-radius: 4px;border: 4px solid #275e85;margin-bottom: 60px;" src="images/WiseTalk.jpeg" alt="image">
+      <h6><span class="txt" style="font-weight: 400;">WiseTalk provides a platform to gather knowledge and experiences which can provide an immense help to the younger generations with the help of experience of senior citizens.
           Through these fun learning sessions, we interact and make new friends.
       </h6>
-      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
+      <h2 class="heading" style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
       <ul style="color:black;">
-        <li>To provide an opportunity for both to interact to each other and learn new skills</li>
-        <li>To invigorate and energize senior citizens</li>
-        <li>Give help to reduce the likelihood of depression in the elderly & reduce the isolation of older adults</li>
-        <li>introduce technology into the life a senior citizen</li>
+        <li class="txt" >To provide an opportunity for both to interact to each other and learn new skills</li>
+        <li class="txt" >To invigorate and energize senior citizens</li>
+        <li class="txt" >Give help to reduce the likelihood of depression in the elderly & reduce the isolation of older adults</li>
+        <li class="txt" >introduce technology into the life a senior citizen</li>
       </ul>
     </div>
   </section>

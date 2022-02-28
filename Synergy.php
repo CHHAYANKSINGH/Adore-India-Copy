@@ -35,6 +35,68 @@
   img {
     background: cover;
   }
+
+  @media (max-width:500px) {
+    section {
+      justify-content:center !important;
+    }
+    .sec {
+      padding: 10px !important;
+    }
+    .heading {
+      font-size:17px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:9px !important;
+    }
+
+    .pos {
+      margin-bottom:20px !important;
+    }
+
+  }
+
+  @media (min-width:510px) and (max-width:768px) {
+    
+    .sec {
+      padding: 30px !important;
+    }
+    .heading {
+      font-size:28px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:15px !important;
+    }
+    
+    .pos {
+      margin-bottom:20px !important;
+    }
+
+  }
+
+  @media (min-width:770px) and (max-width:1024px) {
+    .sec {
+      padding: 40px !important;
+    }
+    .heading {
+      font-size:35px !important;
+      padding:0 !important;
+      margin-top:15px !important;
+    }
+    .txt {
+      font-size:20px !important;
+    }
+
+    .pos {
+      margin-bottom:20px !important;
+    }
+
+  }
+
 </style>
 <div class="main-content-area">
   <!-- Section: page title -->
@@ -62,15 +124,15 @@
 
   <!-- Section: User -->
   <section style="justify-content:center;">
-    <div class="sec col-lg-7">
+    <div class="sec col-lg-8 col-sm-10 col-10">
       <!-- <h2 style="margin: 0; padding-bottom:10px;">Synergy</h2> -->
-      <img style="margin-bottom:20px;border: 4px solid #0073aa" src="images/Sy.jpeg" alt="image">
-      <h6><span style="font-weight: 200;">Synergy is a platform which gives an opportunity to the youth to interact with domain experts and learn from them. We invite professionals who are authorities in their subject to speak to our youth.</h6>
-      <h2 style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
+      <img class="pos" style="margin-bottom:20px;border: 4px solid #0073aa" src="images/Sy.jpeg" alt="image">
+      <h6 class="txt" ><span class="txt" style="font-weight: 200;">Synergy is a platform which gives an opportunity to the youth to interact with domain experts and learn from them. We invite professionals who are authorities in their subject to speak to our youth.</h6>
+      <h2 class="heading" style="border-bottom:2px solid #0073aa;font-size:25px;margin-top:40px;">Objective </h2>
       <ul style="color:black;">
-        <li>To give a platform to the domain experts interact and guide the youth</li>
-        <li>Students derive ideas from the talk for their growth</li>
-        <li>Provide volunteers the opportunity to interact with eminent experts and build in confidence</li>
+        <li class="txt" >To give a platform to the domain experts interact and guide the youth</li>
+        <li class="txt" >Students derive ideas from the talk for their growth</li>
+        <li class="txt" >Provide volunteers the opportunity to interact with eminent experts and build in confidence</li>
       </ul>
     </div>
   </section>
