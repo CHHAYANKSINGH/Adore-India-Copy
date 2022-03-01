@@ -611,7 +611,7 @@
       <div class="row">
         <div class="col-lg-6 align-self-lg-center align-self-xl-start">
           <div class="thumb">
-            <img class="w-md-100" style="border-radius:6px;" src="images/photos/newsletter-01.jpg" alt="Image" />
+            <img class="w-md-100" style="height:394px; border: 4px solid #7daaee;border-radius:6px;" src="images/NewsLetter.jpeg" alt="Image" />
           </div>
         </div>
         <div class="col-lg-6">
