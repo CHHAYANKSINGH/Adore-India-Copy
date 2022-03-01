@@ -107,7 +107,7 @@
 </style>
 <div class="main-content-area">
 	<!-- Section: page title -->
-	<section class="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center" data-tm-bg-img="images/bg/bg1.jpg">
+	<section class="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center">
 		<div class="container pt-90 pb-90">
 			<div class="section-content">
 				<div class="row">

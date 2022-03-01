@@ -1,5 +1,5 @@
 <!-- <footer id="footer" class="footer bg-img-center-bottom bg-img-cover" data-tm-bg-img="images/bg/bg03.jpg"> -->
-<footer id="footer" class="footer bg-img-center-bottom bg-theme-colored3-darker5">
+<footer id="footer" class="footer bg-img-center-bottom bg-theme-colored4-darker5">
     <div class="footer-widget-area pt-60">
         <div class="container pb-40">
             <div class="row">
@@ -27,7 +27,7 @@
                                     <span>Email address</span>
                                 </div>
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                         <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
                         <p class="description mb-40 font-size-15">
                             Sign up now to get daily latest news & updates from us
-                            
+
                         </p>
 
                         <!-- Mailchimp Subscription Form-->
