@@ -1,4 +1,68 @@
 <?php include "layouts/header.php"; ?>
+<style>
+  @media (max-width:500px) {
+    .row {
+      justify-content:center !important;
+    }
+
+    .photo {
+      height:300px !important;
+      width:300px !important;
+    }
+
+  }
+
+  @media (min-width:510px) and (max-width:768px) {
+    .row {
+      justify-content:center !important;
+    }
+
+    .photo {
+      height:270px !important;
+      width:270px !important;
+    }
+
+  }
+
+  @media (min-width:770px) and (max-width:1024px) {
+    .row {
+      justify-content:center !important;
+    }
+
+    .photo {
+      height:392px !important;
+      
+    }
+
+  }
+
+  @media (min-width:1025px) and (max-width:1440px) {
+    .row {
+      justify-content:center !important;
+    }
+
+    .photo {
+      height:239px !important;
+      
+    }
+
+  }
+
+  @media (min-width:1450px) {
+    .row {
+      justify-content:center !important;
+    }
+
+    .photo {
+      height:245px !important;
+      
+    }
+
+  }
+
+
+</style>
+
 <!-- Preloader -->
 <div id="preloader"></div>
 
@@ -10,14 +74,14 @@
       <div class="section-content">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2 class="title">Team Grid</h2>
+            <h2 class="title">Team</h2>
             <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
               <div class="breadcrumbs">
                 <span><a href="index.php" rel="home">Home</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
                 <span><a href="#">Pages</a></span>
                 <span><i class="fa fa-angle-right"></i></span>
-                <span class="active">Team Grid</span>
+                <span class="active">Team</span>
               </div>
             </nav>
           </div>
@@ -32,8 +96,8 @@
     <div class="container pb-70">
       <div class="section-content">
         <div class="row">
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team1.jpg" alt="">
               </div>
@@ -52,8 +116,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team2.jpg" alt="">
               </div>
@@ -72,15 +136,15 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team4.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
                   <h4 class="team-name mt-0 mb-0">Garima Mishra</h4>
-                  <p class="designation">Young Leader and E-sessions Trainee</p>
+                  <p class="designation">Young Leader, E-Sessions Trainee</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -92,8 +156,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team5.jpg" alt="">
               </div>
@@ -112,10 +176,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
-                <img class="w-100" style="height:240px;" src="images/team/team7.jpg" alt="">
+                <img class="w-100 photo" style="min-height:245px;max-height:400px;" src="images/team/team7.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
@@ -132,10 +196,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
-                <img class="w-100" style="height:245px;" src="images/team/team8.png" alt="">
+                <img class="w-100 photo" style="min-height:245px;max-height:400px;" src="images/team/team8.png" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
@@ -152,10 +216,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
-                <img class="w-100" style="height:250px;" src="images/team/team6.jpg" alt="">
+                <img class="w-100 photo" style="min-height:250px;max-height:400px;" src="images/team/team6.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
@@ -172,8 +236,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-3 col-md-6">
-            <div class="team-item mb-30" style="height:500px;">
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30" >
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team3.jpg" alt="">
               </div>
