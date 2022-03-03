@@ -169,9 +169,6 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="activities.php">Activities</a>
-                                            </li>
-                                            <li>
                                                 <a href="#">Programs</a>
                                                 <ul class="dropdown">
                                                     <li><a href="youngLeader.php">Young Leader</a></li>
@@ -190,6 +187,9 @@
                                                     <li><a href="workshop.php">Workshops</a></li>
                                                     <li><a href="e-sessions.php">E-sessions</a></li>
                                                 </ul>
+                                            </li>
+                                            <li>
+                                                <a href="activities.php">Activities</a>
                                             </li>
                                             <li>
                                                 <a href="#">Releases</a>
