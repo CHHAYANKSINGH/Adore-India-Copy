@@ -222,7 +222,7 @@
                 Activities
               </h6>
               <p class="service-details font-size-15 mb-0">
-                The interactive sessions are on various concerns from etiquette-based learning to self-development.
+                Various interactive sessions are conducted on various topics like etiquette-based learning to self-development and from career-orientation to career building.
               </p>
               <div class="floating-object-1 tm-animation-floating" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -238,7 +238,7 @@
                 Programs
               </h6>
               <p class="service-details font-size-15 mb-0">
-                Our program are designed to provide youth to develop their skills and learn the corporate environment.
+                We have developed several programs for people of all age groups to connect to each other, share their learning and develop their knowledge.
               </p>
               <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
               </div>

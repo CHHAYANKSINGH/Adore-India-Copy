@@ -181,10 +181,7 @@
                   <span><i class="fa fa-angle-right"></i></span>
                   <span class="active">Activities </span>
                 </div>
-              </nav><br>
-              <p class="paragraph mb-0" style="font-size: large;">
-                Various interactive sessions are conducted on various topics like etiquette-based learning to self-development and from career-orientation to career building.
-              </p>
+              </nav>
             </div>
           </div>
         </div>
