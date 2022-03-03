@@ -2,65 +2,63 @@
 <style>
   @media (max-width:500px) {
     .row {
-      justify-content:center !important;
+      justify-content: center !important;
     }
 
     .photo {
-      height:300px !important;
-      width:300px !important;
+      height: 300px !important;
+      width: 300px !important;
     }
 
   }
 
   @media (min-width:510px) and (max-width:768px) {
     .row {
-      justify-content:center !important;
+      justify-content: center !important;
     }
 
     .photo {
-      height:270px !important;
-      width:270px !important;
+      height: 270px !important;
+      width: 270px !important;
     }
 
   }
 
   @media (min-width:770px) and (max-width:1024px) {
     .row {
-      justify-content:center !important;
+      justify-content: center !important;
     }
 
     .photo {
-      height:392px !important;
-      
+      height: 392px !important;
+
     }
 
   }
 
   @media (min-width:1025px) and (max-width:1440px) {
     .row {
-      justify-content:center !important;
+      justify-content: center !important;
     }
 
     .photo {
-      height:239px !important;
-      
+      height: 239px !important;
+
     }
 
   }
 
   @media (min-width:1450px) {
     .row {
-      justify-content:center !important;
+      justify-content: center !important;
     }
 
     .photo {
-      height:245px !important;
-      
+      height: 245px !important;
+
     }
 
   }
-
-
 </style>
 
 <!-- Preloader -->
@@ -97,7 +95,7 @@
       <div class="section-content">
         <div class="row">
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team1.jpg" alt="">
               </div>
@@ -117,7 +115,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team2.jpg" alt="">
               </div>
@@ -137,7 +135,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team4.jpg" alt="">
               </div>
@@ -157,9 +155,9 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team5.jpg" alt="">
+                <img class="w-100" src="images/team/team9.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
@@ -177,9 +175,9 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100 photo" style="min-height:245px;max-height:400px;" src="images/team/team7.jpg" alt="">
+                <img class="w-100" src="images/team/team8.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
@@ -197,9 +195,9 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100 photo" style="min-height:245px;max-height:400px;" src="images/team/team8.png" alt="">
+                <img class="w-100" src="images/team/team10.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
@@ -217,14 +215,14 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
-                <img class="w-100 photo" style="min-height:250px;max-height:400px;" src="images/team/team6.jpg" alt="">
+                <img class="w-100" src="images/team/team11.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
                   <h4 class="team-name mt-0 mb-0">Swaraj Kully</h4>
-                  <p class="designation ">General management trainee</p>
+                  <p class="designation ">General Management Trainee</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -237,7 +235,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
-            <div class="team-item mb-30" >
+            <div class="team-item mb-30">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team3.jpg" alt="">
               </div>
@@ -251,6 +249,66 @@
                     <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team12.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">Aniket Singh</h4>
+                  <p class="designation ">Web Developer Intern</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/aniket-singh-5741231b0/" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team13.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">Chhayank Singh</h4>
+                  <p class="designation ">Web Developer Intern</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/chhayanksingh/" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11">
+            <div class="team-item mb-30">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team12.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">Shivvardhan Singh</h4>
+                  <p class="designation ">Web Developer Intern</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="" target="blank"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
