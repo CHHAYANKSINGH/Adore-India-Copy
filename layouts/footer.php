@@ -151,23 +151,24 @@
                             <div class="widget widget-social-list-custom clearfix mb-0">
                                 <ul class="styled-icons icon-theme-colored1">
                                     <li>
-                                        <a href="https://twitter.com/AdoreEarth?t=kvxEaXb3QtcK41czb9itsA&s=08" target="blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" target="blank"><i class="fab fa-whatsapp"></i></a>
                                     </li>
                                     <li>
                                         <a href="https://www.facebook.com/adoreearth/" target="blank"><i class="fab fa-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#" target="blank"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="https://www.instagram.com/adoretheearth/" target="blank"><i class="fab fa-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/adoretheearth/" target="blank"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.youtube.com/channel/UCnmuSy5FJ64zojXAP2P3ttQ/featured" target="blank"><i class="fab fa-youtube"></i></a>
                                     </li>
                                     <li>
                                         <a href="https://in.linkedin.com/company/adore-earth" target="blank"><i class="fab fa-linkedin"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/channel/UCnmuSy5FJ64zojXAP2P3ttQ/featured" target="blank"><i class="fab fa-youtube"></i></a>
+                                        <a href="https://twitter.com/AdoreEarth?t=kvxEaXb3QtcK41czb9itsA&s=08" target="blank"><i class="fab fa-twitter"></i></a>
                                     </li>
+
                                 </ul>
                             </div>
                         </div>
