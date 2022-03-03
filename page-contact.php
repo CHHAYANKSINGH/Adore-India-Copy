@@ -45,7 +45,7 @@
               <div class="clearfix"></div>
             </div>
           </div>
-          <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-50 mb-50">
+          <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-40 mb-50">
             <div class="icon-box-wrapper">
               <div class="icon-wrapper">
                 <a class="icon icon-type-font-icon icon-dark icon-circled">
@@ -58,26 +58,12 @@
                   <a href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
                 </div>
               </div>
-              <div class="clearfix"></div>
             </div>
           </div>
-          <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-50 mb-50">
-            <div class="icon-box-wrapper">
-              <div class="icon-wrapper">
-                <a class="icon icon-type-font-icon icon-dark icon-circled">
-                  <i class="flaticon-contact-025-world"></i>
-                </a>
-              </div>
-              <div class="icon-text">
-                <h5 class="icon-box-title mt-0">Address</h5>
-                <div class="content">Kolkata, West Bengal 700046</div>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
+          
         </div>
         <div class="col-lg-8">
-          <h2 class="mt-0 mb-0">Interested in discussing?</h2>
+          <h2 class="mt-0 mb-0">Interested in Volunteering?</h2>
           <p class="font-size-20">Active & Ready to use Contact Form!</p>
           <!-- Contact Form -->
           <form id="contact_form" name="contact_form" class="" action="https://html.thememascot.net/2020/charity/kologi/kologi-html/includes/sendmail.php" method="post">
@@ -118,9 +104,6 @@
               <input name="form_botcheck" class="form-control" type="hidden" value="" />
               <button type="submit" style="transform:none;" class="btn btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">
                 Send your message
-              </button>
-              <button type="reset" style="transform:none;" class="btn btn-theme-colored2 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">
-                Reset
               </button>
             </div>
           </form>
