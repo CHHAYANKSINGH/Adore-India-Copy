@@ -27,9 +27,8 @@
                   </rs-layer>
                   <rs-layer id="slider-2-slide-2-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to ADORE
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1"><br>
+                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="mt-30 font-current-theme1">
                     <span class="text-theme-colored2">Empowering Youth</span>
-                    <!-- to all -->
                   </rs-layer>
                   <rs-layer id="slider-2-slide-2-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="about.php" style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;" class="btn btn-theme-colored1 btn-flat">Know More</a>
                   </rs-layer>
@@ -47,9 +46,8 @@
                   </rs-layer>
                   <rs-layer id="slider-2-slide-11-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to ADORE
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Empowering Youth
-                    <!-- <span class="text-theme-colored2">nature </span>
-                    to all -->
+                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="mt-30 font-current-theme1">
+                  <span class="text-theme-colored2">Empowering Youth</span>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-2-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="about.php" style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;" class="btn btn-theme-colored1 btn-flat">Know More</a>
                   </rs-layer>
@@ -67,9 +65,8 @@
                   </rs-layer>
                   <rs-layer id="slider-2-slide-12-layer-10" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,0,0;yo:281px,203px,175px,179px;" data-text="w:normal;s:22,22,24,20;l:30,32,24,22;ls:1px,1px,0px,1px;fw:500;a:left,left,center,center;" data-dim="w:482px,355px,344px,356px;h:auto,auto,auto,26px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:500;sp:1000;sR:500;" data-frame_999="o:0;st:w;sR:7500;" style="z-index: 12" class="font-current-theme1">Welcome to ADORE
                   </rs-layer>
-                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="font-current-theme1">Empowering Youth
-                    <span class="text-theme-colored2">nature </span>
-                    to all
+                  <rs-layer id="slider-2-slide-11-layer-18" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:55px,55px,8px,0;yo:318px,249px,212px,215px;" data-text="w:normal;s:75,70,60,40;l:95,90,80,50;ls:0px,0px,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:850px,810px,659px,455px;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1100;sp:1000;sR:1100;" data-frame_999="o:0;st:w;sR:6900;" style="z-index: 11; text-transform: uppercase" class="mt-30 font-current-theme1">
+                  <span class="text-theme-colored2">Empowering Youth</span>
                   </rs-layer>
                   <rs-layer id="slider-2-slide-2-layer-22" data-type="text" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:60px,60px,-90px,-100px;yo:548px,480px,440px,370px;" data-text="w:normal;s:20,16,16,13;l:22,20,18,20;a:left,left,left,center;" data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;" data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10" class="font-current-theme1"><a href="about.php" style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;" class="btn btn-theme-colored1 btn-flat">Know More</a>
                   </rs-layer>
@@ -190,6 +187,7 @@
                 Our mission is to create a platform for the youth where
                 they can reach out to perform their social
                 responsibilities.
+                <br><br>
               </p>
               <div class="floating-object-1 tm-animation-floating" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -206,7 +204,23 @@
               </h6>
               <p class="service-details font-size-15 mb-0">
                 Our neighbourhood, our Society, our world is our own, it’s
-                our home. It’s our’s to take care of, our’s to improve.
+                our home. It’s our’s to take care of, our’s to improve.<br><br>
+              </p>
+              <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
+              </div>
+              <div class="line-style"></div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right4 animate mb-lg-30">
+              <div class="service-icon mb-25 text-center d-inline-block">
+                <img class="icon" style="height:80px;" src="images/programs1.png" alt="Icon" />
+              </div>
+              <h6 class="service-title mb-25 mt-0 mb-lg--0">
+                Programs
+              </h6>
+              <p class="service-details font-size-15 mb-0">
+              We have developed several programs for people of all age groups to connect to each other, share their learning and develop their knowledge.
               </p>
               <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
               </div>
@@ -222,25 +236,9 @@
                 Activities
               </h6>
               <p class="service-details font-size-15 mb-0">
-                The interactive sessions are on various concerns from etiquette-based learning to self-development.
+              Various Activities are conducted on various topics like etiquette-based learning to self-development from career-orientation to career building.
               </p>
               <div class="floating-object-1 tm-animation-floating" data-tm-bg-img="images/shape/service-01.png">
-              </div>
-              <div class="line-style"></div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-xl-3">
-            <div style="border-radius:4px;" class="service-item-current-style1 text-center position-relative z-index-1 overflow-hidden tm-animation move-right4 animate mb-lg-30">
-              <div class="service-icon mb-25 text-center d-inline-block">
-                <img class="icon" style="height:80px;" src="images/programs1.png" alt="Icon" />
-              </div>
-              <h6 class="service-title mb-25 mt-0 mb-lg--0">
-                Programs
-              </h6>
-              <p class="service-details font-size-15 mb-0">
-                Our program are designed to provide youth to develop their skills and learn the corporate environment.
-              </p>
-              <div class="floating-object-1 tm-animation-spin-half" data-tm-bg-img="images/shape/service-01.png">
               </div>
               <div class="line-style"></div>
             </div>
@@ -261,7 +259,7 @@
               <div class="title-wrapper mb-0">
                 <h2 class="title">Our Blogs</h2>
                 <p class="paragraph mb-0">
-                  Through our articles, we provide volunteers a platform to write articles and share their ideas on topics related to youth, motivation and development.
+                Through our articles, we provide volunteers a platform to write articles and share their ideas on topics related to youth, motivation and development.
                 </p>
               </div>
             </div>
@@ -478,9 +476,9 @@
     <div class="section-content">
       <div class="row">
         <div class="col-lg-6">
-          <div class="layer-image-wrapper layer-image-current-style1 position-relative mr-70 mr-lg--0 mb-md-60">
+          <div class="layer-image-wrapper layer-image-current-style1 position-relative mt-60 mr-lg--0 mb-md-60">
             <div class="layer-image mr-60 mr-sm--0">
-              <img style="border-radius: 4px;border: 4px solid #0073aa" class="w-100" src="images/YL_in.jpeg" alt="Image" />
+              <img style="border-radius: 4px;border: 4px solid #0073aa;" class="w-100" src="images/YL_in.jpeg" alt="Image" />
             </div>
             <!-- <div class="successfull-project-box-style1 bg-theme-colored1">
               <img class="icon mb-5" src="images/icons/p01.png" alt="Image" />
@@ -503,7 +501,7 @@
               </div>
               <h2 class="title">
                 Young Leaders Program
-                <p>For school students of Class 2 to 12</p>
+                <p style="font-size:30px;margin-top:10px;">For school students of Class 2 to 12 :</p>
               </h2>
               <p class="paragraph mb-0">
                 Young Leader Program is designed with an objective to motivate school students and engage them in fun filled self development and socially responsible activities. These activities also help them inculcate and develop skills like Confidence, Creativity, Social Responsibility, Public Speaking and many more.
