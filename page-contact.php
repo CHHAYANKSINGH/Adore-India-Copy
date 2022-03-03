@@ -29,7 +29,7 @@
     <div class="container">
       <div class="row pt-30">
         <div class="col-lg-4">
-          <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-50 mb-50">
+          <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-50 mb-50" style="border-radius:8px;">
             <div class="icon-box-wrapper">
               <div class="icon-wrapper">
                 <a class="icon icon-type-font-icon icon-dark icon-circled">
@@ -45,7 +45,7 @@
               <div class="clearfix"></div>
             </div>
           </div>
-          <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-40 mb-50">
+          <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-40 mb-50" style="border-radius:8px;">
             <div class="icon-box-wrapper">
               <div class="icon-wrapper">
                 <a class="icon icon-type-font-icon icon-dark icon-circled">
@@ -60,7 +60,7 @@
               </div>
             </div>
           </div>
-          
+
         </div>
         <div class="col-lg-8">
           <h2 class="mt-0 mb-0">Interested in Volunteering?</h2>
@@ -69,13 +69,13 @@
           <form id="contact_form" name="contact_form" class="" action="https://html.thememascot.net/2020/charity/kologi/kologi-html/includes/sendmail.php" method="post">
             <div class="row">
               <div class="col-sm-6">
-                <div class="mb-3">
+                <div class="mb-3" style="border-radius:8px;">
                   <label>Name <small>*</small></label>
                   <input name="form_name" class="form-control required" type="text" placeholder="Enter Name" />
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="mb-3">
+                <div class="mb-3" style="border-radius:8px;">
                   <label>Email <small>*</small></label>
                   <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email" />
                 </div>
@@ -83,24 +83,24 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <div class="mb-3">
+                <div class="mb-3" style="border-radius:8px;">
                   <label>Subject <small>*</small></label>
                   <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject" />
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="mb-3">
+                <div class="mb-3" style="border-radius:8px;">
                   <label>Phone</label>
                   <input name="form_phone" class="form-control required" type="text" placeholder="Enter Phone" />
                 </div>
               </div>
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3" style="border-radius:8px;">
               <label>Message</label>
               <textarea name="form_message" class="form-control required" rows="8" placeholder="Enter Message"></textarea>
             </div>
-            <div class="mb-3">
+            <div class="mb-3" style="border-radius:8px;">
               <input name="form_botcheck" class="form-control" type="hidden" value="" />
               <button type="submit" style="transform:none;" class="btn btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">
                 Send your message
