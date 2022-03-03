@@ -146,7 +146,6 @@
                                                 <a href="about.php">About</a>
                                                 <ul class="dropdown">
                                                     <li><a href="about.php">About Us</a></li>
-                                                    <li><a href="page-contact.php">Contact</a></li>
                                                     <li><a href="page-team-grid.php">Team</a></li>
                                                 </ul>
                                             </li>
@@ -199,6 +198,9 @@
                                                         <a href="news-details.php">Newsletter</a>
                                                     </li>
                                                 </ul>
+                                            </li>
+                                            <li>
+                                                <a href="page-contact.php">Contact Us</a>
                                             </li>
                                         </ul>
                                     </nav>
