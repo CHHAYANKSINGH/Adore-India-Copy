@@ -459,7 +459,7 @@
         <h2 class="text-white rs-divider-title font-weight-900 mb-40 mt-0" style="font-family:cursive;color: white;">
           GET IN TOUCH NOW
         </h2>
-        <h4 class="contact_shiv_h4" style="font-family:cursive;color: white; margin-bottom: 60px; font-weight: 500;">
+        <h4 class="contact_shiv_h4" style="font-family:Times;color: white; margin-bottom: 60px; font-weight: 500;">
           Come, join hands with us in fulfilling our social
           responsibility and spreading smiles.<br>Email:
           <a class="contact_shiv_a" href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
@@ -476,7 +476,7 @@
     <div class="section-content">
       <div class="row">
         <div class="col-lg-6">
-          <div class="layer-image-wrapper layer-image-current-style1 position-relative mt-60 mr-lg--0 mb-md-60">
+          <div class="layer-image-wrapper layer-image-current-style1 position-relative mr-lg--0 mb-md-20">
             <div class="layer-image mr-60 mr-sm--0">
               <img style="border-radius: 4px;border: 4px solid #0073aa;" class="w-100" src="images/YL_in.jpeg" alt="Image" />
             </div>
@@ -487,10 +487,10 @@
                 Successfully<br />Project
               </h6>
             </div> -->
-            <!-- <div style="margin-top:20px;" class="become-volunteer-style1">
-              <a href="news-details.html">Let’s Become a Volunteer
+          </div>
+          <div style="margin-top:7px;margin-bottom:20px;" class="become-volunteer-style1">
+              <a href="news-details.html">Let’s Become a Young Leader
                 <i class="fa fa-angle-right"></i></a>
-            </div> -->
           </div>
         </div>
         <div class="col-lg-6">
@@ -508,15 +508,15 @@
               </p>
             </div>
           </div>
-          <div class="service-list-item-style1 mb-10" style="border-radius:6px;">
+          <div class="service-list-item-style1 mb-20" style="border-radius:6px;">
             <span class="number">01</span>
             <p class="mb-0">Creative Quest</p>
           </div>
-          <div class="service-list-item-style1 mb-10" style="border-radius:6px;">
+          <div class="service-list-item-style1 mb-20" style="border-radius:6px;">
             <span class="number">02</span>
             <p class="mb-0">Best out of Waste</p>
           </div>
-          <div class="service-list-item-style1 mb-10" style="border-radius:6px;">
+          <div class="service-list-item-style1 mb-20" style="border-radius:6px;">
             <span class="number">03</span>
             <p class="mb-0">Budding Talent</p>
           </div>
