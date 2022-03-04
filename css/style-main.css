@@ -1457,7 +1457,7 @@ body.tm_wpb_vc_js_status_true .sidebar-area {
   /* overlay-white */
 }
 .layer-overlay::before {
-  background: #0D1E34 none repeat scroll 0 0;
+  background: #0d1e34 none repeat scroll 0 0;
   content: " ";
   height: 100%;
   left: 0;
@@ -1509,7 +1509,7 @@ body.tm_wpb_vc_js_status_true .sidebar-area {
   background-color: rgba(17, 17, 17, 0.8);
 }
 .layer-overlay.overlay-dark-9::before {
-  background-color: #0D1E34;
+  background-color: #0d1e34;
 }
 
 .layer-overlay.overlay-white::before {
@@ -3645,7 +3645,7 @@ header#header .menuzord-brand {
   }
 }
 header#header .menuzord-brand img {
-  max-height: 54px;
+  max-height: 30px;
   width: auto;
   transition: all 0.3s ease;
 }

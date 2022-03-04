@@ -455,16 +455,16 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-8 m-auto text-center">
-        <div class="m-auto mb-25" data-tm-width="75" data-tm-height="63" data-tm-bg-img="images/icons/heart01.png"></div>
-        <h2 class="text-white rs-divider-title font-weight-900 mb-40 mt-0" style="font-family:cursive;color: white;">
+        <!-- <div class="m-auto mb-25" data-tm-width="75" data-tm-height="63" data-tm-bg-img="images/icons/heart01.png"></div> -->
+        <!-- <h2 class="text-white rs-divider-title font-weight-900 mb-40 mt-0" style="font-family:cursive;color: white;">
           GET IN TOUCH NOW
-        </h2>
+        </h2> -->
         <h4 class="contact_shiv_h4" style="font-family:Times;color: white; margin-bottom: 60px; font-weight: 500;">
           Come, join hands with us in fulfilling our social
           responsibility and spreading smiles.<br>Email:
           <a class="contact_shiv_a" href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
         </h4>
-        <a href="page-contact.php" style="border-radius:5px;width:140px;height:50px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Volunteer Us</a>
+        <a href="page-contact.php" style="font-size:25px;border-radius:5px;width:280px;height:65px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Volunteering with us</a>
       </div>
     </div>
   </div>
