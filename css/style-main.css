@@ -26495,10 +26495,10 @@ section .container-fluid {
 }
 .causes-carousel-current-style1 .owl-carousel .owl-nav button {
   border: 3px solid #c0c2c0;
-  height: 73px;
+  height: 53px;
   left: 0;
   opacity: 1;
-  width: 73px;
+  width: 53px;
   transition: all 0.3s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -26527,7 +26527,7 @@ section .container-fluid {
 }
 .causes-carousel-current-style1 .owl-carousel .owl-nav button.owl-next {
   background-color: transparent !important;
-  left: 84px;
+  left: 64px;
 }
 .causes-carousel-current-style1 .owl-carousel .owl-nav button.owl-next:hover {
   border-color: var(--theme-color1);

@@ -620,7 +620,7 @@
               Newsletter Signup
             </h4>
             <p class="mt-0 mb-35">
-              Sign up now to get monthly updates of our activities.
+              Sign up now to get ADORE monthly updates and news.
             </p>
             <!-- Mailchimp Subscription Form-->
             <form id="mailchimp-subscription-form2" class="newsletter-form m-0 p-0">
@@ -751,7 +751,8 @@
               <h2 class="title">Upcoming Webinars</h2>
               <p class="paragraph mb-0">Get updates about the latest webinars and learn from experienced professionals.
               </p>
-            </div>
+            </div><br><br>
+            <a href="page-contact.php" style="font-size:25px;border-radius:5px;width:290px;height:65px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Our previous webinar</a>
           </div>
         </div>
         <div class="col-lg-8">

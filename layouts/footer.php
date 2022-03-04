@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="text">
                                     <a href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
-                                    <span>Email address</span>
+                                    <span>Email</span>
                                 </div>
                             </li>
 
@@ -90,7 +90,7 @@
                     <div class="widget contact-info contact-info-style1">
                         <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
                         <p class="description mb-40 font-size-15">
-                            Sign up now to get daily latest news & updates from us
+                        Sign up now to get ADORE monthly updates and news.
 
                         </p>
 
