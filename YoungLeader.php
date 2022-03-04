@@ -110,7 +110,11 @@
       <div class="row">
         <div class="col-sm">
           <h6><span style="font-weight: 200;">To motivate students to engage themselves in self-development and socially responsible activities. These activities also help them inculcate and develop: Confidence, Creativity, Social Responsibility, Public Speaking and other Soft Skills.</span></h6>
-          <h6 class="ob" style="margin-top: 40px;color:#af4239;">Some of the Young Leader Activities include :</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h6 class="obj"><span class="obj" style="margin-top: 40px;color:#af4239;">Some of the Young Leader Activities include :</span></h6>
         </div>
       </div>
       <div class="row">
