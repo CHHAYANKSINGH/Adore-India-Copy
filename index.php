@@ -488,8 +488,8 @@
               </h6>
             </div> -->
           </div>
-          <div style="margin-top:7px;margin-bottom:20px;" class="become-volunteer-style1">
-              <a href="news-details.html">Let’s Become a Young Leader
+          <div style="margin-top:7px;margin-bottom:20px;margin-right:60px;" class="become-volunteer-style1">
+              <a href="page-contact.php" style="font-family:'cursive',brush script mt;font-size:25px;">Let’s Become a Young Leader
                 <i class="fa fa-angle-right"></i></a>
           </div>
         </div>
