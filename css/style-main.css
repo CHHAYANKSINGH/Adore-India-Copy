@@ -2339,7 +2339,7 @@ header#header .nav-side-icon-list > li .custom-button {
 }
 @media (min-width: 1200px) {
   .menuzord-menu > li {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 
@@ -3645,7 +3645,7 @@ header#header .menuzord-brand {
   }
 }
 header#header .menuzord-brand img {
-  max-height: 30px;
+  max-height: 54px;
   width: auto;
   transition: all 0.3s ease;
 }
@@ -3973,8 +3973,8 @@ body.admin-bar .header-nav .navbar-scrolltofixed.scroll-to-fixed-fixed {
 
 @media (max-width: 1199.98px) {
   header#header.header-layout-type-header-2rows .menuzord-brand {
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
 }
 
