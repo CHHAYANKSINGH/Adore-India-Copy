@@ -25548,17 +25548,17 @@ footer#footer.footer-inverted .widget.widget_recent_entries ul > li {
 .tm-sc-section-title.section-title .title-wrapper .title {
   font-weight: 900;
   line-height: 1.22;
-  margin-bottom: 32px;
+  margin-bottom: 12px;
 }
 @media (max-width: 1199.98px) {
   .tm-sc-section-title.section-title .title-wrapper .title {
     font-size: 2.32rem;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
   }
 }
 @media (max-width: 991.98px) {
   .tm-sc-section-title.section-title .title-wrapper .title {
-    margin-bottom: 12px;
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 767.98px) {
@@ -26495,10 +26495,10 @@ section .container-fluid {
 }
 .causes-carousel-current-style1 .owl-carousel .owl-nav button {
   border: 3px solid #c0c2c0;
-  height: 53px;
+  height: 63px;
   left: 0;
   opacity: 1;
-  width: 53px;
+  width: 63px;
   transition: all 0.3s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -26527,7 +26527,7 @@ section .container-fluid {
 }
 .causes-carousel-current-style1 .owl-carousel .owl-nav button.owl-next {
   background-color: transparent !important;
-  left: 64px;
+  left: 75px;
 }
 .causes-carousel-current-style1 .owl-carousel .owl-nav button.owl-next:hover {
   border-color: var(--theme-color1);
