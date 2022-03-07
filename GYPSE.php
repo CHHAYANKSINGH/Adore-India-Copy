@@ -123,7 +123,7 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-  <section>
+  <section style="justify-content:center;">
     <div class="sec col-lg-8 col-sm-8 col-10">
       <h2 class="heading" style="margin: 0; padding-bottom:10px;">Global Youth Program For Social Exchange</h2>
       <h6 class="txt"><span class="txt" style="font-weight: 200;">Self - awareness is key, but knowledge about other cultures is very beneficial for the youths to function effectively in this fast paced world. Through <span class="txt" style="font-weight: 600;">GYPSE</span>, we would like to provide a platform to the youth to connect with youths across countries.</h6>

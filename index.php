@@ -933,7 +933,7 @@
                                 professionals.
                             </p>
                         </div>
-                        <a href="page-contact.php"
+                        <a href="webinar.php"
                             style="margin-top:15px;font-size:25px;border-radius:5px;width:290px;height:65px;padding-left:25px;padding-top:14px;"
                             class="btn btn-theme-colored2 btn-flat">Our previous webinar</a>
                     </div>

@@ -106,7 +106,7 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-  <section>
+  <section style="justify-content:center;">
     <div class="sec col-lg-7 col-sm-7 col-10">
       <h2 class="heading" style="margin: 0; padding-bottom:10px;">Young <span class="heading" style="color:#24a8e6;">Leader </span>Speak</h2>
       <h6 class="txt"><span class="txt" style="font-weight: 200;">Speech on how we can make our society a better place or responsibility of youth or how we can have a positive attitude etc.</h6>

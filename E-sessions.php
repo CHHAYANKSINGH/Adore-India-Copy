@@ -107,7 +107,7 @@
   <!-- Section: home End -->
 
   <!-- Section: User -->
-  <section>
+  <section style="justify-content:center;">
     <div class="sec col-lg-8 col-sm-10 col-10">
       <h2 class="heading" style="margin: 0; padding-bottom:10px;">E-<span class="heading" style="color:#24a8e6;">Sessions</span></h2>
       <h6><span class="txt" style="font-weight: 400;">Interaction and facilitation are two of the most important skills to conduct education and outreach sessions on various significant issues. Adore volunteers connect with children at schools and children’s homes to conduct interactive sessions on matters that they usually find difficult to understand or discuss with their parents and teachers. The interactions cater to learning outcomes in students at a knowledge-based, emotion-based and action-based level. The idea is to engage all students during the interactions and not just the extrovert few.
