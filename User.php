@@ -94,15 +94,14 @@
         });
 
         data1 = `<h2 style="margin: 0; padding-bottom:10px;">${currentUser.f_name+ " " + currentUser.l_name}</h2>
-      <h4 style="margin: 0; padding-bottom:5px;">AIN - ${currentUser.u_id}</h4>
+      <!-- <h4 style="margin: 0; padding-bottom:5px;">AIN - ${currentUser.u_id}</h4> -->
       <div style="display: flex;">
-        <div class="col-lg-4">
-          <h6>City : ${currentUser.city}</h6>
-          <h6>Country : ${currentUser.country}</h6>
+        <div class="col-lg-6">
+          <h6>Country : ${currentUser.country} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; City : ${currentUser.city}</h6>
         </div>
-        <div class="col-lg-4">
+        <!-- <div class="col-lg-4">
           <h6>Organization : ADORE</h6>
-        </div>
+        </div> -->
       </div>
       <table>
         <thead>

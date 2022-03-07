@@ -248,7 +248,7 @@
 					</div>
 					<div class="card-info">
 						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
-						<p>${currentUser.city}</p>
+						<p>${currentUser.country}</p>
 						<h6>Activity : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
@@ -295,7 +295,7 @@
 					</div>
 					<div class="card-info">
 						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a></h6>
-						<p>${currentUser.city}</p>
+						<p>${currentUser.country}</p>
 						<h6>Activity : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> View more</a></h6>
 					</div>
