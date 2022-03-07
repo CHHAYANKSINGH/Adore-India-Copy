@@ -121,10 +121,7 @@
                 <span><i class="fa fa-angle-right"></i></span>
                 <span class="active">Blogs </span>
               </div>
-            </nav><br>
-            <p class="paragraph mb-0" style="font-size: large;">
-              Through our articles, we provide volunteers a platform to write articles and share their ideas on topics related to youth, motivation and development
-            </p>
+            </nav>
           </div>
         </div>
       </div>
@@ -235,7 +232,7 @@
 					<div class="card-info">
 						<h6>${values.blog_title}</h6>
 						<p>${values.creator}</p>
-						<h6><a href="page-blog-details.php?id=${values.blog_id}"> Read more</a></h6>
+						<h6><a href="page-blog-details.php?id=${values.blog_id}"> View more</a></h6>
 					</div>
 				</div>`
 
