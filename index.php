@@ -654,7 +654,7 @@
                             </div>
                             <h2 class="title">
                                 Young Leaders Program
-                                <p style="font-size:30px;margin-top:10px;">For school students of Class 2 to 12 :</p>
+                                <p style="font-size:20px;margin-top:10px;">(For school students of Class 2 to 12)</p>
                             </h2>
                             <p class="paragraph mb-0">
                                 Young Leader Program is designed with an objective to motivate school students and
