@@ -106,8 +106,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -126,8 +125,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -146,8 +144,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -166,8 +163,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -186,8 +182,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -206,8 +201,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -226,8 +220,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -246,8 +239,7 @@
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -262,12 +254,11 @@
               <div class="team-content">
                 <div class="team-information">
                   <h4 class="team-name mt-0 mb-0">Aniket Singh</h4>
-                  <p class="designation ">Web Developer Intern</p>
+                  <p class="designation ">Web Developer</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="https://www.linkedin.com/in/aniket-singh-5741231b0/" target="blank"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -282,12 +273,11 @@
               <div class="team-content">
                 <div class="team-information">
                   <h4 class="team-name mt-0 mb-0">Chhayank Singh</h4>
-                  <p class="designation ">Web Developer Intern</p>
+                  <p class="designation ">Web Developer</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
                     <li><a class="social-link" href="https://www.linkedin.com/in/chhayanksingh/" target="blank"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
@@ -302,13 +292,12 @@
               <div class="team-content">
                 <div class="team-information">
                   <h4 class="team-name mt-0 mb-0">Shivvardhan Singh</h4>
-                  <p class="designation ">Web Developer Intern</p>
+                  <p class="designation ">Web Developer</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="social-link" href="" target="blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
