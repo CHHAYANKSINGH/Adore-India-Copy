@@ -985,6 +985,8 @@
                                     console.log("webinar to show", data);
                                     if (data.length == 0) {
                                         //add no upcoming webinars section in data1 
+                                        data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+
                                     }
                                     try {
                                         data.map((currentwebinar) => {
@@ -1028,6 +1030,7 @@
                                 console.log("webinar to show", data);
                                 if (data.length == 0) {
                                     //add no upcoming webinars section in data1 
+                                    data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
                                 }
                                 try {
                                     data.map((currentwebinar) => {
@@ -1094,7 +1097,12 @@ if (localStorage.getItem("users") === null) {
 
 }
 </script>
-
+<style>
+    ::selection {
+  color: white;
+  background:#0073aa;
+}
+    </style>
 <!-- Footer Scripts -->
 <!-- JS | Custom script for all pages -->
 <script src="js/custom.js"></script>
