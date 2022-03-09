@@ -118,7 +118,7 @@
         <span class="floating-object-4 tm-animation-slide-horizontal" data-tm-bg-img="images/shape/about-04.png" data-tm-width="90" data-tm-height="80" data-tm-top="40%" data-tm-bottom="auto" data-tm-right="120" data-tm-left="auto" data-tm-opacity="1"></span>
     </div>
 </section>
-<div class="fact">
+<div class="fact mb-60">
                 <div class="container-fluid">
                     <div class="row counters">
                         <div class="col-md-6 fact-left wow slideInLeft">
