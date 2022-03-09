@@ -71,8 +71,8 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;"
                                         data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9"
                                         class="font-current-theme1"><a href="page-contact.php"
-                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
-                                            class="btn btn-theme-colored2 btn-flat">Contact Us</a>
+                                            style="font-weight:700;border-radius:5px;max-width:140px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
+                                            class="btn btn-theme-colored2 btn-flat">Volunteer Us</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-2-layer-0" data-type="shape" data-rsp_ch="on"
                                         data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;"
@@ -130,8 +130,8 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;"
                                         data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9"
                                         class="font-current-theme1"><a href="page-contact.php"
-                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
-                                            class="btn btn-theme-colored2 btn-flat">Contact Us</a>
+                                            style="font-weight:700;border-radius:5px;max-width:140px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
+                                            class="btn btn-theme-colored2 btn-flat">Volunteer Us</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-11-layer-0" data-type="shape" data-rsp_ch="on"
                                         data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;"
@@ -189,8 +189,8 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;"
                                         data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9"
                                         class="font-current-theme1"><a href="page-contact.php"
-                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
-                                            class="btn btn-theme-colored2 btn-flat">Contact Us</a>
+                                            style="font-weight:700;border-radius:5px;max-width:140px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
+                                            class="btn btn-theme-colored2 btn-flat">Volunteer Us</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-12-layer-0" data-type="shape" data-rsp_ch="on"
                                         data-text="w:normal;s:20,14,10,6;l:0,18,13,8;" data-dim="w:100%;h:100%;"
