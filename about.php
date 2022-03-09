@@ -14,25 +14,14 @@
 
 .fact .fact-icon {
     position: relative;
-    margin: 7px 15px 0 15px;
+    margin: 20px 15px 0 15px;
     width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.fact .fact-icon [class^="flaticon-"]::before {
-    margin: 0;
-    font-size: 60px;
-    line-height: 60px;
-    background-image: linear-gradient(#ffffff, #30C0F0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-.fact .fact-right .fact-icon [class^="flaticon-"]::before {
-    background-image: linear-gradient(#ffffff, #030f27);
-}
 
 .fact .fact-left,
 .fact .fact-right {
@@ -136,7 +125,7 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="fact-icon">
-                                        <i class="flaticon-worker"></i>
+                                    <i class="fa fa-group" style="font-size:36px"></i>
                                     </div>
                                     <div class="fact-text">
                                         <h2 data-toggle="counter-up">30</h2>
@@ -145,7 +134,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="fact-icon">
-                                        <i class="flaticon-building"></i>
+                                    <i class="fa fa-newspaper-o" style="font-size:36px"></i>
                                     </div>
                                     <div class="fact-text">
                                         <h2 data-toggle="counter-up">20</h2>
@@ -158,7 +147,7 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="fact-icon">
-                                        <i class="flaticon-address"></i>
+                                    <i class="fa fa-television" style="font-size:36px"></i>
                                     </div>
                                     <div class="fact-text">
                                         <h2 data-toggle="counter-up">100</h2>
@@ -167,7 +156,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="fact-icon">
-                                        <i class="flaticon-crane"></i>
+                                    <i class="fa fa-tasks" style="font-size:36px"></i>
                                     </div>
                                     <div class="fact-text">
                                         <h2 data-toggle="counter-up">60</h2>
@@ -183,6 +172,17 @@
 
 <?php include "layouts/footer.php" ?>
 <script src="js/custom.js"></script>
+
+    <script type="text/javascript>
+  $(function(){
+    var el = $('span[data-toggle="counter-up"]');
+    var text = el.text();
+    // do something with the value
+    // append ' %' to the value
+    el.text(text + ' %');
+  });
+
+    </script>
 </body>
 
 </html>
