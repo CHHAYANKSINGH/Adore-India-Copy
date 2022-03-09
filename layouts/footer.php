@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="widget">
-                        <h4 style="color:#77aaf7;" class="widget-title mb-40">Blogs</h4>
+                        <h4 style="color:#77aaf7;" class="widget-title mb-20">Blogs</h4>
                         <div class="latest-posts pt-2" id="blogs">
                             <script>
                                 localStorage.getItem('blog')
@@ -64,9 +64,9 @@
                                     let content = data[x].blog_data
                                     let i = 0
                                     let data1 = ""
-                                    while (i < 2) {
-                                        data1 += `<article class="post clearfix pb-0 mb-40">
-                                                <a class="post-thumb" href="#"><img src="images/POSI.jpg" alt="Image" /></a>
+                                    while (i < 3) {
+                                        data1 += `<article class="post clearfix pb-0 mb-30">
+                                                <a class="post-thumb" href="page-blog-details.php?id=${id}"><img src="images/POSI.jpg" alt="Image" /></a>
                                     <div class="post-right">
                                         <div class="post-date">
                                             <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${timestamp}</span>
