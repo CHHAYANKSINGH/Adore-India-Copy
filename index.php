@@ -62,7 +62,7 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;"
                                         data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10"
                                         class="font-current-theme1"><a href="about.php"
-                                            style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;"
+                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;"
                                             class="btn btn-theme-colored1 btn-flat">Know More</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on"
@@ -71,7 +71,7 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;"
                                         data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9"
                                         class="font-current-theme1"><a href="page-contact.php"
-                                            style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
+                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
                                             class="btn btn-theme-colored2 btn-flat">Contact Us</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-2-layer-0" data-type="shape" data-rsp_ch="on"
@@ -121,7 +121,7 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;"
                                         data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10"
                                         class="font-current-theme1"><a href="about.php"
-                                            style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;"
+                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;"
                                             class="btn btn-theme-colored1 btn-flat">Know More</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on"
@@ -130,7 +130,7 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;"
                                         data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9"
                                         class="font-current-theme1"><a href="page-contact.php"
-                                            style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
+                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
                                             class="btn btn-theme-colored2 btn-flat">Contact Us</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-11-layer-0" data-type="shape" data-rsp_ch="on"
@@ -180,7 +180,7 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:1700;sp:1000;sR:1700;"
                                         data-frame_999="o:0;st:w;sR:6300;" style="z-index: 10"
                                         class="font-current-theme1"><a href="about.php"
-                                            style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;"
+                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:20px;padding-right:22px;padding-top:14px;"
                                             class="btn btn-theme-colored1 btn-flat">Know More</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-2-layer-3" data-type="text" data-rsp_ch="on"
@@ -189,7 +189,7 @@
                                         data-frame_0="y:-50,-37,-28,-17;" data-frame_1="st:2020;sp:1000;sR:2020;"
                                         data-frame_999="o:0;st:w;sR:5980;" style="z-index: 9"
                                         class="font-current-theme1"><a href="page-contact.php"
-                                            style="border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
+                                            style="font-weight:700;border-radius:5px;max-width:130px;max-height:50px;min-width:100px;min-height:35px;padding-left:22px;padding-right:22px; padding-top:14px;"
                                             class="btn btn-theme-colored2 btn-flat">Contact Us</a>
                                     </rs-layer>
                                     <rs-layer id="slider-2-slide-12-layer-0" data-type="shape" data-rsp_ch="on"
