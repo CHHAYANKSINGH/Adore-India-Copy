@@ -614,8 +614,8 @@
                     <a class="contact_shiv_a" href="mailto:contact@adoreearth.org">contact@adoreearth.org</a>
                 </h4>
                 <a href="page-contact.php"
-                    style="font-size:25px;border-radius:5px;width:280px;height:65px;padding-left:25px;padding-top:14px;"
-                    class="btn btn-theme-colored2 btn-flat">Volunteering with us</a>
+                    style="font-size:25px;border-radius:5px;width:245px;height:65px;padding-left:25px;padding-top:14px;"
+                    class="btn btn-theme-colored2 btn-flat">Volunteer with us</a>
             </div>
         </div>
     </div>
@@ -649,9 +649,6 @@
                 <div class="col-lg-6">
                     <div class="tm-sc-section-title section-title mb-50">
                         <div class="title-wrapper mb-0">
-                            <div class="title-icon-img">
-                                <!-- <img src="images/icons/title-icon.png" alt="Image" /> -->
-                            </div>
                             <h2 class="title">
                                 Young Leaders Program
                                 <p style="font-size:20px;margin-top:10px;">(For school students of Class 2 to 12)</p>
@@ -663,6 +660,7 @@
                                 Social Responsibility, Public Speaking and many more.
                             </p>
                         </div>
+                        <h6 class="mb-0">Some of our activities include</h6>
                     </div>
                     <div class="service-list-item-style1 mb-20" style="border-radius:6px;">
                         <span class="number">01</span>
@@ -678,7 +676,7 @@
                     </div>
                     <div class="service-list-item-style1" style="border-radius:6px;">
                         <span class="number">04</span>
-                        <p class="mb-0">Thanking our Social Hereos</p>
+                        <p class="mb-0">Thanking our Social Heroes</p>
                     </div>
                 </div>
             </div>
@@ -798,9 +796,9 @@
                             <input type="email" id="mce-EMAIL" class="form-control"
                                 style="border-radius:10px !important;" placeholder="Email Address" name="EMAIL"
                                 value="" />
-                            <button type="submit" style="transform:none; border-radius:10px !important;"
+                            <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;"
                                 class="btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
-                                Sign up For Newsletter
+                                Sign Up For Newsletter
                             </button>
                         </form>
 
@@ -934,8 +932,8 @@
                             </p>
                         </div>
                         <a href="webinar.php"
-                            style="margin-top:15px;font-size:25px;border-radius:5px;width:290px;height:65px;padding-left:25px;padding-top:14px;"
-                            class="btn btn-theme-colored2 btn-flat">Our previous webinar</a>
+                            style="margin-top:15px;font-size:25px;border-radius:5px;width:306px;height:65px;padding-left:25px;padding-top:14px;"
+                            class="btn btn-theme-colored2 btn-flat">Our Previous Webinars</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
