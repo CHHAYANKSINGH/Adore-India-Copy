@@ -141,7 +141,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Garima Mishra</h4>
+                <a href = "user.php?id=35433"><h4 class="team-name mt-0 mb-0">Garima Mishra</h4></a>
                   <p class="designation">Young Leader, E-Sessions Trainee</p>
                 </div>
                 <div class="team-social">
@@ -161,7 +161,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Simran Mohanty</h4>
+                <a href = "user.php?id=48376"><h4 class="team-name mt-0 mb-0">Simran Mohanty</h4></a>
                   <p class="designation ">Social Media Marketing trainee</p>
                 </div>
                 <div class="team-social">
