@@ -104,7 +104,7 @@
       <!-- <p class="h1" style=" padding-top:20px;border-bottom:2px solid #0073aa;font-size:45px;margin-top:40px;color:blue;">Objective </p> -->
       <div class="row">
         <div class="col-sm-8">
-          <h2 style="padding-top:20px; border-bottom:2px solid #0073aa;font-size:45px;margin-top:40px;color:#e7ac16">Objective </h2>
+          <h2 style="padding-top:20px; border-bottom:2px solid #0073aa;font-size:45px;margin-top:40px;color:black">Objective </h2>
         </div>
       </div>
       <div class="row">
@@ -114,36 +114,36 @@
       </div>
       <div class="row">
         <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="margin-top: 40px;color:#af4239;">Some of the Young Leader Activities include :</span></h6>
+          <h6 class="obj"><span class="obj" style="margin-top: 40px;color:#0D1E34;">Some of the Young Leader Activities include :</span></h6>
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="color:#af4239;">Thank our social Heroes : </span><span style="font-weight: 200;">Thank social heroes around you like a doctor, nurse, sweeper, or anyone who does something good for society through a gesture.</span> </h6>
+          <h6 class="obj"><span class="obj" style="color:#77AAF7;">Thank our social Heroes : </span><span style="font-weight: 200;">Thank social heroes around you like a doctor, nurse, sweeper, or anyone who does something good for society through a gesture.</span> </h6>
         </div>
         <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="color:#af4239;">Creative Quest (CQ) : </span><span style="font-weight: 200;">It’s a depiction of our responsibility towards our society in an art form (drawing/painting/ drama/ video/ audio/ poem etc.)</span></h6>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="color:#af4239;">Better & Responsible student : </span><span style="font-weight: 200;">Self Analysis of own habits and change where necessary.</span></h6>
-        </div>
-        <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="color:#af4239;">Vision for improvement : </span><span style="font-weight: 200;">Student will make a list of goals and hobbies and start developing the skill required to achieve the goal.</span></h6>
+          <h6 class="obj"><span class="obj" style="color:#77AAF7;">Creative Quest (CQ) : </span><span style="font-weight: 200;">It’s a depiction of our responsibility towards our society in an art form (drawing/painting/ drama/ video/ audio/ poem etc.)</span></h6>
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="color:#af4239;">Craft from waste : </span><span style="font-weight: 200;">Create useful crafts from waste/unused materials.</span></h6>
+          <h6 class="obj"><span class="obj" style="color:#77AAF7;">Better & Responsible student : </span><span style="font-weight: 200;">Self Analysis of own habits and change where necessary.</span></h6>
         </div>
         <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="color:#af4239;">Young Leader Speaks : </span><span style="font-weight: 200;">Speech on how we can make our society a better place or responsibility of youth or how we can have a positive attitude etc.</span></h6>
+          <h6 class="obj"><span class="obj" style="color:#77AAF7;">Vision for improvement : </span><span style="font-weight: 200;">Student will make a list of goals and hobbies and start developing the skill required to achieve the goal.</span></h6>
         </div>
       </div>
       <div class="row">
         <div class="col-sm">
-          <h6 class="obj"><span class="obj" style="color:#af4239;">Budding Talent : </span><span style="font-weight: 200;">a talent like music or song or dance.</span></h6>
+          <h6 class="obj"><span class="obj" style="color:#77AAF7;">Craft from waste : </span><span style="font-weight: 200;">Create useful crafts from waste/unused materials.</span></h6>
+        </div>
+        <div class="col-sm">
+          <h6 class="obj"><span class="obj" style="color:#77AAF7;">Young Leader Speaks : </span><span style="font-weight: 200;">Speech on how we can make our society a better place or responsibility of youth or how we can have a positive attitude etc.</span></h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h6 class="obj"><span class="obj" style="color:#77AAF7;">Budding Talent : </span><span style="font-weight: 200;">a talent like music or song or dance.</span></h6>
         </div>
       </div>
 
