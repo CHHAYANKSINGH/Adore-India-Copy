@@ -395,7 +395,7 @@
 
     <!-- Section: Campaigns -->
     <section>
-        <div class="container">
+        <div class="container" style=" height: 700px;width: 100%;">
             <div class="section-content">
                 <div class="row">
                     <div class="col-lg-4">

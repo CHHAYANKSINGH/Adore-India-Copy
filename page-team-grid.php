@@ -95,7 +95,7 @@
       <div class="section-content">
         <div class="row">
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team1.jpg" alt="">
               </div>
@@ -114,7 +114,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team2.jpg" alt="">
               </div>
@@ -133,7 +133,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team4.jpg" alt="">
               </div>
@@ -152,7 +152,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team9.jpg" alt="">
               </div>
@@ -171,7 +171,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team8.jpg" alt="">
               </div>
@@ -190,7 +190,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team10.jpg" alt="">
               </div>
@@ -209,7 +209,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team11.jpg" alt="">
               </div>
@@ -228,7 +228,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team3.jpg" alt="">
               </div>
@@ -247,7 +247,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team12.jpg" alt="">
               </div>
@@ -266,7 +266,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team13.jpg" alt="">
               </div>
@@ -285,7 +285,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-30">
+            <div class="team-item mb-100">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team12.jpg" alt="">
               </div>
