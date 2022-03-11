@@ -1,5 +1,16 @@
 <?php include "layouts/header.php"; ?>
 <style>
+
+  @media (max-width:325px) {
+    
+  .top {
+    margin-left:50px !important;
+    margin-top:0px !important;
+  }
+
+  }
+
+
   @media (max-width:500px) {
     .row {
       justify-content: center !important;
@@ -8,6 +19,11 @@
     .photo {
       height: 300px !important;
       width: 300px !important;
+    }
+
+    .top {
+      margin-left:150px !important;
+      margin-top:0px !important;
     }
 
   }
@@ -22,6 +38,11 @@
       width: 270px !important;
     }
 
+    .top {
+      margin-left:170px !important;
+      margin-top:2px !important;
+    }
+
   }
 
   @media (min-width:770px) and (max-width:1024px) {
@@ -32,6 +53,11 @@
     .photo {
       height: 392px !important;
 
+    }
+
+    .top {
+      margin-left:240px !important;
+      margin-top:4px !important;
     }
 
   }
@@ -46,6 +72,8 @@
 
     }
 
+    
+
   }
 
   @media (min-width:1450px) {
@@ -59,6 +87,15 @@
     }
 
   }
+
+
+  .top {
+    color:#fff;
+    position:absolute;
+    margin-left:520px;
+    margin-top:25px;
+  }
+
 </style>
 
 <!-- Preloader -->
@@ -94,6 +131,10 @@
     <div class="container pb-70">
       <div class="section-content">
         <div class="row">
+          <div style="justify-content:center;">
+            <h3 style="color:#fff;position:absolute;margin-left:580px;margin-top:25px;">Volunteers</h3>
+            <img class="w-100 mb-60" src="images/aaa1.png" alt="">
+          </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
@@ -246,6 +287,10 @@
               </div>
             </div>
           </div>
+          <div style="justify-content:center;">
+            <h3 class="top" style="color:#fff;position:absolute;margin-left:520px;margin-top:25px;">Web Department</h3>
+            <img class="w-100 mb-60" src="images/aaa1.png" alt="">
+          </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
@@ -287,7 +332,7 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team12.jpg" alt="">
+                <img class="w-100" src="images/team/team14.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
