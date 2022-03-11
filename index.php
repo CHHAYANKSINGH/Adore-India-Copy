@@ -717,17 +717,15 @@
                 <div class="col-lg-4">
                     <div class="testimonial-item mb-md-150">
                         <div class="author-text mb-30">
-                            ADORE made me experience possibly the very best as I got really corporating team and mentor
-                            with so much of ideas and knowledge to share with. It's the best platform for who genuinely
-                            wants to learn. I am so so impressed that what a remarkable company ADORE is. Thankyou so
-                            much for considering a part of team here.
+                        My experience volunteering with Adore.<br>
+                        I have always wanted to be a part of something while growing up, maybe it’s the feeling of contributing to a bigger goal or helping people in distress, that connection to people is what Adore offered me.Volunteering with Adore has shaped my thinking and broadened my horizon. 
                         </div>
                         <div class="author-info clearfix">
-                            <h5 class="name mt-0 mb-0">Simran Mohanty</h5>
+                            <h5 class="name mt-0 mb-0">Chinaza Okoye</h5>
                             <span class="job-position">Volunteer</span>
                         </div>
                         <div class="author-thumb">
-                            <img src="images/team/team9.jpg" alt="Image" style="width:60px;height:60px;" />
+                            <img src="images/team/team9.jpg" alt="Image" style="width:70px;height:70px;" />
                         </div>
                     </div>
                 </div>
@@ -744,25 +742,26 @@
                             <span class="job-position">Volunteer</span>
                         </div>
                         <div class="author-thumb">
-                            <img src="images/team/team4.jpg" alt="Image" style="width:60px;height:60px;" />
+                            <img src="images/team/team4.jpg" alt="Image" style="width:70px;height:70px;" />
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item">
                         <div class="author-text mb-30">
-                            I have been working in ADORE as Management Trainee. I would like to say,
-                            its a vast platform to skilled up and enhance knowledge and experience in every domain, and
-                            really its been a great experience working here, learned so many things hoping to gain much
-                            more. Thankyou so much for considering a part of team here.
+                        I am Aliyu from Nigeria.<br> 
+                        I am a volunteer at ADORE.<br>
+                        Volunteering with Adore is a life changing experience.<br>
+                        It has been my dream to be a teacher and adore have fulfilled that dream of mine. <br>
+                        Thanks to Adore, I will always be indebted to you!.
 
                         </div>
                         <div class="author-info clearfix">
-                            <h5 class="name mt-0 mb-0">Megha Singha</h5>
+                            <h5 class="name mt-0 mb-0">Aliyu Aliyu</h5>
                             <span class="job-position">Volunteer</span>
                         </div>
                         <div class="author-thumb">
-                            <img src="images/team/team8.jpg" alt="Image" style="width:60px;height:60px;" />
+                            <img src="images\Volunteer\Volunteer(1).jpeg" alt="Image" style="width:70px;height:70px;" />
                         </div>
                     </div>
                 </div>
@@ -857,7 +856,7 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/1c.jpg" height="720" alt="Image" />
+                                        <img class="w-100" src="images/gallery/5.jpeg" height="720" alt="Image" />
                                     </a>
                                 </div>
                             </div>
