@@ -174,7 +174,7 @@
                                                 <ul class="dropdown">
                                                     <li><a href="youngLeader.php">Young Leader</a></li>
                                                     <li>
-                                                        <a href="webinar.php">Webinar</a>
+                                                        <a href="webinar.php">Webinars</a>
                                                         <ul class="dropdown dropdown-right">
                                                             <li><a href="synergy.php">Synergy</a></li>
                                                             <li><a href="soaringWings.php">Soaring Wings</a></li>
@@ -240,3 +240,9 @@
                 </div>
             </div>
         </header>
+        <style>
+            ::selection {
+                color: white;
+                background: #0073aa;
+            }
+        </style>
