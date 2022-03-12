@@ -497,8 +497,7 @@
             </div> -->
                     </div>
                     <div style="margin-top:7px;margin-bottom:20px;margin-right:60px;" class="become-volunteer-style1">
-                        <a href="page-contact.php" style="font-family:'cursive',brush script mt;font-size:25px;">Let’s
-                            Become a Young Leader
+                        <a href="page-contact.php" style="font-family:Arial Rounded MT ;font-size:28px;">Let’s Become a Young Leader
                             <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
@@ -726,7 +725,7 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/3b.jpg" height="720" alt="Image" />
+                                        <img class="w-100" src="images/gallery/7.jpeg" height="720" alt="Image" />
                                     </a>
                                 </div>
                             </div>
@@ -740,7 +739,7 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/4c.jpg" height="720" alt="Image" />
+                                        <img class="w-100" src="images/gallery/9.jpeg" height="720" alt="Image" />
                                     </a>
                                 </div>
                             </div>
@@ -775,7 +774,7 @@
                         <a href="webinar.php" style="margin-top:15px;font-size:25px;border-radius:5px;width:306px;height:65px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Our Previous Webinars</a>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <div class="causes-carousel-current-style1">
                         <div class="tm-owl-carousel-2col owl-carousel owl-theme" id="webinar" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true">
                             <script>
