@@ -565,7 +565,7 @@
         </div>
         <div class="section-content">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="testimonial-item mb-md-150">
                         <div class="author-text mb-30">
                             My experience volunteering with Adore.<br>
@@ -580,7 +580,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="testimonial-item mb-md-150">
                         <div class="author-text mb-30">
                             Working in Adore exceeded my expectations, for here the learning is never ending, and the
@@ -597,7 +597,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="testimonial-item">
                         <div class="author-text mb-30">
                             I am Aliyu from Nigeria.<br>
@@ -698,7 +698,7 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/5.jpeg" height="720" alt="Image" />
+                                        <img class="w-100" src="images/gallery/5a.jpeg" height="720" alt="Image" />
                                     </a>
                                 </div>
                             </div>
