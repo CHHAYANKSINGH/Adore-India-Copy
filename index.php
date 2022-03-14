@@ -1,5 +1,20 @@
 <?php include "layouts/header.php"; ?>
 <!-- Preloader -->
+<style>
+    @media (min-width:321px) and (max-width:430px) {
+        .newsbtn {
+            font-size:18px !important;
+        }
+    }
+
+    @media (max-width:320px) {
+        .newsbtn {
+            font-size:12px !important;
+        }
+    }
+
+
+</style>
 
 <div id="preloader"></div>
 
@@ -641,7 +656,7 @@
                         <!-- Mailchimp Subscription Form-->
                         <form id="mailchimp-subscription-form2" class="newsletter-form m-0 p-0">
                             <input type="email" id="mce-EMAIL" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="EMAIL" value="" />
-                            <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
+                            <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
                                 Sign Up For Newsletter
                             </button>
                         </form>

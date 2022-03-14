@@ -3,15 +3,65 @@
 
   @media (max-width:325px) {
     
-  .top {
-    margin-left:50px !important;
-    margin-top:0px !important;
+    .row {
+      justify-content: center !important;
+    }
+
+
+    .photo {
+      height: 300px !important;
+      width: 300px !important;
+    }
+
+
+  .top_tech {
+    margin-left:110px !important;
+    margin-top:2px !important;
+    font-size: 15px !important;
   }
 
+
+  .top_volunteer {
+    margin-left:110px !important;
+    margin-top:2px !important;
+    font-size: 15px !important;
   }
 
 
-  @media (max-width:500px) {
+  }
+
+  @media (min-width:326px) and (max-width:376px) {
+
+    .row {
+      justify-content: center !important;
+    }
+
+
+    .photo {
+      height: 300px !important;
+      width: 300px !important;
+    }
+
+    
+    .top_tech {
+      margin-left:132px !important;
+      margin-top:2px !important;
+      font-size: 18px !important;
+    }
+
+
+    .top_volunteer {
+      margin-left:132px !important;
+      margin-top:2px !important;
+      font-size: 18px !important;
+    }
+
+  
+    }
+
+
+
+  @media (min-width:378px) and (max-width:500px) {
     .row {
       justify-content: center !important;
     }
@@ -21,10 +71,19 @@
       width: 300px !important;
     }
 
-    .top {
-      margin-left:150px !important;
-      margin-top:0px !important;
+    .top_tech {
+      margin-left:160px !important;
+      margin-top:2px !important;
+      font-size: 20px !important;
     }
+
+
+    .top_volunteer {
+      margin-left:150px !important;
+      margin-top:2px !important;
+      font-size: 20px !important;
+    }
+
 
   }
 
@@ -38,10 +97,19 @@
       width: 270px !important;
     }
 
-    .top {
-      margin-left:170px !important;
-      margin-top:2px !important;
+    .top_tech {
+      margin-left:272rpx !important;
+      margin-top:7px !important;
+      font-size: 30px !important;
     }
+
+
+    .top_volunteer {
+      margin-left:275px !important;
+      margin-top:7px !important;
+      font-size: 30px !important;
+    }
+
 
   }
 
@@ -55,10 +123,19 @@
 
     }
 
-    .top {
-      margin-left:240px !important;
-      margin-top:4px !important;
+    .top_tech {
+      margin-left:380px !important;
+      margin-top:8px !important;
+      font-size: 40px !important;
     }
+
+
+    .top_volunteer {
+      margin-left:380px !important;
+      margin-top:8px !important;
+      font-size: 40px !important;
+    }
+
 
   }
 
@@ -72,7 +149,16 @@
 
     }
 
-    
+
+    .top_tech {
+    margin-left:540px !important;
+    margin-top:23px !important;
+  }
+
+  .top_volunteer {
+    margin-left:540px !important;
+    margin-top:20px !important;
+  }
 
   }
 
@@ -86,15 +172,23 @@
 
     }
 
+    .top_tech {
+    margin-left:540px !important;
+    margin-top:23px !important;
   }
 
 
-  .top {
-    color:#fff;
-    position:absolute;
-    margin-left:520px;
-    margin-top:25px;
+  .top_volunteer {
+    margin-left:540px !important;
+    margin-top:20px !important;
   }
+
+
+
+  }
+
+
+  
 
 </style>
 
@@ -132,7 +226,7 @@
       <div class="section-content">
         <div class="row">
           <div style="justify-content:center;">
-            <h3 style="color:#fff;position:absolute;margin-left:580px;margin-top:25px;">Volunteers</h3>
+            <h3 class="top_volunteer" style="font-size:46px;color:#fff;position:absolute;margin-left:580px;margin-top:20px;">Volunteers</h3>
             <img class="w-100 mb-60" src="images/aaa1.png" alt="">
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
@@ -142,7 +236,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Adanne Mary</h4>
+                <a href = "user.php?id=25074"><h4 class="team-name mt-0 mb-0">Adanne Mary</h4></a>
                   <p class="designation ">Country Coordinator</p>
                 </div>
                 <div class="team-social">
@@ -161,7 +255,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Rishika Chowdhury</h4>
+                <a href = "user.php?id=26682"><h4 class="team-name mt-0 mb-0">Rishika Chowdhury</h4></a>
                   <p class="designation ">Webinar and Workshop Manager</p>
                 </div>
                 <div class="team-social">
@@ -214,12 +308,12 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team8.jpg" alt="">
+                <img class="w-100" src="images/team/team3.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Megha Singha</h4>
-                  <p class="designation ">Social Media Marketing trainee</p>
+                <a href = "user.php?id=47531"><h4 class="team-name mt-0 mb-0">Anmol Goyal</h4></a>
+                  <p class="designation ">Management Trainee</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -237,7 +331,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Avya Khurana</h4>
+                <a href = "user.php?id=47773"><h4 class="team-name mt-0 mb-0">Avya Khurana</h4></a>
                   <p class="designation ">Social Media Marketing trainee</p>
                 </div>
                 <div class="team-social">
@@ -256,7 +350,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Swaraj Kully</h4>
+                <a href = "user.php?id=48628"><h4 class="team-name mt-0 mb-0">Swaraj Kully</h4></a>
                   <p class="designation ">General Management Trainee</p>
                 </div>
                 <div class="team-social">
@@ -271,12 +365,12 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team3.jpg" alt="">
+                <img class="w-100" src="images/team/team8.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Anmol Goyal</h4>
-                  <p class="designation ">Management Trainee</p>
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Megha Singha</h4></a>
+                  <p class="designation ">Social Media Marketing trainee</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -288,7 +382,7 @@
             </div>
           </div>
           <div style="justify-content:center;">
-            <h3 class="top" style="color:#fff;position:absolute;margin-left:520px;margin-top:25px;">Web Department</h3>
+            <h3 class="top_tech" style="font-size:45px;color:#fff;position:absolute;margin-left:570px;margin-top:20px;">Tech Team</h3>
             <img class="w-100 mb-60" src="images/aaa1.png" alt="">
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
@@ -317,7 +411,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Chhayank Singh</h4>
+                <a href = "user.php?id=48408"><h4 class="team-name mt-0 mb-0">Chhayank Singh</h4></a>
                   <p class="designation ">Web Developer</p>
                 </div>
                 <div class="team-social">
@@ -336,7 +430,7 @@
               </div>
               <div class="team-content">
                 <div class="team-information">
-                  <h4 class="team-name mt-0 mb-0">Shivvardhan Singh</h4>
+                <a href = "user.php?id=48368"><h4 class="team-name mt-0 mb-0">Shivvardhan Singh</h4></a>
                   <p class="designation ">Web Developer</p>
                 </div>
                 <div class="team-social">
