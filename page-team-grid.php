@@ -98,7 +98,7 @@
     }
 
     .top_tech {
-      margin-left:272rpx !important;
+      margin-left:272px !important;
       margin-top:7px !important;
       font-size: 30px !important;
     }
@@ -156,7 +156,7 @@
   }
 
   .top_volunteer {
-    margin-left:540px !important;
+    margin-left:550px !important;
     margin-top:20px !important;
   }
 
