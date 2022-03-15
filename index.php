@@ -3,17 +3,15 @@
 <style>
     @media (min-width:321px) and (max-width:430px) {
         .newsbtn {
-            font-size:18px !important;
+            font-size: 18px !important;
         }
     }
 
     @media (max-width:320px) {
         .newsbtn {
-            font-size:12px !important;
+            font-size: 12px !important;
         }
     }
-
-
 </style>
 
 <div id="preloader"></div>
@@ -273,7 +271,7 @@
 
     <!-- Section: Campaigns -->
     <section>
-        <div class="container" style=" height: 700px;width: 100%;">
+        <div class="container">
             <div class="section-content">
                 <div class="row">
                     <div class="col-lg-4">
