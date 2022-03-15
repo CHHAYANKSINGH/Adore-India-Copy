@@ -74,14 +74,13 @@
         <div class="section-content">
         <div class="col-lg-9">
           <div class="img" >
-          <img alt="images" style="height:400px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1}  onerror="this.onerror=null;this.src='images/JM1.png'"  />
+          <img alt="images" style="height:600px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1}  onerror="this.onerror=null;this.src='images/JM1.png'"  />
           </div>
-          <h2 style = "margin-top:40px;"><a href = "User.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a></h2>
-					<p>${currentUser.city}</p>
+          <h2 style = "margin-top:40px;"><a href = "User.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a>, ${currentUser.city}</h2>
           <h3 class="mt-20 mb-10">${values.type}</h3>
-          <span class="text-theme-colored1 font-weight-600">Report</span>
+          <span style="font-size:35px" class="text-theme-colored1 font-weight-600">Report</span>
           <p>${values.report}</p>
-          <p> <span class="text-theme-colored1 font-weight-600">Impact</span> </p>
+          <span style="font-size:35px" class="text-theme-colored1 font-weight-600">Impact</span>
           <p>${values.impact}</p>
         </div>
       </div>`
