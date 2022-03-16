@@ -223,6 +223,7 @@
       localStorage.setItem('activity', JSON.stringify(data));
       var users = JSON.parse(localStorage.getItem('users'));
       let currentUser = {};
+
       let data1 = "";
       var pagination = `<div class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
@@ -242,14 +243,17 @@
             return u.u_id == values.u_id
           });
           if (currentUser) {
+            var string = currentUser.country;
+            var arr = string.split(/\s*,\s*/);
+
             data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
-						<p>${currentUser.country}</p>
-						<h6>Activity : ${values.type}</h6>
+						<p>${arr[0]}</p>
+						<h6>Center : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> Read more</a></h6>
 					</div>
 				</div>`
@@ -289,14 +293,17 @@
           return u.u_id == values.u_id
         });
         if (currentUser) {
+          var string = currentUser.country;
+          var arr = string.split(/\s*,\s*/);
+          
           data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a></h6>
-						<p>${currentUser.country}</p>
-						<h6>Activity : ${values.type}</h6>
+						<p>${arr[0]}</p>
+						<h6>Center : ${values.type}</h6>
 						<h6><a href="activity-details.php?id=${values.activity_id}"> View more</a></h6>
 					</div>
 				</div>`
