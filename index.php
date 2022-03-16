@@ -732,7 +732,7 @@ We make sure students are encouraged and enthusiastic to take initiative and par
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/2d.jpg" height="720" alt="Image" />
+                                        <img class="w-100" src="images/gallery/11.jpeg" height="720" alt="Image" />
                                     </a>
                                 </div>
                             </div>
