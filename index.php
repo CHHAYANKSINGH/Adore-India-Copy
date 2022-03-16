@@ -131,45 +131,53 @@
 
     <!-- Section: About -->
     <section>
-        <div class="container pt-0">
-            <div class="section-content about-current-theme-style1">
-                <div class="row" style="margin-top: 110px">
-                    <div class="col-lg-6">
-                        <div class="about-image-layer1 rs-about-image-layer1">
-                            <div class="about-thumb">
-                                <img style="max-height:450px;filter:brightness(0.6)" src="images/4.png" alt="Image" />
-                            </div>
+    <div class="container pt-0">
+        <div class="section-content about-current-theme-style1">
+            <div class="row" style="margin-top: 110px">
+                <div class="col-lg-4" align="center" style="margin-top: 50px; margin-bottom: 80px;">
+                    <div class="about-image-layer1 rs-about-image-layer1">
+                        <div class="about-thumb">
+                            <img style="max-height:450px;filter:brightness(0.6)" src="images/4.png" alt="Image" />
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="about-content pr-20 pl-20 pl-md--0 pr-md--0" data-tm-padding-top="55">
-                            <div class="tm-sc-section-title section-title mb-50">
-                                <div class="title-wrapper mb-0">
+                </div>
+                <div class="col-lg-8">
+                    <div class="about-content pr-20 pl-60 pl-md--0 pr-md--0" data-tm-padding-top="5">
+                        <div class="tm-sc-section-title section-title mb-50">
+                            <div class="title-wrapper mb-0">
 
-                                    <h2 class="title">About Us</h2>
-                                    <p class="paragraph mb-0">
-                                        ADORE is a global voluntary group of college students
-                                        and professionals, who have come forward together to
-                                        motivate the budding youth into taking positive
-                                        action. Our volunteers are located all over the world. We DO NOT collect any
-                                        funds for its work as all its associates work voluntarily. The interactive
-                                        sessions are on various subjects from Cleanliness to Soft skills, from Career
-                                        Orientation to Self-Development, etc.
-                                    </p>
-                                </div>
+                                <h2 class="title">About Us</h2>
+                                <p class="paragraph mb-0">
+                                    ADORE is a global voluntary group of college students
+                                    and professionals, who have come forward together to
+                                    motivate the budding youth into taking positive
+                                    action. Our volunteers are located all over the world.
+                                    We DO NOT collect any funds for its work as all its associates work voluntarily.
+                                    The interactive sessions are on various subjects from Cleanliness to Soft skills,
+                                    from Career Orientation to Self-Development, etc.
+                                </p>
+                                <p class="paragraph mb-0">
+                                We aim to inspire the young generation to dedicate their time and channelize their ideas into some positive and productive action that improves their knowledge, polishes their skills, and enriches their thought processes.
+We make sure students are encouraged and enthusiastic to take initiative and participate in all the community services.
+
+                                </p>
+                                <p class="paragraph mb-0">
+                                Youth should feel responsible to contribute effectively towards the betterment of the society around them and we work together helping the youth improve their communication and managing skills and inculcating creativity and confidence.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="tm-floating-objects">
-            <span class="floating-object-1" data-tm-bg-img="images/shape/about-01.png" data-tm-width="256" data-tm-height="349" data-tm-top="auto" data-tm-bottom="-8" data-tm-left="75" data-tm-opacity="1"></span>
-            <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/shape/about-02.png" data-tm-width="90" data-tm-height="80" data-tm-top="150" data-tm-bottom="auto" data-tm-left="180" data-tm-opacity="1"></span>
-            <span class="floating-object-3" data-tm-bg-img="images/shape/about-03.png" data-tm-width="174" data-tm-height="258" data-tm-top="auto" data-tm-bottom="0" data-tm-right="100" data-tm-left="auto" data-tm-opacity="1"></span>
-            <span class="floating-object-4 tm-animation-slide-horizontal" data-tm-bg-img="images/shape/about-04.png" data-tm-width="90" data-tm-height="80" data-tm-top="40%" data-tm-bottom="auto" data-tm-right="120" data-tm-left="auto" data-tm-opacity="1"></span>
-        </div>
-    </section>
+    </div>
+    <div class="tm-floating-objects">
+        <span class="floating-object-1" data-tm-bg-img="images/shape/about-01.png" data-tm-width="256" data-tm-height="349" data-tm-top="auto" data-tm-bottom="-8" data-tm-left="75" data-tm-opacity="1"></span>
+        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/shape/about-02.png" data-tm-width="90" data-tm-height="80" data-tm-top="150" data-tm-bottom="auto" data-tm-left="180" data-tm-opacity="1"></span>
+        <span class="floating-object-3" data-tm-bg-img="images/shape/about-03.png" data-tm-width="174" data-tm-height="258" data-tm-top="auto" data-tm-bottom="0" data-tm-right="100" data-tm-left="auto" data-tm-opacity="1"></span>
+        <span class="floating-object-4 tm-animation-slide-horizontal" data-tm-bg-img="images/shape/about-04.png" data-tm-width="90" data-tm-height="80" data-tm-top="40%" data-tm-bottom="auto" data-tm-right="120" data-tm-left="auto" data-tm-opacity="1"></span>
+    </div>
+</section>
 
     <!-- Section: Service -->
     <section data-tm-bg-color="#f4f3ef">
@@ -784,7 +792,7 @@
                                 professionals.
                             </p>
                         </div>
-                        <a href="webinar.php" style="margin-top:15px;font-size:25px;border-radius:5px;width:306px;height:65px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Our Previous Webinars</a>
+                        <a href="webinar.php" style="margin-top:15px;font-size:25px;border-radius:5px;width:205px;height:65px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Our Webinars</a>
                     </div>
                 </div>
                 <div class="col-lg-6">

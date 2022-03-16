@@ -76,12 +76,12 @@
           <div class="img" >
           <img alt="images" style="height:600px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1}  onerror="this.onerror=null;this.src='images/JM1.png'"  />
           </div>
-          <h2 style = "margin-top:40px;"><a href = "User.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a>, ${currentUser.city}</h2>
-          <h3 class="mt-20 mb-10">${values.type}</h3>
-          <span style="font-size:35px" class="text-theme-colored1 font-weight-600">Report</span>
-          <p>${values.report}</p>
-          <span style="font-size:35px" class="text-theme-colored1 font-weight-600">Impact</span>
-          <p>${values.impact}</p>
+          <h2 style = "margin-top:40px;"><a href = "User.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a> <span class="h3">(${currentUser.city})</span></h2>
+          <h3 class="mt-20 mb-10">Center : ${values.type}</h3>
+          <span style="font-size:35px" class="text-theme-colored1 font-weight-500">Report</span>
+          <h5>${values.report}</h5>
+          <span style="font-size:35px" class="text-theme-colored1 font-weight-500">Impact</span>
+          <h5>${values.impact}</h5>
         </div>
       </div>`
       });

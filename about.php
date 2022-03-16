@@ -67,15 +67,15 @@
     <div class="container pt-0">
         <div class="section-content about-current-theme-style1">
             <div class="row" style="margin-top: 110px">
-                <div class="col-lg-6">
+                <div class="col-lg-4" align="center" style="margin-top: 50px; margin-bottom: 80px;">
                     <div class="about-image-layer1 rs-about-image-layer1">
                         <div class="about-thumb">
                             <img style="max-height:450px;filter:brightness(0.6)" src="images/4.png" alt="Image" />
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about-content pr-20 pl-20 pl-md--0 pr-md--0" data-tm-padding-top="55">
+                <div class="col-lg-8">
+                    <div class="about-content pr-20 pl-60 pl-md--0 pr-md--0" data-tm-padding-top="5">
                         <div class="tm-sc-section-title section-title mb-50">
                             <div class="title-wrapper mb-0">
 
@@ -88,6 +88,14 @@
                                     We DO NOT collect any funds for its work as all its associates work voluntarily.
                                     The interactive sessions are on various subjects from Cleanliness to Soft skills,
                                     from Career Orientation to Self-Development, etc.
+                                </p>
+                                <p class="paragraph mb-0">
+                                We aim to inspire the young generation to dedicate their time and channelize their ideas into some positive and productive action that improves their knowledge, polishes their skills, and enriches their thought processes.
+We make sure students are encouraged and enthusiastic to take initiative and participate in all the community services.
+
+                                </p>
+                                <p class="paragraph mb-0">
+                                Youth should feel responsible to contribute effectively towards the betterment of the society around them and we work together helping the youth improve their communication and managing skills and inculcating creativity and confidence.
                                 </p>
                             </div>
                         </div>
@@ -109,22 +117,22 @@
 				<div>
 					<i class="fa fa-group fa-4x"></i>
 					<div class="counter" data-target="400">0</div>
-					<h3>Youths</h3>
+					<h3>Youth</h3>
+				</div>
+                <div>
+					<i class="fa fa-globe fa-4x"></i>
+					<div class="counter" data-target="100">0</div>
+					<h3>Countries</h3>
 				</div>
 				<div>
 					<i class="fa fa-newspaper-o fa-4x"></i>
 					<div class="counter" data-target="150">0</div>
-					<h3>Activites</h3>
+					<h3>Activities</h3>
 				</div>
 				<div>
 					<i class="fa fa-child fa-4x"></i>
 					<div class="counter" data-target="300">0</div>
 					<h3>Young Leaders</h3>
-				</div>
-				<div>
-					<i class="fa fa-globe fa-4x"></i>
-					<div class="counter" data-target="100">0</div>
-					<h3>Countries</h3>
 				</div>
 			</div>
 		</section>

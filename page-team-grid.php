@@ -226,8 +226,27 @@
       <div class="section-content">
         <div class="row">
           <div style="justify-content:center;">
-            <h3 class="top_volunteer" style="font-size:46px;color:#fff;position:absolute;margin-left:580px;margin-top:20px;">Volunteers</h3>
+            <h3 class="top_volunteer" style="font-size:46px;color:#fff;position:absolute;margin-left:580px;margin-top:20px;">Admin Team</h3>
             <img class="w-100 mb-60" src="images/aaa1.png" alt="">
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team14.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=25074"><h4 class="team-name mt-0 mb-0">Simran Sharma</h4></a>
+                  <p class="designation ">Country Coordinator</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
@@ -251,12 +270,12 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team2.jpg" alt="">
+                <img class="w-100" src="images/team/team14.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                <a href = "user.php?id=26682"><h4 class="team-name mt-0 mb-0">Rishika Chowdhury</h4></a>
-                  <p class="designation ">Webinar and Workshop Manager</p>
+                <a href = "user.php?id=25074"><h4 class="team-name mt-0 mb-0">Esther Ugwu</h4></a>
+                  <p class="designation ">Country Coordinator</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -289,12 +308,31 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team9.jpg" alt="">
+                <img class="w-100" src="images/team/team2.jpg" alt="">
               </div>
               <div class="team-content">
                 <div class="team-information">
-                <a href = "user.php?id=48376"><h4 class="team-name mt-0 mb-0">Simran Mohanty</h4></a>
-                  <p class="designation ">Social Media Marketing trainee</p>
+                <a href = "user.php?id=26682"><h4 class="team-name mt-0 mb-0">Rishika Chowdhury</h4></a>
+                  <p class="designation ">Webinar and Workshop Manager</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team2.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=26682"><h4 class="team-name mt-0 mb-0">Riddhi Jaiswal</h4></a>
+                  <p class="designation ">Webinar and Workshop Manager</p>
                 </div>
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -324,6 +362,30 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team9.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48376"><h4 class="team-name mt-0 mb-0">Simran Mohanty</h4></a>
+                  <p class="designation ">Social Media Marketing trainee</p>
+                </div>
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="justify-content:center;">
+            <h3 class="top_volunteer" style="font-size:46px;color:#fff;position:absolute;margin-left:580px;margin-top:20px;">Volunteers</h3>
+            <img class="w-100 mb-60" src="images/aaa1.png" alt="">
+          </div>
+          
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100">
               <div class="team-thumb">
