@@ -1,6 +1,20 @@
 <?php include "layouts/header.php"; ?>
 <style>
 
+
+  .team-social {
+    position: absolute;
+    left:-170% !important;
+    top:35% !important;
+    transition:all linear 0.3s;
+  }
+
+
+  .team-item:hover .team-social {
+    left: -95% !important;
+  }
+
+
   @media (max-width:325px) {
     
     .row {
@@ -230,153 +244,161 @@
             <img class="w-100 mb-60" src="images/aaa1.png" alt="">
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team14.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=25074"><h4 class="team-name mt-0 mb-0">Simran Sharma</h4></a>
-                  <p class="designation ">Country Coordinator</p>
-                </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
+                  <p class="designation">Country Coordinator</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team1.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=25074"><h4 class="team-name mt-0 mb-0">Adanne Mary</h4></a>
                   <p class="designation ">Country Coordinator</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team14.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=25074"><h4 class="team-name mt-0 mb-0">Esther Ugwu</h4></a>
                   <p class="designation ">Country Coordinator</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team4.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=35433"><h4 class="team-name mt-0 mb-0">Garima Mishra</h4></a>
-                  <p class="designation">Young Leader, E-Sessions Trainee</p>
-                </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
+                  <p class="designation">Young Leader, E-Sessions Manager</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team2.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=26682"><h4 class="team-name mt-0 mb-0">Rishika Chowdhury</h4></a>
                   <p class="designation ">Webinar and Workshop Manager</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team2.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=26682"><h4 class="team-name mt-0 mb-0">Riddhi Jaiswal</h4></a>
                   <p class="designation ">Webinar and Workshop Manager</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team3.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=47531"><h4 class="team-name mt-0 mb-0">Anmol Goyal</h4></a>
                   <p class="designation ">Management Trainee</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team9.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48376"><h4 class="team-name mt-0 mb-0">Simran Mohanty</h4></a>
                   <p class="designation ">Social Media Marketing trainee</p>
-                </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -387,58 +409,61 @@
           </div>
           
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team10.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=47773"><h4 class="team-name mt-0 mb-0">Avya Khurana</h4></a>
                   <p class="designation ">Social Media Marketing trainee</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team11.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48628"><h4 class="team-name mt-0 mb-0">Swaraj Kully</h4></a>
                   <p class="designation ">General Management Trainee</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team8.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Megha Singha</h4></a>
                   <p class="designation ">Social Media Marketing trainee</p>
-                </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -448,58 +473,61 @@
             <img class="w-100 mb-60" src="images/aaa1.png" alt="">
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team12.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                   <h4 class="team-name mt-0 mb-0">Aniket Singh</h4>
                   <p class="designation ">Web Developer</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="https://www.linkedin.com/in/aniket-singh-5741231b0/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team13.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48408"><h4 class="team-name mt-0 mb-0">Chhayank Singh</h4></a>
                   <p class="designation ">Web Developer</p>
                 </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="https://www.linkedin.com/in/chhayanksingh/" target="blank"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
-            <div class="team-item mb-100">
+            <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team14.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48368"><h4 class="team-name mt-0 mb-0">Shivvardhan Singh</h4></a>
                   <p class="designation ">Web Developer</p>
-                </div>
-                <div class="team-social">
-                  <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
                 </div>
               </div>
             </div>
