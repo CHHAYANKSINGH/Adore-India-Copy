@@ -451,6 +451,26 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
+                <img class="w-100" src="images/team/team15.jpeg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:tanyamangla002@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/tanya-mangla-321952206"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48628"><h4 class="team-name mt-0 mb-0">Tanya Mangla</h4></a>
+                  <p class="designation ">General Management Trainee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
                 <img class="w-100" src="images/team/team8.jpg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -518,9 +538,9 @@
                 <img class="w-100" src="images/team/team14.jpg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:shivvardhan52@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     <br>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/shivvardhan-singh-sikarwar-59aa52226/"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
