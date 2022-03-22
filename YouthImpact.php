@@ -107,7 +107,8 @@
   <!-- Section: User -->
   <section style="justify-content:center;">
     <div class="sec col-lg-7 col-sm-7 col-10">
-      <h2 class="heading" style="margin: 0; padding-bottom:10px;">Youth <span class="heading" style="color:#24a8e6;">Impact</span></h2>
+      <img class="pos" style="border-radius: 4px;border: 4px solid #275e85;margin-bottom: 40px;" src="images/YouthImpact.jpeg" alt="image">
+      <!-- <h2 class="heading" style="margin: 0; padding-bottom:10px;">Youth <span class="heading" style="color:#24a8e6;">Impact</span></h2> -->
       <h6 class="txt"><span class="txt" style="font-weight: 200;">In Youth Impact Webinar, volunteers speak about their experiences and learning in their journey with ADORE.
           They speak about their experiences, impact ADORE has made on them, Impact ADORE has made on the society, Speak about the things they have done , Speak about the problems they have faced.</h6>
     </div>
