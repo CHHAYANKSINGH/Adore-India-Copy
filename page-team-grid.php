@@ -239,10 +239,7 @@
     <div class="container pb-70">
       <div class="section-content">
         <div class="row">
-          <div style="justify-content:center;">
-            <h3 class="top_volunteer" style="font-size:46px;color:#fff;position:absolute;margin-left:580px;margin-top:20px;">Admin Team</h3>
-            <img class="w-100 mb-60" src="images/aaa1.png" alt="">
-          </div>
+         
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
