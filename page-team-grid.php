@@ -201,6 +201,46 @@
 
   }
 
+  body {
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 1.4;
+  }
+  
+  main {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  p {
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  code {
+    color: firebrick;
+  }
+  
+  h1 {
+    position: relative;
+    margin-top: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+  .three {
+    background: linear-gradient(#ffffff 0%, #ffffff 49%, #000000 50%, #000000 51%, #ffffff 52%, #ffffff 100%);
+  }
+  
+  .three span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+  }
+
 
   
 
@@ -236,10 +276,17 @@
 
   <!-- Section: Team -->
   <section>
+    <div>
+    <main>
+   
+<!-- <p>The heading above demonstrates how to incorporate a horizontal line that's overlaid by centered text using CSS. This example uses a linear gradient to achieve this effect.</p>
+  --> 
+  </main>
+    </div>
     <div class="container pb-70">
       <div class="section-content">
         <div class="row">
-         
+        <h1 class="three" style="margin: bottom 80px;" ><span>Admin Team</span></h1>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
@@ -400,15 +447,24 @@
               </div>
             </div>
           </div>
-          <div style="justify-content:center;">
-            <h3 class="top_volunteer" style="font-size:46px;color:#fff;position:absolute;margin-left:580px;margin-top:20px;">Volunteers</h3>
-            <img class="w-100 mb-60" src="images/aaa1.png" alt="">
+          <div>
+          <main>
+            <h1 class="three"><span>Volunteer Team</span></h1>
+<!-- <p>The heading above demonstrates how to incorporate a horizontal line that's overlaid by centered text using CSS. This example uses a linear gradient to achieve this effect.</p>
+  --> 
+            </main>
           </div>
-          
+          <!--
+          <div style="justify-content:center;">
+            <h3 class="top_volunteer" style="font-size:46px;color:#fff;position:absolute;margin-left:580px;margin-top:20px;">AAAA</h3>
+           <img class="w-100 mb-60" src="images/aaa1.png" alt="">
+          </div>
+-->
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
                 <img class="w-100" src="images/team/team10.jpg" alt="">
+
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
@@ -485,10 +541,20 @@
               </div>
             </div>
           </div>
+          
+          <div>
+          <main>
+    <h1 class="three"><span>Tech Team</span></h1>
+<!-- <p>The heading above demonstrates how to incorporate a horizontal line that's overlaid by centered text using CSS. This example uses a linear gradient to achieve this effect.</p>
+  --> 
+  </main>
+          </div>
+          <!--
           <div style="justify-content:center;">
             <h3 class="top_tech" style="font-size:45px;color:#fff;position:absolute;margin-left:570px;margin-top:20px;">Tech Team</h3>
             <img class="w-100 mb-60" src="images/aaa1.png" alt="">
           </div>
+-->
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
