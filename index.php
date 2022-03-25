@@ -32,7 +32,7 @@
                     margin-top: 0;
                     margin-bottom: 0;
                   ">
-                        <rs-module id="rev_slider_1_1"  data-version="6.3.3">
+                        <rs-module id="rev_slider_1_1" data-version="6.3.3">
                             <rs-slides>
                                 <rs-slide data-key="rs-2" data-title="Slide 1" data-thumb="images/1.jpg" data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;">
                                     <img src="images/1.jpg" title="firoox-s1" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina />
@@ -92,7 +92,7 @@
                           ">
                                     </rs-layer>
                                 </rs-slide>
-                                <rs-slide data-key="rs-12" data-title="Slide 1" data-thumb="images/3i.jpg" data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;">
+                                <rs-slide data-key="rs-13" data-title="Slide 1" data-thumb="images/3i.jpg" data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;">
                                     <img src="images/3i.jpg" title="firoox-s3" width="1920" height="1280" data-bg="p:center top;" data-parallax="off" class="rev-slidebg" data-no-retina />
                                     <rs-layer id="slider-2-slide-12-layer-2" data-type="text" data-color="rgba(255, 255, 255, 0.11)" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:0,26px,0,0;y:m;yo:-141px,-106px,-124px,-99px;" data-text="w:normal;s:180,150,130,100;l:165,98,90,72;ls:0,0,-1px,0px;fw:700;a:left,left,center,center;" data-dim="w:1200px,890px,537px,455px;h:186px,138px,auto,auto;" data-frame_0="o:1;" data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;" data-frame_1="st:1360;sp:1200;sR:1360;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;" data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5640;" style="z-index: 13; text-transform: uppercase" class="font-current-theme1">Adore
                                     </rs-layer>
@@ -150,53 +150,53 @@
 
     <!-- Section: About -->
     <section>
-    <div class="container pt-0">
-        <div class="section-content about-current-theme-style1">
-            <div class="row" style="margin-top: 110px">
-                <div class="col-lg-4" align="center" style="margin-top: 50px; margin-bottom: 80px;">
-                    <div class="about-image-layer1 rs-about-image-layer1">
-                        <div class="about-thumb">
-                            <img style="max-height:450px;filter:brightness(0.6)" src="images/4.png" alt="Image" />
+        <div class="container pt-0">
+            <div class="section-content about-current-theme-style1">
+                <div class="row" style="margin-top: 110px">
+                    <div class="col-lg-4" align="center" style="margin-top: 50px; margin-bottom: 80px;">
+                        <div class="about-image-layer1 rs-about-image-layer1">
+                            <div class="about-thumb">
+                                <img style="max-height:450px;filter:brightness(0.6)" src="images/4.png" alt="Image" />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="about-content pr-20 pl-60 pl-md--0 pr-md--0" data-tm-padding-top="5">
-                        <div class="tm-sc-section-title section-title mb-50">
-                            <div class="title-wrapper mb-0">
+                    <div class="col-lg-8">
+                        <div class="about-content pr-20 pl-60 pl-md--0 pr-md--0" data-tm-padding-top="5">
+                            <div class="tm-sc-section-title section-title mb-50">
+                                <div class="title-wrapper mb-0">
 
-                                <h2 class="title">About Us</h2>
-                                <p class="paragraph mb-0">
-                                    ADORE is a global voluntary group of college students
-                                    and professionals, who have come forward together to
-                                    motivate the budding youth into taking positive
-                                    action. Our volunteers are located all over the world.
-                                    We DO NOT collect any funds for its work as all its associates work voluntarily.
-                                    The interactive sessions are on various subjects from Cleanliness to Soft skills,
-                                    from Career Orientation to Self-Development, etc.
-                                </p>
-                                <p class="paragraph mb-0">
-                                We aim to inspire the young generation to dedicate their time and channelize their ideas into some positive and productive action that improves their knowledge, polishes their skills, and enriches their thought processes.
-We make sure students are encouraged and enthusiastic to take initiative and participate in all the community services.
+                                    <h2 class="title">About Us</h2>
+                                    <p class="paragraph mb-0">
+                                        ADORE is a global voluntary group of college students
+                                        and professionals, who have come forward together to
+                                        motivate the budding youth into taking positive
+                                        action. Our volunteers are located all over the world.
+                                        We DO NOT collect any funds for its work as all its associates work voluntarily.
+                                        The interactive sessions are on various subjects from Cleanliness to Soft skills,
+                                        from Career Orientation to Self-Development, etc.
+                                    </p>
+                                    <p class="paragraph mb-0">
+                                        We aim to inspire the young generation to dedicate their time and channelize their ideas into some positive and productive action that improves their knowledge, polishes their skills, and enriches their thought processes.
+                                        We make sure students are encouraged and enthusiastic to take initiative and participate in all the community services.
 
-                                </p>
-                                <p class="paragraph mb-0">
-                                Youth should feel responsible to contribute effectively towards the betterment of the society around them and we work together helping the youth improve their communication and managing skills and inculcating creativity and confidence.
-                                </p>
+                                    </p>
+                                    <p class="paragraph mb-0">
+                                        Youth should feel responsible to contribute effectively towards the betterment of the society around them and we work together helping the youth improve their communication and managing skills and inculcating creativity and confidence.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="tm-floating-objects">
-        <span class="floating-object-1" data-tm-bg-img="images/shape/about-01.png" data-tm-width="256" data-tm-height="349" data-tm-top="auto" data-tm-bottom="-8" data-tm-left="75" data-tm-opacity="1"></span>
-        <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/shape/about-02.png" data-tm-width="90" data-tm-height="80" data-tm-top="150" data-tm-bottom="auto" data-tm-left="180" data-tm-opacity="1"></span>
-        <span class="floating-object-3" data-tm-bg-img="images/shape/about-03.png" data-tm-width="174" data-tm-height="258" data-tm-top="auto" data-tm-bottom="0" data-tm-right="100" data-tm-left="auto" data-tm-opacity="1"></span>
-        <span class="floating-object-4 tm-animation-slide-horizontal" data-tm-bg-img="images/shape/about-04.png" data-tm-width="90" data-tm-height="80" data-tm-top="40%" data-tm-bottom="auto" data-tm-right="120" data-tm-left="auto" data-tm-opacity="1"></span>
-    </div>
-</section>
+        <div class="tm-floating-objects">
+            <span class="floating-object-1" data-tm-bg-img="images/shape/about-01.png" data-tm-width="256" data-tm-height="349" data-tm-top="auto" data-tm-bottom="-8" data-tm-left="75" data-tm-opacity="1"></span>
+            <span class="floating-object-2 tm-animation-floating" data-tm-bg-img="images/shape/about-02.png" data-tm-width="90" data-tm-height="80" data-tm-top="150" data-tm-bottom="auto" data-tm-left="180" data-tm-opacity="1"></span>
+            <span class="floating-object-3" data-tm-bg-img="images/shape/about-03.png" data-tm-width="174" data-tm-height="258" data-tm-top="auto" data-tm-bottom="0" data-tm-right="100" data-tm-left="auto" data-tm-opacity="1"></span>
+            <span class="floating-object-4 tm-animation-slide-horizontal" data-tm-bg-img="images/shape/about-04.png" data-tm-width="90" data-tm-height="80" data-tm-top="40%" data-tm-bottom="auto" data-tm-right="120" data-tm-left="auto" data-tm-opacity="1"></span>
+        </div>
+    </section>
 
     <!-- Section: Service -->
     <section data-tm-bg-color="#f4f3ef">
@@ -859,7 +859,7 @@ We make sure students are encouraged and enthusiastic to take initiative and par
                                         console.log("webinar to show", data);
                                         if (data.length == 0) {
                                             //add no upcoming webinars section in data1 
-                                            data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                            // data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
 
                                         }
                                         try {
@@ -904,7 +904,7 @@ We make sure students are encouraged and enthusiastic to take initiative and par
                                     console.log("webinar to show", data);
                                     if (data.length == 0) {
                                         //add no upcoming webinars section in data1 
-                                        data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                        // data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
                                     }
                                     try {
                                         data.map((currentwebinar) => {

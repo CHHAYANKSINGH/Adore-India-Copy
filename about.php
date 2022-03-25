@@ -3,8 +3,9 @@
 
 .container1 {
 	max-width: 1100px;
-	margin: 0 auto;
+	margin: 50px 0px;
 	overflow: auto;
+    text-align: center;
 }
 
 .counters {
@@ -64,9 +65,9 @@
     </div>
 </section>
 <section>
-    <div class="container pt-0">
+    <div class="container pt-0 pb-0">
         <div class="section-content about-current-theme-style1">
-            <div class="row" style="margin-top: 110px">
+            <div class="row" style="margin-top: 110px; margin-bottom: 10px !important; padding-bottom:10px !important;">
                 <div class="col-lg-4" align="center" style="margin-top: 50px; margin-bottom: 80px;">
                     <div class="about-image-layer1 rs-about-image-layer1">
                         <div class="about-thumb">
@@ -143,7 +144,7 @@ We make sure students are encouraged and enthusiastic to take initiative and par
 
 <script>
     const counters = document.querySelectorAll('.counter');
-    const speed = 2000; // The lower the slower
+    const speed = 4000; // The lower the slower
 
     counters.forEach(counter => {
         const updateCount = () => {
