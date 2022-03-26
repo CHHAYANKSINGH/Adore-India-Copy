@@ -24,6 +24,7 @@
 .counters i {
 	color: black;
 	margin-bottom: 5px;
+    posix_getgrnam
 }
 
 .counters .counter {
@@ -113,7 +114,7 @@ We make sure students are encouraged and enthusiastic to take initiative and par
     </div>
 </section>
 
-<section class="counters">
+<section  class="counters">
 			<div class="container1">
 				<div>
 					<i class="fa fa-group fa-4x"></i>
