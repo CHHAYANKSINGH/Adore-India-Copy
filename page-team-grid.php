@@ -214,7 +214,7 @@
   }
   
   p {
-    text-align: left;
+    text-align: center;
     padding: 0 20px;
   }
   
@@ -276,17 +276,12 @@
 
   <!-- Section: Team -->
   <section>
-    <div>
-    <main>
-   
-<!-- <p>The heading above demonstrates how to incorporate a horizontal line that's overlaid by centered text using CSS. This example uses a linear gradient to achieve this effect.</p>
-  --> 
-  </main>
-    </div>
     <div class="container pb-70">
       <div class="section-content">
         <div class="row">
-        <h1 class="three" style="margin: bottom 80px;" ><span>Admin Team</span></h1>
+          <div style="margin-bottom:60px;">
+          <h1 class="three"><span>Admin Team</span></h1>
+          </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
@@ -447,12 +442,8 @@
               </div>
             </div>
           </div>
-          <div>
-          <main>
-            <h1 class="three"><span>Volunteer Team</span></h1>
-<!-- <p>The heading above demonstrates how to incorporate a horizontal line that's overlaid by centered text using CSS. This example uses a linear gradient to achieve this effect.</p>
-  --> 
-            </main>
+          <div style="margin-bottom:60px;">
+          <h1 class="three"><span>Volunteer Team</span></h1>
           </div>
           <!--
           <div style="justify-content:center;">
@@ -542,12 +533,8 @@
             </div>
           </div>
           
-          <div>
-          <main>
-    <h1 class="three"><span>Tech Team</span></h1>
-<!-- <p>The heading above demonstrates how to incorporate a horizontal line that's overlaid by centered text using CSS. This example uses a linear gradient to achieve this effect.</p>
-  --> 
-  </main>
+          <div style="margin-bottom:60px;">
+          <h1 class="three"><span>Tech Team</span></h1>
           </div>
           <!--
           <div style="justify-content:center;">
