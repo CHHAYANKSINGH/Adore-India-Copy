@@ -679,15 +679,30 @@
                             Sign up now to get ADORE monthly updates and news.
                         </p>
                         <!-- Mailchimp Subscription Form-->
-                        <form id="mailchimp-subscription-form2" class="newsletter-form m-0 p-0">
-                            <input type="email" id="mce-EMAIL" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="EMAIL" value="" />
+                        <form method="POST"  autocomplete="off" name="google-sheet" class="newsletter-form m-0 p-0">
+                            <input type="email" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="EMAIL">
                             <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
                                 Sign Up For Newsletter
                             </button>
+                            
                         </form>
-
-                        <!-- Mailchimp Subscription Form Validation-->
                         <script>
+                            const scriptURL = 'https://script.google.com/macros/s/AKfycbz6dcU2WhbMPa9KBVywL9LvjB9vuHomzGHb-EKfqPIQCynfxN2hYBo8n29iOXScYt2zCQ/exec'
+                            const form = document.forms['google-sheet']
+
+                            form.addEventListener('submit', e => {
+                                e.preventDefault()
+                                fetch(scriptURL, {
+                                        method: 'POST',
+                                        body: new FormData(form)
+                                    })
+                                    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                                    .catch(error => console.error('Error!', error.message))
+                            })
+                        </script>
+                        
+                        <!-- Mailchimp Subscription Form Validation-->
+                        <!-- <script>
                             (function($) {
                                 $("#mailchimp-subscription-form2").ajaxChimp({
                                     callback: mailChimpCallBack,
@@ -713,7 +728,7 @@
                                     $mailchimpform.prepend($response);
                                 }
                             })(jQuery);
-                        </script>
+                        </script> -->
                     </div>
                 </div>
             </div>
