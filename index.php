@@ -678,7 +678,7 @@
                         <p class="mt-0 mb-35">
                             Sign up now to get ADORE monthly updates and news.
                         </p>
-                        <!-- Mailchimp Subscription Form-->
+                        <!-- newsletter Subscription Form-->
                         <form method="POST" autocomplete="off" name="submit-to-google-sheet" class="newsletter-form m-0 p-0">
                             <input type="email" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="email">
                             <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
@@ -688,7 +688,8 @@
                         </form>
                         
                         <script>
-                            const scriptURL = 'https://script.google.com/macros/s/AKfycbxb_RWb3hEN-v2g0JcjjZb_HKKNsvfXn4QArjfg-K8dn4A73bGbduUqMw5k7zNLRHmqdw/exec'
+                        
+                            const scriptURL = 'https://script.google.com/macros/s/AKfycbwamHWGPP4MKqKWYpw94fQCjKrgk2OJK61d7SNWhv3GcLwdBaxm3oBgxywcC1cizSGEAw/exec'
 
                             const form = document.forms['submit-to-google-sheet']
 
@@ -700,6 +701,7 @@
                                     })
                                     .then(response => console.log('Success!', response))
                                     .catch(error => console.error('Error!', error.message))
+                                    
                             })
                         </script>
                         <!-- Mailchimp Subscription Form Validation-->
