@@ -689,7 +689,7 @@
                         
                         <script>
                         
-                            const scriptURL = 'https://script.google.com/macros/s/AKfycbwamHWGPP4MKqKWYpw94fQCjKrgk2OJK61d7SNWhv3GcLwdBaxm3oBgxywcC1cizSGEAw/exec'
+                            const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ8d6vS-9If9YOi3A8vGQ4HvDGbs7f7CSKUcig0xYRieNGX2YQVBJmVNWOFJX9VRPijw/exec'
 
                             const form = document.forms['submit-to-google-sheet']
 

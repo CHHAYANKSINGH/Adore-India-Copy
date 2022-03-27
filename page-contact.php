@@ -66,7 +66,7 @@
           <h2 class="mt-0 mb-0">Interested in Volunteering?</h2>
           <p class="font-size-20">Active & Ready to use Contact Form!</p>
           <!-- Contact Form -->
-          <form id="contact_form" name="contact_form" class="" action="https://html.thememascot.net/2020/charity/kologi/kologi-html/includes/sendmail.php" method="post">
+          <form id="contact_form" name="contact_form" method="post">
             <div class="row">
               <div class="col-sm-6">
                 <div class="mb-3" style="border-radius:8px;">
@@ -107,6 +107,24 @@
               </button>
             </div>
           </form>
+
+          <!-- Saving form data to google sheets -->
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw8XznG-d_ktNOlgVu9UKOx_w1kB6LNUU_xSSFBufT-HhdPt6GmBZjUp64Art9D0yKq/exec'
+
+            const form = document.forms['contact_form']
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, {
+                  method: 'POST',
+                  body: new FormData(form)
+                })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+
+            })
+          </script>
 
           <!-- Contact Form Validation-->
           <script>
