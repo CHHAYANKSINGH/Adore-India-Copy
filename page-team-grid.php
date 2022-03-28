@@ -200,18 +200,6 @@
 
 
   }
-
-  body {
-    font-size: 20px;
-    padding: 0 20px;
-    line-height: 1.4;
-  }
-  
-  main {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 800px;
-  }
   
   p {
     text-align: center;

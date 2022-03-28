@@ -71,7 +71,7 @@
                                         <div class="post-date">
                                             <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${timestamp}</span>
                                         </div>
-                                        <p class="post-title m-0">
+                                        <p class="post-title m-0 p-0" style="text-align:left;">
                                             <a href="page-blog-details.php?id=${id}">${title}</a>
                                         </p>
                                     </div>
@@ -89,7 +89,7 @@
                 <div class="col-md-12 col-lg-3">
                     <div class="widget contact-info contact-info-style1">
                         <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
-                        <p class="description mb-40 font-size-15">
+                        <p style="text-align:left;" class="description p-0 mb-40 font-size-15">
                         Sign up now to get ADORE monthly updates and news.
 
                         </p>
