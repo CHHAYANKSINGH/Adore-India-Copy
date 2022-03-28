@@ -678,17 +678,20 @@
                         <p class="mt-0 mb-35">
                             Sign up now to get ADORE monthly updates and news.
                         </p>
-                        <!-- Mailchimp Subscription Form-->
-                        <form method="POST"  autocomplete="off" name="google-sheet" class="newsletter-form m-0 p-0">
-                            <input type="email" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="EMAIL">
+                        <!-- newsletter Subscription Form-->
+                        <form method="POST" autocomplete="off" name="submit-to-google-sheet" class="newsletter-form m-0 p-0">
+                            <input type="email" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="email">
                             <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
                                 Sign Up For Newsletter
                             </button>
-                            
+
                         </form>
+                        
                         <script>
-                            const scriptURL = 'https://script.google.com/macros/s/AKfycbz6dcU2WhbMPa9KBVywL9LvjB9vuHomzGHb-EKfqPIQCynfxN2hYBo8n29iOXScYt2zCQ/exec'
-                            const form = document.forms['google-sheet']
+                        
+                            const scriptURL = 'https://script.google.com/macros/s/AKfycbwamHWGPP4MKqKWYpw94fQCjKrgk2OJK61d7SNWhv3GcLwdBaxm3oBgxywcC1cizSGEAw/exec'
+
+                            const form = document.forms['submit-to-google-sheet']
 
                             form.addEventListener('submit', e => {
                                 e.preventDefault()
@@ -696,11 +699,11 @@
                                         method: 'POST',
                                         body: new FormData(form)
                                     })
-                                    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                                    .then(response => console.log('Success!', response))
                                     .catch(error => console.error('Error!', error.message))
+                                    
                             })
                         </script>
-                        
                         <!-- Mailchimp Subscription Form Validation-->
                         <!-- <script>
                             (function($) {
@@ -829,7 +832,7 @@
                         <a href="webinar.php" style="margin-top:15px;font-size:25px;border-radius:5px;width:205px;height:65px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Our Webinars</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7 ml-80" style="overflow:hidden;">
                     <div class="causes-carousel-current-style1">
                         <div class="tm-owl-carousel-2col owl-carousel owl-theme" id="webinar" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true">
                             <script>
@@ -871,11 +874,12 @@
                                         data = _.filter(data, values => {
                                             return values.webinars_date >= setupDate
                                         });
-                                        console.log("webinar to show", data);
-                                        if (data.length == 0) {
-                                            //add no upcoming webinars section in data1 
-                                            // data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
-
+                                        var hello = data.length;
+                                    console.log("webinar to show", hello);
+                                        if (hello == 0) {
+                                            // add no upcoming webinars section in data1 
+                                            data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                            
                                         }
                                         try {
                                             data.map((currentwebinar) => {
@@ -916,10 +920,12 @@
                                     data = _.filter(data, values => {
                                         return values.webinars_date >= setupDate
                                     });
-                                    console.log("webinar to show", data);
-                                    if (data.length == 0) {
-                                        //add no upcoming webinars section in data1 
-                                        // data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                    var hello = data.length;
+                                    console.log("webinar to show", hello);
+                                    if (hello == 0) {
+                                        // add no upcoming webinars section in data1 
+                                        data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                        
                                     }
                                     try {
                                         data.map((currentwebinar) => {

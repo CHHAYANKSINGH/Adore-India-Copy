@@ -1,49 +1,47 @@
 <?php include "layouts/header.php"; ?>
 <style>
+    .container1 {
+        max-width: 1100px;
+        margin: 50px 0px;
+        overflow: auto;
+        text-align: center;
+    }
 
-.container1 {
-	max-width: 1100px;
-	margin: 50px 0px;
-	overflow: auto;
-    text-align: center;
-}
+    .counters {
+        background: #fff;
+        color: black;
+        padding: 40px 20px;
+    }
 
-.counters {
-	background: #fff;
-	color: black;
-	padding: 40px 20px;
-}
+    .counters .container1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        text-align: center;
+    }
 
-.counters .container1 {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 30px;
-	text-align: center;
-}
+    .counters i {
+        color: black;
+        margin-bottom: 5px;
+    }
 
-.counters i {
-	color: black;
-	margin-bottom: 5px;
-    posix_getgrnam
-}
+    .counters .counter {
+        font-size: 45px;
+        margin: 10px 50px;
+    }
 
-.counters .counter {
-	font-size: 45px;
-	margin: 10px 50px;
-}
+    @media (max-width: 700px) {
+        .counters .container1 {
+            grid-template-columns: repeat(1, 1fr);
+        }
 
-@media (max-width: 700px) {
-	.counters .container1 {
-		grid-template-columns: repeat(1, 1fr);
-	}
-
-	.counters .container1 > div:nth-of-type(1),
-	.counters .container1 > div:nth-of-type(2),
-	.counters .container1 > div:nth-of-type(3) {
-		border-bottom: 1px black solid;
-		padding-bottom: 40px;
-	}
-}
+        .counters .container1>div:nth-of-type(1),
+        .counters .container1>div:nth-of-type(2),
+        .counters .container1>div:nth-of-type(3) {
+            border-bottom: 1px black solid;
+            padding-bottom: 40px;
+        }
+    }
 </style>
 <section class="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center" data-tm-bg-img="images/bg/bg1.jpg">
     <div class="container pt-90 pb-90">
@@ -92,12 +90,12 @@
                                     from Career Orientation to Self-Development, etc.
                                 </p>
                                 <p class="paragraph mb-0">
-                                We aim to inspire the young generation to dedicate their time and channelize their ideas into some positive and productive action that improves their knowledge, polishes their skills, and enriches their thought processes.
-We make sure students are encouraged and enthusiastic to take initiative and participate in all the community services.
+                                    We aim to inspire the young generation to dedicate their time and channelize their ideas into some positive and productive action that improves their knowledge, polishes their skills, and enriches their thought processes.
+                                    We make sure students are encouraged and enthusiastic to take initiative and participate in all the community services.
 
                                 </p>
                                 <p class="paragraph mb-0">
-                                Youth should feel responsible to contribute effectively towards the betterment of the society around them and we work together helping the youth improve their communication and managing skills and inculcating creativity and confidence.
+                                    Youth should feel responsible to contribute effectively towards the betterment of the society around them and we work together helping the youth improve their communication and managing skills and inculcating creativity and confidence.
                                 </p>
                             </div>
                         </div>
@@ -114,30 +112,30 @@ We make sure students are encouraged and enthusiastic to take initiative and par
     </div>
 </section>
 
-<section  class="counters">
-			<div class="container1">
-				<div>
-					<i class="fa fa-group fa-4x"></i>
-					<div class="counter" data-target="400">0</div>
-					<h3>Youth</h3>
-				</div>
-                <div>
-					<i class="fa fa-globe fa-4x"></i>
-					<div class="counter" data-target="100">0</div>
-					<h3>Countries</h3>
-				</div>
-				<div>
-					<i class="fa fa-newspaper-o fa-4x"></i>
-					<div class="counter" data-target="150">0</div>
-					<h3>Activities</h3>
-				</div>
-				<div>
-					<i class="fa fa-child fa-4x"></i>
-					<div class="counter" data-target="300">0</div>
-					<h3>Young Leaders</h3>
-				</div>
-			</div>
-		</section>
+<section class="counters">
+    <div class="container1">
+        <div>
+            <i class="fa fa-group fa-4x"></i>
+            <div class="counter" data-target="400">0</div>
+            <h3>Youth</h3>
+        </div>
+        <div>
+            <i class="fa fa-globe fa-4x"></i>
+            <div class="counter" data-target="100">0</div>
+            <h3>Countries</h3>
+        </div>
+        <div>
+            <i class="fa fa-newspaper-o fa-4x"></i>
+            <div class="counter" data-target="150">0</div>
+            <h3>Activities</h3>
+        </div>
+        <div>
+            <i class="fa fa-child fa-4x"></i>
+            <div class="counter" data-target="300">0</div>
+            <h3>Young Leaders</h3>
+        </div>
+    </div>
+</section>
 
 
 <?php include "layouts/footer.php" ?>
