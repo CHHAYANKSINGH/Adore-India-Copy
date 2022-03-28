@@ -60,6 +60,7 @@
                                     let image = data[x].blog_image
                                     let title = data[x].blog_title
                                     let timestamp = data[x].blog_timestamp
+                                    let date = timestamp.slice(0,10);
                                     let creator = data[x].creator
                                     let content = data[x].blog_data
                                     let i = 0
@@ -69,7 +70,7 @@
                                                 <a class="post-thumb" href="page-blog-details.php?id=${id}"><img src="images/POSI.jpg" alt="Image" /></a>
                                     <div class="post-right">
                                         <div class="post-date">
-                                            <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${timestamp}</span>
+                                            <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${date}</span>
                                         </div>
                                         <p class="post-title m-0">
                                             <a href="page-blog-details.php?id=${id}">${title}</a>
