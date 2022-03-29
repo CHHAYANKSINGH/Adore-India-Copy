@@ -131,7 +131,7 @@
                         </p>
 
                         <!-- Mailchimp Subscription Form-->
-                        <form id="mailchimp-subscription-form10" class="newsletter-form cp-newsletter m-0 p-0">
+                        <form id="mailchimp-subscription-form10"     class="newsletter-form cp-newsletter m-0 p-0">
                             <div class="input-group">
                                 <input type="email" id="mce-EMAIL2" class="form-control text-theme-colored1 font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="white" data-tm-height="60px" />
                                 <div class="input-group-append tm-sc tm-sc-button">

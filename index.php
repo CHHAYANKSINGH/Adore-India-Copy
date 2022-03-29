@@ -699,8 +699,11 @@
                                         method: 'POST',
                                         body: new FormData(form)
                                     })
-                                    .then(response => console.log('Success!', response))
-                                    .catch(error => console.error('Error!', error.message))
+                                    .then(response => {
+                                        form.reset();
+                                        window.alert('Success!', response);
+                                    })
+                                    .catch(error => window.alert('Error!', error.message))
                                     
                             })
                         </script>
