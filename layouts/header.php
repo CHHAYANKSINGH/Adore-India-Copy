@@ -170,7 +170,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Programs</a>
+                                                <a href="#YL">Programs</a>
                                                 <ul class="dropdown">
                                                     <li><a href="youngLeader.php">Young Leader</a></li>
                                                     <li>
@@ -220,12 +220,12 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <div id="top-nav-search-form" class="clearfix">
+                                    <!-- <div id="top-nav-search-form" class="clearfix">
                                         <form action="#" method="GET">
                                             <input type="text" name="s" value="" placeholder="Type and Press Enter..." autocomplete="off" />
                                         </form>
                                         <a href="#" id="close-search-btn"><i class="fa fa-times"></i></a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="row header-nav-clone-col-row d-block d-xl-none">

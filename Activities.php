@@ -345,7 +345,6 @@
   $(function() {
     var numberOfdata = $(".card-content .card").length;
     var width = window.innerWidth;
-    console.log("width " + width);
     if (width > 1420) {
       var limitPerPage = 16; //How many card data visible per a page
     }
