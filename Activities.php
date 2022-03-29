@@ -201,7 +201,10 @@
       </div>
       <!-- End of Preloader -->
 
-      <div class="card-content" id="cards" style="display: none">
+      <div class="card-content" id="cards" style="display: flex">
+
+      </div>
+      <div id="pagi" style="justify-content:center; padding-bottom:80px;">
 
       </div>
     </div>
@@ -225,7 +228,7 @@
       let currentUser = {};
 
       let data1 = "";
-      var pagination = `<div class="pagination">
+      var pagination = `<div style="justify-content:center;" class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
 					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
 					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
@@ -264,7 +267,8 @@
       } catch (err) {
         console.log(currentUser, err);
       }
-      document.getElementById("cards").innerHTML = data1 + pagination;
+      document.getElementById("cards").innerHTML = data1;
+      document.getElementById("pagi").innerHTML = pagination;
 
     }).catch((error) => {
       console.log(error);
@@ -276,7 +280,7 @@
     var users = JSON.parse(localStorage.getItem('users'));
     let currentUser = {};
     let data1 = "";
-    var pagination = `<div class="pagination">
+    var pagination = `<div style="justify-content:center;" class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
 					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
 					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
@@ -313,7 +317,8 @@
     } catch (err) {
       console.log(currentUser, err);
     }
-    document.getElementById("cards").innerHTML = data1 + pagination;
+    document.getElementById("cards").innerHTML = data1;
+    document.getElementById("pagi").innerHTML = pagination;
 
   }
 </script>
