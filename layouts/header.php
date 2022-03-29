@@ -107,7 +107,7 @@
                                 <i class="fab fa-whatsapp" style="color:#99aadc;"></i>
                             </div>
                             <div class="text">
-                                <a href="https://wa.me/+917223859729">+91 79804 60134</a>
+                                <a href="https://wa.me/+917980460134">+91 79804 60134</a>
                             </div>
                         </li>
                         <li class="contact-email">

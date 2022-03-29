@@ -187,7 +187,7 @@
                             <div class="widget widget-social-list-custom clearfix mb-0">
                                 <ul class="styled-icons icon-theme-colored1">
                                     <li>
-                                        <a href="#" target="blank"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="https://wa.me/+917980460134" target="blank"><i class="fab fa-whatsapp"></i></a>
                                     </li>
                                     <li>
                                         <a href="https://www.facebook.com/adoreearth/" target="blank"><i class="fab fa-facebook"></i></a>
