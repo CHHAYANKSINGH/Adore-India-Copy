@@ -51,7 +51,42 @@
                     <div class="widget">
                         <h4 style="color:#77aaf7;" class="widget-title mb-20">Blogs</h4>
                         <div class="latest-posts pt-2" id="blogs">
-                            <script>
+                        <script>
+                            //document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
+                            localStorage.getItem('blog')
+                            data = JSON.parse(localStorage.getItem('blog'));
+                            // var users = JSON.parse(localStorage.getItem('users'));
+                            // let currentUser = {};
+                            let data1 = "";
+                            try {
+                              data.slice(0,3).map((values) => {
+                                
+                                let timestamp = values.blog_timestamp;
+                                let date = timestamp.slice(0,10);
+                    
+                                data1 += `<article class="post clearfix pb-0 mb-30">
+                                                                        <a class="post-thumb" href="page-blog-details.php?id=${values.blog_id}"><img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100"></a>
+                                                            <div class="post-right">
+                                                                <div class="post-date">
+                                                                    <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${date}</span>
+                                                                </div>
+                                                                <p class="post-title m-0 p-0" style="text-align:left;">
+                                                                    <a href="page-blog-details.php?id=${values.blog_id}">${values.blog_title}</a>
+                                                                </p>
+                                                            </div>
+                                                            </article>`
+                                
+                                                          //  document.getElementById("blogs").innerHTML = data1;
+                                
+                                
+                              });
+                            } catch (err) {
+                              console.log(err);
+                            }
+                            document.getElementById("blogs").innerHTML = data1;
+  
+                        </script>
+                            <!-- <script>
                                 localStorage.getItem('blog')
                                 var data = JSON.parse(localStorage.getItem('blog'));
 
@@ -83,7 +118,7 @@
                                         i++;
                                     }
                                 }
-                            </script>
+                            </script> -->
                         </div>
                     </div>
                 </div>
