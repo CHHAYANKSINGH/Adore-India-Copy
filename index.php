@@ -615,7 +615,7 @@
                             <span class="job-position">Volunteer</span>
                         </div>
                         <div class="author-thumb">
-                            <img src="images/team/team9.jpg" alt="Image" style="width:70px;height:70px;" />
+                            <img src="images\Volunteer\Volunteer(2).jpeg" alt="Image" style="width:70px;height:70px;" />
                         </div>
                     </div>
                 </div>
