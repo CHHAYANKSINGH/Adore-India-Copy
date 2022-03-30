@@ -273,7 +273,7 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team14.jpg" alt="">
+                <img class="w-100" src="images/team/team16.jpeg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
@@ -313,7 +313,7 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team14.jpg" alt="">
+                <img class="w-100" src="images/team/team16.jpeg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
