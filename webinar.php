@@ -126,11 +126,11 @@
     </div>
   </section>
   <section data-tm-bg-color="#fff">
-    <div class="container">
+    <div class="container pb-20">
       <div class="row" id="webinar">
 
       </div>
-      <div id="pagi" style="justify-content:center; padding-bottom:80px;">
+      <div id="pagi" style="justify-content:center;">
 
       </div>
     </div>
