@@ -704,7 +704,7 @@
                                     })
                                     .then(response => {
                                         form.reset();
-                                        error.textContent = "Thankyou for subscribing Newsletters"
+                                        error.textContent = "Thank You For Subscribing To Our Newsletters"
                                         error.style.color = "green"
 
                                     })

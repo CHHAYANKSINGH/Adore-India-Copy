@@ -125,7 +125,7 @@
                 })
                 .then(response => {
                   form.reset();
-                  error.textContent = "Thankyou for contacting us"
+                  error.textContent = "Thank You For Contacting Us"
                   error.style.color = "green"
 
                 })
