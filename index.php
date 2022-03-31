@@ -681,17 +681,18 @@
                         <!-- newsletter Subscription Form-->
                         <form method="POST" autocomplete="off" name="submit-to-google-sheet" class="newsletter-form m-0 p-0">
                             <input type="email" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="email">
-                            <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20">
+                            <span id="error"></span>
+                            <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20" onclick="errorMessage()">
                                 Sign Up For Newsletter
                             </button>
 
                         </form>
-                        
+
                         <script>
-                        
                             const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ8d6vS-9If9YOi3A8vGQ4HvDGbs7f7CSKUcig0xYRieNGX2YQVBJmVNWOFJX9VRPijw/exec'
 
                             const form = document.forms['submit-to-google-sheet']
+                            var error = document.getElementById("error")
 
                             form.addEventListener('submit', e => {
                                 e.preventDefault()
@@ -701,40 +702,19 @@
                                     })
                                     .then(response => {
                                         form.reset();
-                                        window.alert('Success!', response);
+                                        error.textContent = "Thankyou for subscribing Newsletters"
+                                        error.style.color = "green"
+
                                     })
-                                    .catch(error => window.alert('Error!', error.message))
-                                    
+                                    .catch(error => {
+                                        form.reset();
+                                        error.textContent = "We are unable to accept responses at this moment"
+                                        error.style.color = "red"
+                                    })
+
+
                             })
                         </script>
-                        <!-- Mailchimp Subscription Form Validation-->
-                        <!-- <script>
-                            (function($) {
-                                $("#mailchimp-subscription-form2").ajaxChimp({
-                                    callback: mailChimpCallBack,
-                                    url: "//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e",
-                                });
-
-                                function mailChimpCallBack(resp) {
-                                    // Hide any previous response text
-                                    var $mailchimpform = $(
-                                            "#mailchimp-subscription-form2"
-                                        ),
-                                        $response = "";
-                                    $mailchimpform.children(".alert").remove();
-                                    if (resp.result === "success") {
-                                        $response =
-                                            '<div class="alert alert-success">' + resp.msg +
-                                            '<i class="far fa-check-circle mr-10 text-theme-colored1"></div>';
-                                    } else if (resp.result === "error") {
-                                        $response =
-                                            '<div class="alert alert-danger">' + resp.msg +
-                                            '<i class="far fa-times-circle mr-10 text-theme-colored1"></div>';
-                                    }
-                                    $mailchimpform.prepend($response);
-                                }
-                            })(jQuery);
-                        </script> -->
                     </div>
                 </div>
             </div>
@@ -878,11 +858,11 @@
                                             return values.webinars_date >= setupDate
                                         });
                                         var hello = data.length;
-                                    console.log("webinar to show", hello);
+                                        console.log("webinar to show", hello);
                                         if (hello == 0) {
                                             // add no upcoming webinars section in data1 
                                             data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
-                                            
+
                                         }
                                         try {
                                             data.map((currentwebinar) => {
@@ -928,7 +908,7 @@
                                     if (hello == 0) {
                                         // add no upcoming webinars section in data1 
                                         data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
-                                        
+
                                     }
                                     try {
                                         data.map((currentwebinar) => {
