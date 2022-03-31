@@ -143,9 +143,13 @@
     <!-- End of Preloader -->
     <div class="card-content" id="cards" style="display: none">
 
-    </div>
+    </div>   
+    
   </div>
+  <div id="pagi" style="justify-content:center; padding-bottom:80px;">
+    </div>
 </div>
+
 <?php include "layouts/footer.php" ?>
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 <script>
@@ -161,7 +165,7 @@
       var users = JSON.parse(localStorage.getItem('users'));
       let currentUser = {};
       let data1 = "";
-      var pagination = `<div class="pagination">
+      var pagination = `<div style="justify-content:center;" class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
 					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
 					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
@@ -196,7 +200,10 @@
       } catch (err) {
         console.log(currentUser, err);
       }
-      document.getElementById("cards").innerHTML = data1 + pagination;
+      document.getElementById("cards").innerHTML = data1;
+      document.getElementById("pagi").innerHTML = pagination;
+
+
       console.log(data);
     }).catch((error) => {
       console.log(error);
@@ -208,7 +215,7 @@
     // var users = JSON.parse(localStorage.getItem('users'));
     // let currentUser = {};
     let data1 = "";
-    var pagination = `<div class="pagination">
+    var pagination = `<div style="justify-content:center;" class="pagination">
 					<li class="page-item previous-page disable"><a class="page-link" href="#" style="border-radius: 45px !important;">Prev</a></li>
 					<li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
 					<li class="page-item dots"><a class="page-link" href="#">...</a></li>
@@ -241,7 +248,10 @@
     } catch (err) {
       console.log(err);
     }
-    document.getElementById("cards").innerHTML = data1 + pagination;
+    document.getElementById("cards").innerHTML = data1;
+    document.getElementById("pagi").innerHTML = pagination;
+
+
     console.log(data);
   }
 </script>

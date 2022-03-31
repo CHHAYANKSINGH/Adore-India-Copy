@@ -200,18 +200,6 @@
 
 
   }
-
-  body {
-    font-size: 20px;
-    padding: 0 20px;
-    line-height: 1.4;
-  }
-  
-  main {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 800px;
-  }
   
   p {
     text-align: center;
@@ -285,7 +273,7 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team14.jpg" alt="">
+                <img class="w-100" src="images/team/team16.jpeg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
@@ -325,7 +313,7 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team14.jpg" alt="">
+                <img class="w-100" src="images/team/team16.jpeg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
                     <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
@@ -357,7 +345,7 @@
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=35433"><h4 class="team-name mt-0 mb-0">Garima Mishra</h4></a>
-                  <p class="designation">Young Leader, E-Sessions Manager</p>
+                  <p class="designation">Young Leader Manager</p>
                 </div>
               </div>
             </div>
@@ -405,19 +393,19 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
-                <img class="w-100" src="images/team/team3.jpg" alt="">
+                <img class="w-100" src="images/team/team17.jpeg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li style="margin-bottom:10px;" ><a class="social-link" href=" mailto:02goyal2005anmol@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     <br>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/anmol-goyal-723695223/"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=47531"><h4 class="team-name mt-0 mb-0">Anmol Goyal</h4></a>
-                  <p class="designation ">Management Trainee</p>
+                  <p class="designation ">General Management Manager</p>
                 </div>
               </div>
             </div>
@@ -437,7 +425,7 @@
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48376"><h4 class="team-name mt-0 mb-0">Simran Mohanty</h4></a>
-                  <p class="designation ">Social Media Marketing trainee</p>
+                  <p class="designation ">Social Media Marketing Manager</p>
                 </div>
               </div>
             </div>
@@ -467,7 +455,7 @@
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=47773"><h4 class="team-name mt-0 mb-0">Avya Khurana</h4></a>
-                  <p class="designation ">Social Media Marketing trainee</p>
+                  <p class="designation ">Social Media Marketing Volunteer</p>
                 </div>
               </div>
             </div>
@@ -487,7 +475,7 @@
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48628"><h4 class="team-name mt-0 mb-0">Swaraj Kully</h4></a>
-                  <p class="designation ">General Management Trainee</p>
+                  <p class="designation ">General Management Volunteer</p>
                 </div>
               </div>
             </div>
@@ -507,7 +495,7 @@
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48628"><h4 class="team-name mt-0 mb-0">Tanya Mangla</h4></a>
-                  <p class="designation ">General Management Trainee</p>
+                  <p class="designation ">General Management Volunteer</p>
                 </div>
               </div>
             </div>
@@ -527,7 +515,7 @@
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Megha Singha</h4></a>
-                  <p class="designation ">Social Media Marketing trainee</p>
+                  <p class="designation ">Social Media Marketing Volunteer</p>
                 </div>
               </div>
             </div>

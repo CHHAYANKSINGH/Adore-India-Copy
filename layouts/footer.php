@@ -51,7 +51,42 @@
                     <div class="widget">
                         <h4 style="color:#77aaf7;" class="widget-title mb-20">Blogs</h4>
                         <div class="latest-posts pt-2" id="blogs">
-                            <script>
+                        <script>
+                            //document.getElementsByClassName("preloader-floating-circles")[0].style.display = "none";
+                            localStorage.getItem('blog')
+                            data = JSON.parse(localStorage.getItem('blog'));
+                            // var users = JSON.parse(localStorage.getItem('users'));
+                            // let currentUser = {};
+                            let data1 = "";
+                            try {
+                              data.slice(0,3).map((values) => {
+                                
+                                let timestamp = values.blog_timestamp;
+                                let date = timestamp.slice(0,10);
+                    
+                                data1 += `<article class="post clearfix pb-0 mb-30">
+                                                                        <a class="post-thumb" href="page-blog-details.php?id=${values.blog_id}"><img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100"></a>
+                                                            <div class="post-right">
+                                                                <div class="post-date">
+                                                                    <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${date}</span>
+                                                                </div>
+                                                                <p class="post-title m-0 p-0" style="text-align:left;">
+                                                                    <a href="page-blog-details.php?id=${values.blog_id}">${values.blog_title}</a>
+                                                                </p>
+                                                            </div>
+                                                            </article>`
+                                
+                                                          //  document.getElementById("blogs").innerHTML = data1;
+                                
+                                
+                              });
+                            } catch (err) {
+                              console.log(err);
+                            }
+                            document.getElementById("blogs").innerHTML = data1;
+  
+                        </script>
+                            <!-- <script>
                                 localStorage.getItem('blog')
                                 var data = JSON.parse(localStorage.getItem('blog'));
 
@@ -60,6 +95,7 @@
                                     let image = data[x].blog_image
                                     let title = data[x].blog_title
                                     let timestamp = data[x].blog_timestamp
+                                    let date = timestamp.slice(0,10);
                                     let creator = data[x].creator
                                     let content = data[x].blog_data
                                     let i = 0
@@ -69,9 +105,9 @@
                                                 <a class="post-thumb" href="page-blog-details.php?id=${id}"><img src="images/POSI.jpg" alt="Image" /></a>
                                     <div class="post-right">
                                         <div class="post-date">
-                                            <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${timestamp}</span>
+                                            <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${date}</span>
                                         </div>
-                                        <p class="post-title m-0">
+                                        <p class="post-title m-0 p-0" style="text-align:left;">
                                             <a href="page-blog-details.php?id=${id}">${title}</a>
                                         </p>
                                     </div>
@@ -82,20 +118,20 @@
                                         i++;
                                     }
                                 }
-                            </script>
+                            </script> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-3">
                     <div class="widget contact-info contact-info-style1">
                         <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
-                        <p class="description mb-40 font-size-15">
+                        <p style="text-align:left;" class="description p-0 mb-40 font-size-15">
                         Sign up now to get ADORE monthly updates and news.
 
                         </p>
 
                         <!-- Mailchimp Subscription Form-->
-                        <form id="mailchimp-subscription-form10" class="newsletter-form cp-newsletter m-0 p-0">
+                        <form id="mailchimp-subscription-form10"     class="newsletter-form cp-newsletter m-0 p-0">
                             <div class="input-group">
                                 <input type="email" id="mce-EMAIL2" class="form-control text-theme-colored1 font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="white" data-tm-height="60px" />
                                 <div class="input-group-append tm-sc tm-sc-button">
@@ -151,7 +187,7 @@
                             <div class="widget widget-social-list-custom clearfix mb-0">
                                 <ul class="styled-icons icon-theme-colored1">
                                     <li>
-                                        <a href="#" target="blank"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="https://wa.me/+917980460134" target="blank"><i class="fab fa-whatsapp"></i></a>
                                     </li>
                                     <li>
                                         <a href="https://www.facebook.com/adoreearth/" target="blank"><i class="fab fa-facebook"></i></a>

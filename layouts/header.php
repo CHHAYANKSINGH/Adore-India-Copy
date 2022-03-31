@@ -107,7 +107,7 @@
                                 <i class="fab fa-whatsapp" style="color:#99aadc;"></i>
                             </div>
                             <div class="text">
-                                <a href="https://wa.me/+917223859729">+91 79804 60134</a>
+                                <a href="https://wa.me/+917980460134">+91 79804 60134</a>
                             </div>
                         </li>
                         <li class="contact-email">
@@ -170,7 +170,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Programs</a>
+                                                <a href="#YL">Programs</a>
                                                 <ul class="dropdown">
                                                     <li><a href="youngLeader.php">Young Leader</a></li>
                                                     <li>
@@ -220,12 +220,12 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <div id="top-nav-search-form" class="clearfix">
+                                    <!-- <div id="top-nav-search-form" class="clearfix">
                                         <form action="#" method="GET">
                                             <input type="text" name="s" value="" placeholder="Type and Press Enter..." autocomplete="off" />
                                         </form>
                                         <a href="#" id="close-search-btn"><i class="fa fa-times"></i></a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="row header-nav-clone-col-row d-block d-xl-none">

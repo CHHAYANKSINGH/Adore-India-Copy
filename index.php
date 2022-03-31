@@ -520,7 +520,7 @@
 
 <!-- Section: Project -->
 <section>
-    <div class="container">
+    <div id="YL" class="container">
         <div class="section-content">
             <div class="row">
                 <div class="col-lg-6">
@@ -615,7 +615,7 @@
                             <span class="job-position">Volunteer</span>
                         </div>
                         <div class="author-thumb">
-                            <img src="images/team/team9.jpg" alt="Image" style="width:70px;height:70px;" />
+                            <img src="images\Volunteer\Volunteer(2).jpeg" alt="Image" style="width:70px;height:70px;" />
                         </div>
                     </div>
                 </div>
@@ -699,8 +699,11 @@
                                         method: 'POST',
                                         body: new FormData(form)
                                     })
-                                    .then(response => console.log('Success!', response))
-                                    .catch(error => console.error('Error!', error.message))
+                                    .then(response => {
+                                        form.reset();
+                                        window.alert('Success!', response);
+                                    })
+                                    .catch(error => window.alert('Error!', error.message))
                                     
                             })
                         </script>
@@ -832,7 +835,7 @@
                         <a href="webinar.php" style="margin-top:15px;font-size:25px;border-radius:5px;width:205px;height:65px;padding-left:25px;padding-top:14px;" class="btn btn-theme-colored2 btn-flat">Our Webinars</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7 ml-80" style="overflow:hidden;">
                     <div class="causes-carousel-current-style1">
                         <div class="tm-owl-carousel-2col owl-carousel owl-theme" id="webinar" data-autoplay="false" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="20" data-nav="true">
                             <script>
@@ -874,11 +877,12 @@
                                         data = _.filter(data, values => {
                                             return values.webinars_date >= setupDate
                                         });
-                                        console.log("webinar to show", data);
-                                        if (data.length == 0) {
-                                            //add no upcoming webinars section in data1 
-                                            // data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
-
+                                        var hello = data.length;
+                                    console.log("webinar to show", hello);
+                                        if (hello == 0) {
+                                            // add no upcoming webinars section in data1 
+                                            data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                            
                                         }
                                         try {
                                             data.map((currentwebinar) => {
@@ -919,10 +923,12 @@
                                     data = _.filter(data, values => {
                                         return values.webinars_date >= setupDate
                                     });
-                                    console.log("webinar to show", data);
-                                    if (data.length == 0) {
-                                        //add no upcoming webinars section in data1 
-                                        // data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                    var hello = data.length;
+                                    console.log("webinar to show", hello);
+                                    if (hello == 0) {
+                                        // add no upcoming webinars section in data1 
+                                        data1 += '<div><h2 class="title">No Upcoming Webinar</h2></div>'
+                                        
                                     }
                                     try {
                                         data.map((currentwebinar) => {

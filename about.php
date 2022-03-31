@@ -1,7 +1,6 @@
 <?php include "layouts/header.php"; ?>
 <style>
     .container1 {
-        max-width: 1100px;
         margin: 50px 0px;
         overflow: auto;
         text-align: center;
@@ -30,7 +29,7 @@
         margin: 10px 50px;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 770px) {
         .counters .container1 {
             grid-template-columns: repeat(1, 1fr);
         }
