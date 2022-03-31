@@ -738,13 +738,14 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/5a.jpeg" height="720" alt="Image" />
+                                        <img class="w-100" src="images/gallery/14.jpeg" height="720" alt="Image" />
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- Gallery Item End -->
+
 
                     <!-- Gallery Item Start -->
                     <div class="tm-carousel-item">
@@ -760,6 +761,59 @@
                     </div>
                     <!-- Gallery Item End -->
 
+
+                    <!-- Gallery Item Start -->
+                    <div class="tm-carousel-item">
+                        <div class="tm-gallery">
+                            <div class="tm-gallery-inner">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="w-100" src="images/gallery/12.jpeg" height="720" alt="Image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Item End -->
+                    <!-- Gallery Item Start -->
+                    <div class="tm-carousel-item">
+                        <div class="tm-gallery">
+                            <div class="tm-gallery-inner">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="w-100" src="images/gallery/9.jpeg" height="720" alt="Image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Item End -->
+                    <!-- Gallery Item Start -->
+                    <div class="tm-carousel-item">
+                        <div class="tm-gallery">
+                            <div class="tm-gallery-inner">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="w-100" src="images/gallery/5a.jpeg" height="720" alt="Image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Item End -->
+                    <!-- Gallery Item Start -->
+                    <div class="tm-carousel-item">
+                        <div class="tm-gallery">
+                            <div class="tm-gallery-inner">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="w-100" src="images/gallery/13.jpeg" height="720" alt="Image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Item End -->
                     <!-- Gallery Item Start -->
                     <div class="tm-carousel-item">
                         <div class="tm-gallery">
@@ -774,19 +828,6 @@
                     </div>
                     <!-- Gallery Item End -->
 
-                    <!-- Gallery Item Start -->
-                    <div class="tm-carousel-item">
-                        <div class="tm-gallery">
-                            <div class="tm-gallery-inner">
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img class="w-100" src="images/gallery/9.jpeg" height="720" alt="Image" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Gallery Item End -->
                 </div>
             </div>
         </div>
