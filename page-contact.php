@@ -102,6 +102,7 @@
             </div>
             <div class="mb-3" style="border-radius:8px;">
               <input name="form_botcheck" class="form-control" type="hidden" value="" />
+              <span id="error"></span><br>
               <button type="submit" style="transform:none;" class="btn btn-theme-colored1 text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">
                 Send your message
               </button>
@@ -114,20 +115,32 @@
 
             const form = document.forms['contact_form']
 
+            var error = document.getElementById("error")
+
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, {
                   method: 'POST',
                   body: new FormData(form)
                 })
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
+                .then(response => {
+                  form.reset();
+                  error.textContent = "Thankyou for contacting us"
+                  error.style.color = "green"
+
+                })
+                .catch(error => {
+                  form.reset();
+                  error.textContent = "We are unable to accept responses at this moment"
+                  error.style.color = "red"
+                })
+
 
             })
           </script>
 
           <!-- Contact Form Validation-->
-          <script>
+          <!-- <script>
             (function($) {
               $("#contact_form").validate({
                 submitHandler: function(form) {
@@ -161,7 +174,7 @@
                 },
               });
             })(jQuery);
-          </script>
+          </script> -->
         </div>
       </div>
     </div>
