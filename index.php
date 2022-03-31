@@ -740,37 +740,7 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/14.jpeg" height="720" alt="Image" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Gallery Item End -->
-
-
-                    <!-- Gallery Item Start -->
-                    <div class="tm-carousel-item">
-                        <div class="tm-gallery">
-                            <div class="tm-gallery-inner">
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img class="w-100" src="images/gallery/11.jpeg" height="720" alt="Image" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Gallery Item End -->
-
-
-                    <!-- Gallery Item Start -->
-                    <div class="tm-carousel-item">
-                        <div class="tm-gallery">
-                            <div class="tm-gallery-inner">
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img class="w-100" src="images/gallery/12.jpeg" height="720" alt="Image" />
+                                        <img class="w-100" src="images/gallery/5.jpg" height="720" alt="Image" />
                                     </a>
                                 </div>
                             </div>
@@ -803,6 +773,49 @@
                         </div>
                     </div>
                     <!-- Gallery Item End -->
+                    <!-- Gallery Item Start -->
+                    <div class="tm-carousel-item">
+                        <div class="tm-gallery">
+                            <div class="tm-gallery-inner">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="w-100" src="images/gallery/11.jpeg" height="720" alt="Image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Item End -->            
+
+                    <!-- Gallery Item Start -->
+                    <div class="tm-carousel-item">
+                        <div class="tm-gallery">
+                            <div class="tm-gallery-inner">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="w-100" src="images/gallery/14.jpeg" height="720" alt="Image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Item End -->
+
+
+                    <!-- Gallery Item Start -->
+                    <div class="tm-carousel-item">
+                        <div class="tm-gallery">
+                            <div class="tm-gallery-inner">
+                                <div class="thumb">
+                                    <a href="#">
+                                        <img class="w-100" src="images/gallery/17.jpeg" height="720" alt="Image" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Gallery Item End -->
+                    
                     <!-- Gallery Item Start -->
                     <div class="tm-carousel-item">
                         <div class="tm-gallery">
