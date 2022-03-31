@@ -294,7 +294,7 @@
       var limitPerPage = 6; //How many card data visible per a page
     }
     if (width < 1070 && width > 715) {
-      var limitPerPage = 5; //How many card data visible per a page
+      var limitPerPage = 6; //How many card data visible per a page
     }
     if (width < 715) {
       var limitPerPage = 4; //How many card data visible per a page

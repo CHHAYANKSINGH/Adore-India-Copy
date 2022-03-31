@@ -10,7 +10,7 @@
     <meta name="author" content="ThemeMascot" />
     <script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
     <!-- Page Title -->
-    <title>Adore</title>
+    <title>ADORE</title>
 
     <!-- Favicon and Touch Icons -->
     <link href="images/icons/favicon(1).png" rel="shortcut icon" type="image/png" />
