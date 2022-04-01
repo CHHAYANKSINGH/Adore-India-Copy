@@ -92,18 +92,21 @@
         currentUser = _.find(users, u => {
           return u.u_id == values.u_id
         });
+          var string = currentUser.country;
+          var arr = string.split(/\s*,\s*/);
 
         data1 = `<h2 style="margin: 0; padding-bottom:10px;">${currentUser.f_name+ " " + currentUser.l_name}</h2>
       <!-- <h4 style="margin: 0; padding-bottom:5px;">AIN - ${currentUser.u_id}</h4> -->
       <div style="display: flex;">
         <div class="col-lg-6">
-          <h6>Country : ${currentUser.country} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; City : ${currentUser.city}</h6>
+          <h6>Country : ${arr[0]} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; City : ${currentUser.city}</h6>
         </div>
         <!-- <div class="col-lg-4">
           <h6>Organization : ADORE</h6>
         </div> -->
       </div>
-      <table>
+      <div class="table-responsive">
+      <table class="table">
         <thead>
           <tr style="color: black;">
             <th>Activity ID</th>
@@ -128,7 +131,9 @@
         }
 
         data1 += `</tbody>
-        </table>`
+        </table>
+        </div>
+         `
 
 
       });
