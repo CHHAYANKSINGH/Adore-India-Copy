@@ -376,16 +376,16 @@
                 <img class="w-100" src="images/team/team16.jpeg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
-                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:jriddhi794@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     <br>
-                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/riddhi-jaiswal-28ab0a210"><i class="fab fa-linkedin"></i></a></li>
                   </ul>
                 </div>
               </div>
               <div class="team-content">
                 <div class="team-information">
                 <a href = "user.php?id=26682"><h4 class="team-name mt-0 mb-0">Riddhi Jaiswal</h4></a>
-                  <p class="designation ">Webinar and Workshop Manager</p>
+                  <p class="designation ">HR</p>
                 </div>
               </div>
             </div>
@@ -463,6 +463,26 @@
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
+                <img class="w-100" src="images/team/team18.jpeg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:immanuelkumar22@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/immanuel-kumar-333940217/"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48628"><h4 class="team-name mt-0 mb-0">Immanuel Anil Kumar</h4></a>
+                  <p class="designation ">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
                 <img class="w-100" src="images/team/team11.jpg" alt="">
                 <div class="team-social">
                   <ul class="styled-icons icon-dark icon-rounded clearfix">
@@ -520,6 +540,86 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team19.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:sahugagan391@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="linkedin.com/in/gagankumarsahu"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Gagan Kumar Sahu</h4></a>
+                  <p class="designation ">Social Media Marketing Volunteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team20c.jpg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:jamshed.kulkarni@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/jamshed-kulkarni-95489b157/"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Jamshed Kulkarni</h4></a>
+                  <p class="designation ">Young Leader Volunteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team21.jpeg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:sudiptomondal8372@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Sudipta Mondal</h4></a>
+                  <p class="designation ">Social Media Marketing Volunteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team22.jpeg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:sonypetkar4141@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/sony-petkar-502024211"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Sony Pravin Petkar</h4></a>
+                  <p class="designation ">Graphic Design Volunteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
           
           <div style="margin-bottom:60px;">
           <h1 class="three"><span>Tech Team</span></h1>
@@ -530,6 +630,26 @@
             <img class="w-100 mb-60" src="images/aaa1.png" alt="">
           </div>
 -->
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/No-image1.png" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="#"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                  <h4 class="team-name mt-0 mb-0">MD Ateequr Rahman</h4>
+                  <p class="designation ">Team Leader</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
             <div class="team-item mb-100" style="overflow:hidden;">
               <div class="team-thumb">
