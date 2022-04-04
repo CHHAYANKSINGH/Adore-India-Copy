@@ -109,7 +109,8 @@
   <!-- Section: User -->
   <section style="justify-content:center;">
     <div class="sec col-lg-8 col-sm-10 col-10">
-      <h2 class="heading" style="margin: 0; padding-bottom:10px;">Work<span class="heading" style="color:#24a8e6;">Shops</span></h2>
+      <img class="pos" style="border-radius: 4px;margin-bottom: 40px;" src="images/Workshop.jpeg" alt="image">
+      <!-- <h2 class="heading" style="margin: 0; padding-bottom:10px;">Work<span class="heading" style="color:#24a8e6;">Shops</span></h2> -->
       <h6><span class="txt" style="font-weight: 200;">Skill development workshops are designed for college and university students to enhance different skills for 10 or 14 continuous days. A combination of several <span class="txt" style="font-weight: 700;">softs skills</span> are discussed, as well as some <span class="txt" style="font-weight: 700;">technical skills</span> too. It is completely free of charge, and we ask only for participants' valuable time and effort.</h6>
     </div>
   </section>

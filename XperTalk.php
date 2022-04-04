@@ -107,7 +107,8 @@
   <!-- Section: User -->
   <section style="justify-content:center;">
     <div class="sec col-lg-7 col-sm-7 col-10">
-      <h2 class="heading" style="margin: 0; padding-bottom:10px;">Xper<span class="heading" style="color:#24a8e6;">Talk</span></h2>
+      <img class="pos" style="border-radius: 4px;margin-bottom: 40px;" src="images/XperTalk.jpeg" alt="image">
+      <!-- <h2 class="heading" style="margin: 0; padding-bottom:10px;">Xper<span class="heading" style="color:#24a8e6;">Talk</span></h2> -->
       <h6 class="txt"><span class="txt" style="font-weight: 200;">An Open forum for discussion on relevant topics by curated panels of professionals from all over the world. Our Objective is to promote open and healthy discussion and sharing of different perspectives, opinions amongst diverse and global audiences.</h6>
     </div>
   </section>
