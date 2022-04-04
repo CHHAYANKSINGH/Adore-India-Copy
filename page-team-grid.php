@@ -641,6 +641,68 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team23.jpeg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:ssk242452@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/shreya-kulkarni-88a3611a6/"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Shreya Kulkarni</h4></a>
+                  <p class="designation ">Graphic Design Volunteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team24.png" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:aquibartsinfo@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/aquib-afsar-8093681bb"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Aquib Afsar</h4></a>
+                  <p class="designation ">Graphic Design Volunteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-11 d-flex align-items-stretch">
+            <div class="team-item mb-100" style="overflow:hidden;">
+              <div class="team-thumb">
+                <img class="w-100" src="images/team/team25.jpeg" alt="">
+                <div class="team-social">
+                  <ul class="styled-icons icon-dark icon-rounded clearfix">
+                    <li style="margin-bottom:10px;" ><a class="social-link" href="mailto:dayachikkhal@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                    <br>
+                    <li><a class="social-link" href="https://www.linkedin.com/in/hridaya-chikkhal-5047861bb/"><i class="fab fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <div class="team-information">
+                <a href = "user.php?id=48390"><h4 class="team-name mt-0 mb-0">Hridaya Chikkhal</h4></a>
+                  <p class="designation ">General Management Volunteer</p>
+                </div>
+              </div>
+            </div>
+          </div>
           
           <div style="margin-bottom:60px;">
           <h1 class="three"><span>Tech Team</span></h1>
