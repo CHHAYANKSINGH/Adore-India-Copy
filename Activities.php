@@ -251,7 +251,7 @@
 
             data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
-						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} onerror="this.onerror=null;this.src='images/Null.jpeg'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
@@ -302,7 +302,7 @@
           
           data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
-						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} onerror="this.onerror=null;this.src='images/Null.jpeg'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						<h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a></h6>

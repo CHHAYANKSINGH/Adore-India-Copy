@@ -184,7 +184,7 @@
           });
           data1 += `<div class="card" id=${values.blog_id}>
 						<div class="card-image">
-						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/Null.jpeg'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						// <h6><a href = "user.php?id=${currentUser.u_id}">${currentUser.f_name + " " + currentUser.l_name}</a></h6>
@@ -234,7 +234,7 @@
         // console.log("co = ", currentUser)
         data1 += `<div class="card" id=${values.blog_id}>
 						<div class="card-image">
-						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100">
+						<img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/Null.jpeg'" alt="Image" class="w-100">
 					</div>
 					<div class="card-info">
 						<h6>${values.blog_title}</h6>

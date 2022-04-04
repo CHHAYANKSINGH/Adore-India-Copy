@@ -65,7 +65,7 @@
                                 let date = timestamp.slice(0,10);
                     
                                 data1 += `<article class="post clearfix pb-0 mb-30">
-                                                                        <a class="post-thumb" href="page-blog-details.php?id=${values.blog_id}"><img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/ADORE.jpg'" alt="Image" class="w-100"></a>
+                                                                        <a class="post-thumb" href="page-blog-details.php?id=${values.blog_id}"><img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/Null.jpeg'" alt="Image" class="w-100"></a>
                                                             <div class="post-right">
                                                                 <div class="post-date">
                                                                     <span class="entry-date text-theme-colored1 pt-0 text-uppercase mb-10">${date}</span>
