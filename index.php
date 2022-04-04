@@ -629,8 +629,8 @@
                 <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="testimonial-item mb-md-150">
                         <div class="author-text mb-30">
-                            My experience volunteering with Adore.<br>
-                            I have always wanted to be a part of something while growing up, maybe it’s the feeling of contributing to a bigger goal or helping people in distress, that connection to people is what Adore offered me.Volunteering with Adore has shaped my thinking and broadened my horizon.
+                            My experience volunteering with ADORE.<br>
+                            I have always wanted to be a part of something while growing up, maybe it’s the feeling of contributing to a bigger goal or helping people in distress, that connection to people is what ADORE offered me.Volunteering with ADORE has shaped my thinking and broadened my horizon.
                         </div>
                         <div class="author-info clearfix">
                             <h5 class="name mt-0 mb-0">Chinaza Okoye</h5>
@@ -644,10 +644,10 @@
                 <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="testimonial-item mb-md-150">
                         <div class="author-text mb-30">
-                            Working in Adore exceeded my expectations, for here the learning is never ending, and the
+                            Working in ADORE exceeded my expectations, for here the learning is never ending, and the
                             growth is limitless, Also got connected with so many influential personalities because of
                             the webinars and workshops. I am grateful to this platform for believing me and trusting me
-                            with the task of leading the team in Adore.
+                            with the task of leading the team in ADORE.
                         </div>
                         <div class="author-info clearfix">
                             <h5 class="name mt-0 mb-0">Garima Mishra</h5>
@@ -663,9 +663,9 @@
                         <div class="author-text mb-30">
                             I am Aliyu from Nigeria.<br>
                             I am a volunteer at ADORE.<br>
-                            Volunteering with Adore is a life changing experience.<br>
-                            It has been my dream to be a teacher and adore have fulfilled that dream of mine. <br>
-                            Thanks to Adore, I will always be indebted to you!.
+                            Volunteering with ADORE is a life changing experience.<br>
+                            It has been my dream to be a teacher and ADORE have fulfilled that dream of mine. <br>
+                            Thanks to ADORE, I will always be indebted to you!.
 
                         </div>
                         <div class="author-info clearfix">
@@ -786,7 +786,8 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/5a.jpeg" height="720" alt="Image" />
+                                    <img class="w-100" src="images/gallery/13.jpeg" height="720" alt="Image" />
+                                    
                                     </a>
                                 </div>
                             </div>
@@ -813,7 +814,8 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/14.jpeg" height="720" alt="Image" />
+                                    <img class="w-100" src="images/gallery/14.jpeg" height="720" alt="Image" />
+                                   
                                     </a>
                                 </div>
                             </div>
@@ -842,7 +844,8 @@
                             <div class="tm-gallery-inner">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img class="w-100" src="images/gallery/13.jpeg" height="720" alt="Image" />
+                                    <img class="w-100" src="images/gallery/5a.jpeg" height="720" alt="Image" />
+                                       
                                     </a>
                                 </div>
                             </div>
