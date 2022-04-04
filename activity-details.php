@@ -74,7 +74,7 @@
         <div class="section-content">
         <div class="col-lg-9">
           <div class="img" >
-          <img alt="images" style="height:600px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1}  onerror="this.onerror=null;this.src='images/JM1.png'"  />
+          <img alt="images" style="height:600px !important; width:800px !important" src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1}  onerror="this.onerror=null;this.src='images/Null.jpeg'"  />
           </div>
           <h2 style = "margin-top:40px;"><a href = "User.php?id=${currentUser.u_id}">${currentUser.f_name+ " " + currentUser.l_name}</a> <span class="h3">(${currentUser.city})</span></h2>
           <h3 class="mt-20 mb-10">Center : ${values.type}</h3>
