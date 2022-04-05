@@ -694,49 +694,16 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="newsletter-form-current-style1 text-center" data-tm-bg-color="#f4f3ef">
-                        <h4 class="mt-0 font-size-24 font-weight-900 mb-5">
+                        <h4 class="mt-20 font-size-34 font-weight-900 mb-20">
                             Newsletter Signup
                         </h4>
-                        <p class="mt-0 mb-35">
+                        <p class="mt-0 mb-55">
                             Sign up now to get ADORE monthly updates and news.
                         </p>
                         <!-- newsletter Subscription Form-->
-                        <form method="POST" autocomplete="off" name="submit-to-google-sheet" class="newsletter-form m-0 p-0">
-                            <input type="email" class="form-control" style="border-radius:10px !important;" placeholder="Email Address" name="email">
-                            <span id="error"></span>
-                            <button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20" onclick="errorMessage()">
+                        <a href="https://adore.ivdata.in/signup.php?grp=GRP61&zone=Subscribers"><button type="submit" style="font-size:23px;font-weight:700;transform:none; border-radius:10px !important;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20 mb-50" >
                                 Sign Up For Newsletter
-                            </button>
-
-                        </form>
-
-                        <script>
-                            const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ8d6vS-9If9YOi3A8vGQ4HvDGbs7f7CSKUcig0xYRieNGX2YQVBJmVNWOFJX9VRPijw/exec'
-
-                            const form = document.forms['submit-to-google-sheet']
-                            var error = document.getElementById("error")
-
-                            form.addEventListener('submit', e => {
-                                e.preventDefault()
-                                fetch(scriptURL, {
-                                        method: 'POST',
-                                        body: new FormData(form)
-                                    })
-                                    .then(response => {
-                                        form.reset();
-                                        error.textContent = "Thank You For Subscribing To Our Newsletters"
-                                        error.style.color = "green"
-
-                                    })
-                                    .catch(error => {
-                                        form.reset();
-                                        error.textContent = "We are unable to accept responses at this moment"
-                                        error.style.color = "red"
-                                    })
-
-
-                            })
-                        </script>
+                        </button></a>
                     </div>
                 </div>
             </div>
