@@ -445,7 +445,7 @@
                                       <div class="causes-item-current-style1">
                                         <div class="causes-item">
                                           <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
-                                            <img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'" alt="Image" class="w-100" style="height:320px" />
+                                            <img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/Null1.jpeg'" alt="Image" class="w-100" style="height:320px" />
                                           </div>
                                           <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
                                             <h5 class="causes-title mt-0 mb-20">
@@ -487,7 +487,7 @@
                                     <div class="causes-item-current-style1">
                                       <div class="causes-item">
                                         <div style="border-top-right-radius:6px ;border-top-left-radius:6px ;" class="causes-thumb">
-                                          <img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/JM1.png'"  alt="Image" class="w-100" style="height:320px" />
+                                          <img src=${'https://adore.ivdata.in/data/act_data/' + values.blog_image} onerror="this.onerror=null;this.src='images/Null1.jpeg'"  alt="Image" class="w-100" style="height:320px" />
                                         </div>
                                         <div style="border-bottom-right-radius:6px ;border-bottom-left-radius:6px ;" class="causes-details">
                                           <h5 class="causes-title mt-0 mb-20">
