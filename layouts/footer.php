@@ -125,53 +125,15 @@
                 <div class="col-md-12 col-lg-3">
                     <div class="widget contact-info contact-info-style1">
                         <h4 style="color:#77aaf7;" class="widget-title mb-40">Newsletter</h4>
-                        <p style="text-align:left;" class="description p-0 mb-40 font-size-15">
+                        <p style="text-align:left;" class="description p-0 mb-30 font-size-15">
                         Sign up now to get ADORE monthly updates and news.
 
                         </p>
 
-                        <!-- Mailchimp Subscription Form-->
-                        <form id="mailchimp-subscription-form10"     class="newsletter-form cp-newsletter m-0 p-0">
-                            <div class="input-group">
-                                <input type="email" id="mce-EMAIL2" class="form-control text-theme-colored1 font-size-13 border-radius-50" placeholder="Email address" name="EMAIL" value="" data-tm-bg-color="white" data-tm-height="60px" />
-                                <div class="input-group-append tm-sc tm-sc-button">
-                                    <button type="submit" class="btn text-theme-colored1 btn-sm btn-flat border-0 box-shadow-none font-size-13" data-tm-bg-color="black" data-tm-height="60px">
-                                        <i class="fa fa-arrow-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+                        <a href="https://adore.ivdata.in/signup.php?grp=GRP61&zone=Subscribers"><button type="submit" style="padding-left: 30px;;font-size:23px;font-weight:700;transform:none;" class="newsbtn btn btn-lg btn-theme-colored1 btn-flat d-block w-100 mt-20 mb-50" >
+                                Sign Up For Newsletter
+                        </button></a>
 
-                        <!-- Mailchimp Subscription Form Validation-->
-                        <script>
-                            (function($) {
-                                $("#mailchimp-subscription-form10").ajaxChimp({
-                                    callback: mailChimpCallBack,
-                                    url: "//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e",
-                                });
-
-                                function mailChimpCallBack(resp) {
-                                    // Hide any previous response text
-                                    var $mailchimpform = $(
-                                            "#mailchimp-subscription-form10"
-                                        ),
-                                        $response = "";
-                                    $mailchimpform.children(".alert").remove();
-                                    if (resp.result === "success") {
-                                        $response =
-                                            '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
-                                            resp.msg +
-                                            "</div>";
-                                    } else if (resp.result === "error") {
-                                        $response =
-                                            '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
-                                            resp.msg +
-                                            "</div>";
-                                    }
-                                    $mailchimpform.prepend($response);
-                                }
-                            })(jQuery);
-                        </script>
                     </div>
                 </div>
             </div>
