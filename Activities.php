@@ -299,7 +299,7 @@
         if (currentUser) {
           var string = currentUser.country;
           var arr = string.split(/\s*,\s*/);
-          
+
           data1 += `<div class="card" id=${values.activity_id}>
 						<div class="card-image">
 						<img src=${'https://adore.ivdata.in/data/act_data/' + values.photo_1} onerror="this.onerror=null;this.src='images/Null.jpeg'" alt="Image" class="w-100">
@@ -367,7 +367,7 @@
 
 
     var totalPages = Math.ceil(numberOfdata / limitPerPage);
-    var paginationSize = 100; //How many page elements visible in the pagination
+    var paginationSize = 15; //How many page elements visible in the pagination
     var currentPage;
 
     function showPage(whichPage) {
