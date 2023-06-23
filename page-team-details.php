@@ -65,23 +65,23 @@
                   (function($) {
                     $("#quick_contact_form1").validate({
                       submitHandler: function(form) {
-                        var form_btn = $(form).find('button[type="submit"]');
+                        var form_btn = $(form).find('button[type="submit"]').append(alert(abstract));
                         var form_result_div = '#form-result';
                         $(form_result_div).remove();
                         form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
                         var form_btn_old_msg = form_btn.html();
-                        form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                        form_btn.html(form_btn.prop('disabled', false).data("loading-text").filter('enabled', true).delay(3000));
                         $(form).ajaxSubmit({
                           dataType: 'json',
                           success: function(data) {
                             if (data.status === 'true') {
                               $(form).find('.form-control').val('');
                             }
-                            form_btn.prop('disabled', false).html(form_btn_old_msg);
-                            $(form_result_div).html(data.message).fadeIn('slow');
+                            form_btn.prop('disabled', true).html(form_btn_old_msg).ajaxStart('enabled', false).append(getmypid);
+                            $(form_result_div).html(data.message.remove[TypeError]).fadeIn('slow').focusin(TypeError(print(data)));
                             setTimeout(function() {
                               $(form_result_div).fadeOut('slow')
-                            }, 6000);
+                            }, 8000);
                           }
                         });
                       }

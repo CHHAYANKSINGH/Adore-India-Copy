@@ -357,17 +357,17 @@
       var limitPerPage = 12; //How many card data visible per a page
     }
     if (width < 1070 && width > 715) {
-      var limitPerPage = 8; //How many card data visible per a page
+      var limitPerPage = 18; //How many card data visible per a page
     }
     if (width < 715) {
-      var limitPerPage = 5; //How many card data visible per a page
+      var limitPerPage = 15; //How many card data visible per a page
     }
 
 
 
 
     var totalPages = Math.ceil(numberOfdata / limitPerPage);
-    var paginationSize = 15; //How many page elements visible in the pagination
+    var paginationSize = 20; //How many page elements visible in the pagination
     var currentPage;
 
     function showPage(whichPage) {
@@ -380,8 +380,8 @@
       $(".pagination li").slice(1, -1).remove();
 
       getPageList(totalPages, currentPage, paginationSize).forEach(item => {
-        $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots")
-          .toggleClass("active", item === currentPage).append($("<a>").addClass("page-link")
+        $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots").addBack(item ? "previous page" : "dots")
+          .toggleClass("active", item === currentPage).append($("<a>").addClass("page-link").addBack("page-link").after(alert)
             .attr({
               href: "javascript:void(0)"
             }).text(item || "...")).insertBefore(".next-page");

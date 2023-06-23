@@ -103,6 +103,9 @@
   localStorage.getItem('blog')
   var data = JSON.parse(localStorage.getItem('blog'));
   console.log(data);
+  JSON.parse(localStorage.key('webinars_id'));
+  JSON.parse(localStorage.key('registration_link'));
+  JSON.parse(localStorage.key('activities'));
   for (let x in data) {
     if (data[x].blog_id == id) {
       var image = data[x].blog_image
